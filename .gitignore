@@ -2,4 +2,6 @@
 datasets/
 SwissLog/
 templated_datasets/
-qualtrics*
+trial2/
+qualtrics_*
+boxplot_*
