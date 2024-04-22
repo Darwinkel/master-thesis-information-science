@@ -13,13 +13,13 @@ files = [
 
 [[package]]
 name = "bertopic"
-version = "0.16.0"
+version = "0.16.1"
 description = "BERTopic performs topic Modeling with state-of-the-art transformer models."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "bertopic-0.16.0-py2.py3-none-any.whl", hash = "sha256:886b22c361473ef8901d5898ab34c7454e67f99143668d26ec2690cf7b3dc73c"},
-    {file = "bertopic-0.16.0.tar.gz", hash = "sha256:7e352b3ea4b517331d5ca03c77abe5caab34decd968cb3a3c39092ec675ed9ba"},
+    {file = "bertopic-0.16.1-py2.py3-none-any.whl", hash = "sha256:1c5ff1844b816827aacfce347524c098aebe18c95918cfea90c76832394e5b09"},
+    {file = "bertopic-0.16.1.tar.gz", hash = "sha256:1a7c0dbd862e1c1a02ff8b6db5198ef54d3a310471975cdc8ec3cb7545b819d9"},
 ]
 
 [package.dependencies]
@@ -33,8 +33,9 @@ tqdm = ">=4.41.1"
 umap-learn = ">=0.5.0"
 
 [package.extras]
-dev = ["mkdocs (==1.1)", "mkdocs-material (==4.6.3)", "mkdocstrings (==0.8.0)", "pytest (>=5.4.3)", "pytest-cov (>=2.6.1)"]
-docs = ["mkdocs (==1.1)", "mkdocs-material (==4.6.3)", "mkdocstrings (==0.8.0)"]
+datamap = ["datamapplot (>=0.1)", "matplotlib (>=3.8)"]
+dev = ["mkdocs (==1.5.3)", "mkdocs-material (==9.5.18)", "mkdocstrings (==0.24.3)", "mkdocstrings-python (==1.10.0)", "pytest (>=5.4.3)", "pytest-cov (>=2.6.1)"]
+docs = ["mkdocs (==1.5.3)", "mkdocs-material (==9.5.18)", "mkdocstrings (==0.24.3)", "mkdocstrings-python (==1.10.0)"]
 flair = ["flair (>=0.7)", "torch (>=1.4.0)", "transformers (>=3.5.1)"]
 gensim = ["gensim (>=4.0.0)"]
 spacy = ["spacy (>=3.0.1)"]
@@ -2908,4 +2909,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "353b58f4bc243ac9d06f8b872533bc34cbc072988bb172c0a912a7eecf1d8c8e"
+content-hash = "cef3238d2cdc05c59c4841848ea4db14e6368c38967f9eec118b4252a5a1df50"
