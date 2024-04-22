@@ -1,0 +1,1 @@
+# awk '/^Jul/ || /^$/{printf "%s", $0; next} {printf "%s", $0}' Mac.log > Mac_clean.log
