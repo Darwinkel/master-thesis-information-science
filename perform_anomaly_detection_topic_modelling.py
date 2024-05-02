@@ -11,6 +11,7 @@ from pandas import DataFrame
 import numpy as np
 import pandas as pd
 from scipy.stats import entropy, hmean
+from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -68,7 +69,7 @@ def topic_shannon_entropy(predictions, labels):
         # New problem: score decreases if
         weight = freq_counts[1] / len(distribution)
         if weight != 0:
-            weights.append(weight)
+            weights.append(freq_counts[1])
             # entropies.append(topic_binary_shannon_entropy)
             entropies.append(freq_counts[1] / len(distribution))
 
@@ -80,24 +81,34 @@ def topic_shannon_entropy(predictions, labels):
     return entropies, mean_topic_entropy_score(entropies)
 
 
-def do_anomaly_detection(df_train: DataFrame, df_test: DataFrame, num_topics: int, labels: list[int]):
+def do_anomaly_detection(model: str, df_train: DataFrame, df_test: DataFrame, num_topics: int, labels: list[int]):
     vectorizer_model = CountVectorizer(max_df=1.0, min_df=1, ngram_range=(1, 1), strip_accents='unicode',
                                        stop_words='english', lowercase=False)
 
-    topic_model = BERTopic(verbose=True, vectorizer_model=vectorizer_model, calculate_probabilities=False,
-                           top_n_words=-1, nr_topics=num_topics)
+    df_train_ComponentEventTemplate = df_train["ComponentEventTemplate"].to_numpy()
+    df_test_ComponentEventTemplate = df_test["ComponentEventTemplate"].to_numpy()
 
-    topic_model.fit(df_train["ComponentEventTemplate"].to_numpy(), y=labels)
+    if model == "LDA":
+        vectorizer_model.fit(df_train_ComponentEventTemplate)
+        lda = LatentDirichletAllocation(n_components=num_topics).fit(vectorizer_model.transform(df_train_ComponentEventTemplate))
+        doc_topic_distr = lda.transform(vectorizer_model.transform(df_test_ComponentEventTemplate))
+        predictions = np.argmax(doc_topic_distr, axis=1)
 
-    predictions, distributions = topic_model.transform(df_test["ComponentEventTemplate"].to_numpy())
+    else:
+        topic_model = BERTopic(verbose=True, vectorizer_model=vectorizer_model, calculate_probabilities=False,
+                               top_n_words=-1, nr_topics=num_topics)
 
-    #print(predictions)
-    print(topic_model.get_topic_info())
-    print(topic_model.get_topic_freq())
+        topic_model.fit(df_train_ComponentEventTemplate, y=labels)
 
-    # hierarchical_topics = topic_model.hierarchical_topics(df_test["ComponentEventTemplate"]) only works with fit_transform
-    # tree = topic_model.get_topic_tree(hierarchical_topics)
-    # print(tree)
+        predictions, distributions = topic_model.transform(df_test_ComponentEventTemplate)
+
+        #print(predictions)
+        print(topic_model.get_topic_info())
+        print(topic_model.get_topic_freq())
+
+        # hierarchical_topics = topic_model.hierarchical_topics(df_test["ComponentEventTemplate"]) only works with fit_transform
+        # tree = topic_model.get_topic_tree(hierarchical_topics)
+        # print(tree)
 
     return topic_shannon_entropy(predictions, df_test["Label"])
 
@@ -116,13 +127,14 @@ def main():
     # Within dataset x2
     # Across dataset x2
     datasets = {
-        "Thunderbird-within": (thunderbird_df_train, thunderbird_df_test),
         "BGL-within": (bgl_df_train, bgl_df_test),
-        "Thunderbird-BGL-cross": (
-            pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
-        "BGL-Thunderbird-cross": (
+        "TB-within": (thunderbird_df_train, thunderbird_df_test),
+        "BGL-TB-cross": (
             pd.concat([bgl_df_train, bgl_df_test]), pd.concat([thunderbird_df_train, thunderbird_df_test])),
-        "all": (all_data, all_data)  # Explainer
+        "TB-BGL-cross": (
+            pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
+
+        "All": (all_data, all_data)  # Explainer
     }
 
     results = []
@@ -133,21 +145,37 @@ def main():
             # Supervised anomaly yes/no
             # Unsupervised (LDA, BERTopic baselines)
             labels = {
-                "multiclass": LabelEncoder().fit_transform(train_df["Label"]),
-                "binary": [int(label != "-") for label in train_df["Label"]],
-                "unsupervised": None
+                "Unsupervised": None,
+                "Binary": [int(label != "-") for label in train_df["Label"]],
+                "Multiclass": LabelEncoder().fit_transform(train_df["Label"]),
             }
 
             for label_key, label in labels.items():
-                print(f"{dataset_key} - {num_topics} - {label_key}")
-                distributions, score = do_anomaly_detection(train_df, test_df, num_topics, label)
+
+                # Do LDA as well
+                if label_key == "Unsupervised":
+                    print(f"LDA - {dataset_key} - {num_topics} - {label_key}")
+                    distributions, score = do_anomaly_detection("LDA", train_df, test_df, num_topics, label)
+
+                    results.append({
+                        "Model": "LDA",
+                        "Dataset": dataset_key,
+                        "No. topics": num_topics,
+                        "Label type": label_key,
+                        "Score": score,
+                        "Distributions": distributions
+                    })
+
+                print(f"BERTopic - {dataset_key} - {num_topics} - {label_key}")
+                distributions, score = do_anomaly_detection("BERTopic", train_df, test_df, num_topics, label)
 
                 results.append({
-                    "dataset": dataset_key,
-                    "num_topics": num_topics,
-                    "label_type": label_key,
-                    "score": score,
-                    "distributions": distributions
+                    "Model": "BERTopic",
+                    "Dataset": dataset_key,
+                    "No. topics": num_topics,
+                    "Label type": label_key,
+                    "Score": score,
+                    "Distributions": distributions
                 })
 
     pd.DataFrame(results).to_csv("anomaly_detection_results.tsv", sep="\t")
