@@ -19,10 +19,12 @@ def main():
     features = ["Dataset", "No. topics", "Label type"]
     for feature in features:
         plt.figure()
+        plt.ylim(0.0, 0.16)
         sns.boxplot(data=results_df_no_lda, x=feature, y='Score')
         plt.savefig(f"boxplot_anomaly_detection_results_{feature}.png")
 
     plt.figure()
+    plt.ylim(0.0, 0.16)
     sns.boxplot(data=results_df_only_unsupervised, x="Model", y='Score')
     plt.savefig(f"boxplot_anomaly_detection_results_lda_v_bertopic.png")
 
