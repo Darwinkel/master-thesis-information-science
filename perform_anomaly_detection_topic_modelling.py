@@ -28,6 +28,7 @@ def mean_topic_entropy_score(topic_entropies: list) -> float:
     # print(numpy.average(topic_entropies, weights=weights) / math.log(len(topic_entropies), 2))
     # print(mean(topic_entropies))
 
+    # So basically: we reward having more topics with anomalies.
     divisor = 1  # log2(2)
     if len(topic_entropies) > 1:
         divisor = math.log(len(topic_entropies), 2)
@@ -118,8 +119,6 @@ def main():
     thunderbird_df_test = pd.read_csv("thunderbird_test.tsv", sep="\t")
     bgl_df_train = pd.read_csv("bgl_train.tsv", sep="\t")
     bgl_df_test = pd.read_csv("bgl_test.tsv", sep="\t")
-
-    print(thunderbird_df_train)
 
     # On all data combined - poor classifier but good explainer?
     all_data = pd.concat([thunderbird_df_train, bgl_df_train, thunderbird_df_test, bgl_df_test])

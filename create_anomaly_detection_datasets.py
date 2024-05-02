@@ -25,7 +25,7 @@ def load_supercomputer_df(file: Path):
 
 def main():
 
-    thunderbird_df = load_supercomputer_df(Path("templated_datasets/Thunderbird/Thunderbird_10mil.log_structured.csv"))
+    thunderbird_df = load_supercomputer_df(Path("templated_datasets/Thunderbird/Thunderbird_every20th_anomalies_concat.log_structured.csv"))
     bgl_df = load_supercomputer_df(Path("templated_datasets/BGL/BGL.log_structured.csv"))
 
     print(thunderbird_df)

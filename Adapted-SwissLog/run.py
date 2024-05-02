@@ -152,7 +152,7 @@ benchmark_settings = {
     # },
 
     'Thunderbird': {
-        'log_file': 'Thunderbird/Thunderbird.log',
+        'log_file': 'Thunderbird/Thunderbird_every20th_anomalies_concat.log',
         'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
         'regex': [r'(\d+\.){3}\d+']
         },
@@ -196,7 +196,7 @@ def parse_logs(dataset, setting):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dictionary', default='../EngCorpus.pkl', type=str)
+    parser.add_argument('--dictionary', default='./EngCorpus.pkl', type=str)
     args = parser.parse_args()
     corpus = args.dictionary
 
