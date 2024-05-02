@@ -19,8 +19,8 @@ from tqdm import tqdm
 import pandas as pd
 import argparse
 
-input_dir = '../../../datasets/' # The input directory of log file
-output_dir = 'LogParserResult/' # The output directory of parsing results
+input_dir = '../datasets' # The input directory of log file
+output_dir = './LogParserResult/' # The output directory of parsing results
 
 
 def load_logs(log_file, regex, headers):
@@ -131,17 +131,17 @@ benchmark_settings = {
 
 # End batch 1
 
-   'HDFS': {
-        'log_file': 'HDFS_v1/HDFS.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?']
-        },
-
-     'Mac': {
-         'log_file': 'Mac/Mac_clean.log',
-         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-         'regex': [r'([\w-]+\.){2,}[\w-]+']
-     },
+   # 'HDFS': {
+   #      'log_file': 'HDFS_v1/HDFS.log',
+   #      'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+   #      'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?']
+   #      },
+   #
+   #   'Mac': {
+   #       'log_file': 'Mac/Mac_clean.log',
+   #       'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+   #       'regex': [r'([\w-]+\.){2,}[\w-]+']
+   #   },
 
 # End batch 2
 
@@ -151,11 +151,11 @@ benchmark_settings = {
     #     'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+']
     # },
 
-    # 'Thunderbird': {
-    #     'log_file': 'Thunderbird/Thunderbird.log',
-    #     'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
-    #     'regex': [r'(\d+\.){3}\d+']
-    #     },
+    'Thunderbird': {
+        'log_file': 'Thunderbird/Thunderbird.log',
+        'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
+        'regex': [r'(\d+\.){3}\d+']
+        },
     #
     # 'Windows': {
     #     'log_file': 'Windows/Windows.log',
@@ -200,10 +200,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     corpus = args.dictionary
 
-    pool = ThreadPoolExecutor(max_workers=11)
+    #pool = ThreadPoolExecutor(max_workers=11)
 
     for dataset, setting in benchmark_settings.items():
-        pool.submit(parse_logs, dataset, setting)
+        parse_logs(dataset, setting)
+        #pool.submit(parse_logs, dataset, setting)
+
 
         # F1_measure, accuracy = evaluator.evaluate(
         #                     groundtruth=os.path.join(indir, log_file + '_structured.csv'),
