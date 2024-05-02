@@ -19,17 +19,24 @@ from sklearn.preprocessing import LabelEncoder
 random.seed(42)
 np.random.seed(42)
 
-def mean_topic_entropy_score(topic_entropies: list, weights) -> float:
-    print(weights)
-    #print(hmean(topic_entropies, weights=weights))
-    #print(hmean(topic_entropies, weights=weights)/ math.log(len(topic_entropies),2))
-    #print(numpy.average(topic_entropies, weights=weights) / math.log(len(topic_entropies), 2))
-    #print(mean(topic_entropies))
-    return mean(topic_entropies)/ math.log(len(topic_entropies),2)
+
+def mean_topic_entropy_score(topic_entropies: list) -> float:
+    # print(weights)
+    # print(hmean(topic_entropies, weights=weights))
+    # print(hmean(topic_entropies, weights=weights)/ math.log(len(topic_entropies),2))
+    # print(numpy.average(topic_entropies, weights=weights) / math.log(len(topic_entropies), 2))
+    # print(mean(topic_entropies))
+
+    divisor = 1  # log2(2)
+    if len(topic_entropies) > 1:
+        divisor = math.log(len(topic_entropies), 2)
+
+    return mean(topic_entropies) / divisor
+
 
 def topic_shannon_entropy(predictions, labels):
     '''Calculate Shannon information entropy of a topic. Assumes that anomaly yes/no is binary.'''
-    print(len(predictions), len(labels))
+    #print(len(predictions), len(labels))
 
     binary_labels = [int(label != "-") for label in labels]
 
@@ -59,62 +66,92 @@ def topic_shannon_entropy(predictions, labels):
         # The score should increase if there are very pure high-anomaly topics
         # Note that this comparison only works within a dataset (extremely sensitive to class balances).
         # New problem: score decreases if
-        weight = freq_counts[1]/len(distribution)
+        weight = freq_counts[1] / len(distribution)
         if weight != 0:
             weights.append(weight)
-            #entropies.append(topic_binary_shannon_entropy)
-            entropies.append(freq_counts[1]/len(distribution))
+            # entropies.append(topic_binary_shannon_entropy)
+            entropies.append(freq_counts[1] / len(distribution))
 
-        #weights.append(1/len(distribution))
+        # weights.append(1/len(distribution))
 
     print(entropies)
-    print(len(entropies))
-    print(mean_topic_entropy_score(entropies, weights))
+    # print(len(entropies))
+    print(mean_topic_entropy_score(entropies))
+    return entropies, mean_topic_entropy_score(entropies)
+
+
+def do_anomaly_detection(df_train: DataFrame, df_test: DataFrame, num_topics: int, labels: list[int]):
+    vectorizer_model = CountVectorizer(max_df=1.0, min_df=1, ngram_range=(1, 1), strip_accents='unicode',
+                                       stop_words='english', lowercase=False)
+
+    topic_model = BERTopic(verbose=True, vectorizer_model=vectorizer_model, calculate_probabilities=False,
+                           top_n_words=-1, nr_topics=num_topics)
+
+    topic_model.fit(df_train["ComponentEventTemplate"].to_numpy(), y=labels)
+
+    predictions, distributions = topic_model.transform(df_test["ComponentEventTemplate"].to_numpy())
+
+    #print(predictions)
+    print(topic_model.get_topic_info())
+    print(topic_model.get_topic_freq())
+
+    # hierarchical_topics = topic_model.hierarchical_topics(df_test["ComponentEventTemplate"]) only works with fit_transform
+    # tree = topic_model.get_topic_tree(hierarchical_topics)
+    # print(tree)
+
+    return topic_shannon_entropy(predictions, df_test["Label"])
+
 
 def main():
-
-    thunderbird_df_train = pd.read_csv("thunderbird_train.tsv",sep="\t")
-    thunderbird_df_test =  pd.read_csv("thunderbird_test.tsv", sep="\t")
-    bgl_df_train =  pd.read_csv("bgl_train.tsv", sep="\t")
-    bgl_df_test =  pd.read_csv("bgl_test.tsv", sep="\t")
-
-    bgl_df_train = thunderbird_df_train
+    thunderbird_df_train = pd.read_csv("thunderbird_train.tsv", sep="\t")
+    thunderbird_df_test = pd.read_csv("thunderbird_test.tsv", sep="\t")
+    bgl_df_train = pd.read_csv("bgl_train.tsv", sep="\t")
+    bgl_df_test = pd.read_csv("bgl_test.tsv", sep="\t")
 
     print(thunderbird_df_train)
 
     # On all data combined - poor classifier but good explainer?
-
-    # Supervised by all classes (no need to change metric; binary is easier than multiclass so its actually quite lenient)
-    # Supervised anomaly yes/no
-    # Unsupervised
-    # Unsupervised - LDA
+    all_data = pd.concat([thunderbird_df_train, bgl_df_train, thunderbird_df_test, bgl_df_test])
 
     # Within dataset x2
     # Across dataset x2
+    datasets = {
+        "Thunderbird-within": (thunderbird_df_train, thunderbird_df_test),
+        "BGL-within": (bgl_df_train, bgl_df_test),
+        "Thunderbird-BGL-cross": (
+            pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
+        "BGL-Thunderbird-cross": (
+            pd.concat([bgl_df_train, bgl_df_test]), pd.concat([thunderbird_df_train, thunderbird_df_test])),
+        "all": (all_data, all_data)  # Explainer
+    }
 
-    thunderbird_label_encoder = LabelEncoder().fit(bgl_df_train["Label"])
+    results = []
+    for dataset_key, train_test_tuple in datasets.items():
+        train_df, test_df = train_test_tuple
+        for num_topics in [4, 8, 16, 32]:
+            # Supervised by all classes (no need to change metric; binary is easier than multiclass so its actually quite lenient)
+            # Supervised anomaly yes/no
+            # Unsupervised (LDA, BERTopic baselines)
+            labels = {
+                "multiclass": LabelEncoder().fit_transform(train_df["Label"]),
+                "binary": [int(label != "-") for label in train_df["Label"]],
+                "unsupervised": None
+            }
 
-    vectorizer_model = CountVectorizer(max_df=1.0, min_df=1, ngram_range=(1, 1), strip_accents='unicode',
-                                       stop_words='english', lowercase=False)
+            for label_key, label in labels.items():
+                print(f"{dataset_key} - {num_topics} - {label_key}")
+                distributions, score = do_anomaly_detection(train_df, test_df, num_topics, label)
 
-    topic_model = BERTopic(verbose=True, vectorizer_model=vectorizer_model, calculate_probabilities=True,
-                           top_n_words=-1)
-    #predictions, distributions = topic_model.fit_transform(bgl_df_train["ComponentEventTemplate"], y=thunderbird_label_encoder.transform(bgl_df_train["Label"]))
-    predictions, distributions = topic_model.fit_transform(bgl_df_train["ComponentEventTemplate"], y=[int(label != "-") for label in bgl_df_train["Label"]])
+                results.append({
+                    "dataset": dataset_key,
+                    "num_topics": num_topics,
+                    "label_type": label_key,
+                    "score": score,
+                    "distributions": distributions
+                })
 
-    print(predictions)
-    print(topic_model.get_topic_info())
-    print(topic_model.get_topic_freq())
-
-    hierarchical_topics = topic_model.hierarchical_topics(bgl_df_train["ComponentEventTemplate"])
-    tree = topic_model.get_topic_tree(hierarchical_topics)
-    print(tree)
-
-    topic_shannon_entropy(predictions, bgl_df_train["Label"])
+    pd.DataFrame(results).to_csv("anomaly_detection_results.tsv", sep="\t")
 
 
 if __name__ == "__main__":
     main()
-
-
-
