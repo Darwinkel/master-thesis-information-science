@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-tqdm = "^4.66.2"
+tqdm = "^4.66.4"
 wordninja = "^2.0.0"
 scipy = "^1.12.0"
 scikit-learn = "^1.4.2"
