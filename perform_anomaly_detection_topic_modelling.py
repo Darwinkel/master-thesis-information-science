@@ -13,6 +13,7 @@ import pandas as pd
 from scipy.stats import entropy, hmean
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics import homogeneity_score, adjusted_mutual_info_score, completeness_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
@@ -111,7 +112,22 @@ def do_anomaly_detection(model: str, df_train: DataFrame, df_test: DataFrame, nu
         # tree = topic_model.get_topic_tree(hierarchical_topics)
         # print(tree)
 
-    return topic_shannon_entropy(predictions, df_test["Label"])
+    binary_labels = [int(label != "-") for label in df_test["Label"]]
+    print(binary_labels)
+    print(predictions)
+    print({
+        "homogeneity_score": homogeneity_score(binary_labels, predictions),
+        "completeness_score": completeness_score(binary_labels, predictions),
+        "ami_score": adjusted_mutual_info_score(binary_labels, predictions),
+    })
+
+    return predictions, {
+        "homogeneity_score": homogeneity_score(binary_labels, predictions),
+        "completeness_score": completeness_score(binary_labels, predictions),
+        "ami_score": adjusted_mutual_info_score(binary_labels, predictions),
+    }
+
+    #return topic_shannon_entropy(predictions, df_test["Label"])
 
 
 def main():
@@ -161,7 +177,9 @@ def main():
                         "Dataset": dataset_key,
                         "No. topics": num_topics,
                         "Label type": label_key,
-                        "Score": score,
+                        "Homogeneity Score": score["homogeneity_score"],
+                        "Completeness Score": score["completeness_score"],
+                        "AMI Score": score["ami_score"],
                         "Distributions": distributions
                     })
 
@@ -173,7 +191,9 @@ def main():
                     "Dataset": dataset_key,
                     "No. topics": num_topics,
                     "Label type": label_key,
-                    "Score": score,
+                    "Homogeneity Score": score["homogeneity_score"],
+                    "Completeness Score": score["completeness_score"],
+                    "AMI Score": score["ami_score"],
                     "Distributions": distributions
                 })
 
