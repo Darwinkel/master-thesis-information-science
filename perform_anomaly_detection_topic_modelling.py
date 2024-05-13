@@ -148,7 +148,10 @@ def main():
             pd.concat([bgl_df_train, bgl_df_test]), pd.concat([thunderbird_df_train, thunderbird_df_test])),
         "TB-BGL-cross": (
             pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
-
+        "BGL+TB-TB-cross": (
+            pd.concat([bgl_df_train, thunderbird_df_train]), thunderbird_df_test),
+        "BGL+TB-BGL-cross": (
+            pd.concat([bgl_df_train, thunderbird_df_train]), bgl_df_test),
         "All": (all_data, all_data)  # Explainer
     }
 
