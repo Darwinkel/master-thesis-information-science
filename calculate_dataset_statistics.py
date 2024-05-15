@@ -1,10 +1,10 @@
 from collections import Counter
 
-import numpy
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
-from nltk.tokenize import wordpunct_tokenize
+from nltk.tokenize import word_tokenize
+
 
 def main():
 
@@ -49,7 +49,7 @@ def main():
 
     # Vocab distribution in datasets
     thunderbird_vocab = Counter()
-    thunderbird_df['ComponentEventTemplate'].str.lower().apply(wordpunct_tokenize).apply(thunderbird_vocab.update)
+    thunderbird_df['ComponentEventTemplate'].str.lower().apply(word_tokenize).apply(thunderbird_vocab.update)
     #print(pd.DataFrame.from_dict(thunderbird_vocab, orient='index').reset_index())
 
     sorted_word_counts = thunderbird_vocab.most_common()
@@ -87,7 +87,7 @@ def main():
     # plt.savefig("datasets_vocab_histogram_thunderbird.png")
 
     bgl_vocab = Counter()
-    bgl_df['ComponentEventTemplate'].str.lower().apply(wordpunct_tokenize).apply(bgl_vocab.update)
+    bgl_df['ComponentEventTemplate'].str.lower().apply(word_tokenize).apply(bgl_vocab.update)
     # plt.figure()
     # sns.histplot(data=pd.DataFrame.from_dict(bgl_vocab, orient='index').reset_index())
     # plt.savefig("datasets_vocab_histogram_bgl.png")
