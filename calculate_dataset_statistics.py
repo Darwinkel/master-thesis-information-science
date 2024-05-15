@@ -1,7 +1,10 @@
+from collections import Counter
+
+import numpy
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
-
+from nltk.tokenize import wordpunct_tokenize
 
 def main():
 
@@ -42,6 +45,84 @@ def main():
     plt.figure()
     sns.boxplot(data=bgl_df, x="Input length", y="Label")
     plt.savefig("datasets_boxplot_bgl.png")
+
+
+    # Vocab distribution in datasets
+    thunderbird_vocab = Counter()
+    thunderbird_df['ComponentEventTemplate'].str.lower().apply(wordpunct_tokenize).apply(thunderbird_vocab.update)
+    #print(pd.DataFrame.from_dict(thunderbird_vocab, orient='index').reset_index())
+
+    sorted_word_counts = thunderbird_vocab.most_common()
+
+    # Extract frequencies
+    frequencies = [count for word, count in sorted_word_counts]
+
+    # Create rank array (1, 2, 3, ...)
+    ranks = list(range(1, len(frequencies) + 1))
+
+    # Plot using seaborn
+    plt.figure()
+    sns.lineplot(x=ranks, y=frequencies)
+
+    # Calculate the ideal Zipfian distribution
+    C = frequencies[0]  # C is the frequency of the most common word
+    s = 1  # Zipf's exponent, often close to 1
+
+    # Generate the ideal Zipfian frequencies
+    ideal_frequencies = [C / (r ** s) for r in ranks]
+
+    # Plot the ideal Zipfian distribution
+    plt.plot(ranks, ideal_frequencies, color='red', marker='o', linestyle='dashed', linewidth=0.2, markersize=0.2,
+             label='Ideal Zipfian Distribution')
+    plt.xlabel('Rank')
+    plt.ylabel('Frequency')
+    plt.title('Zipfian Distribution of Word Frequencies')
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.savefig("datasets_vocab_histogram_thunderbird.png")
+    #exit()
+
+    # plt.figure()
+    # sns.histplot(data=pd.DataFrame.from_dict(thunderbird_vocab, orient='index').reset_index(), binwidth=2)
+    # plt.savefig("datasets_vocab_histogram_thunderbird.png")
+
+    bgl_vocab = Counter()
+    bgl_df['ComponentEventTemplate'].str.lower().apply(wordpunct_tokenize).apply(bgl_vocab.update)
+    # plt.figure()
+    # sns.histplot(data=pd.DataFrame.from_dict(bgl_vocab, orient='index').reset_index())
+    # plt.savefig("datasets_vocab_histogram_bgl.png")
+
+    sorted_word_counts = bgl_vocab.most_common()
+
+    # Extract frequencies
+    frequencies = [count for word, count in sorted_word_counts]
+
+    # Create rank array (1, 2, 3, ...)
+    ranks = list(range(1, len(frequencies) + 1))
+
+    # Plot using seaborn
+    plt.figure()
+    sns.lineplot(x=ranks, y=frequencies)
+
+    # Calculate the ideal Zipfian distribution
+    C = frequencies[0]  # C is the frequency of the most common word
+    s = 1  # Zipf's exponent, often close to 1
+
+    # Generate the ideal Zipfian frequencies
+    ideal_frequencies = [C / (r ** s) for r in ranks]
+
+    # Plot the ideal Zipfian distribution
+    plt.plot(ranks, ideal_frequencies, color='red', marker='o', linestyle='dashed', linewidth=0.2, markersize=0.2,
+             label='Ideal Zipfian Distribution')
+    plt.xlabel('Rank')
+    plt.ylabel('Frequency')
+    plt.title('Zipfian Distribution of Word Frequencies')
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.savefig("datasets_vocab_histogram_bgl.png")
+
+    print(thunderbird_vocab)
+    print(bgl_vocab)
 
     # Class distribution
 
