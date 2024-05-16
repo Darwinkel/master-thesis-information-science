@@ -1,0 +1,209 @@
+[[AdvancedFormat]]
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating0]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['type', 'video', 'null', 'key', 'ffffffff', 'alarm', 'pid', 'neutral', 'dev', 'stream']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating0a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating1]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['task', 'start', 'attempt', 'thread', 'java', 'socket', 'error', 'package', 'service', 'tcp']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating1a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating2]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['count', 'pkg', 'java', 'type', 'sensor', 'device', 'thread', 'main', 'alarm', 'stream']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating2a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating3]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['mosal', 'pgoff', 'file', 'ffffffff', 'neutral', 'publickey', 'suite', 'typename', 'fff', 'versionscope']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating3a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating4]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['Info', 'user', 'Thread', 'User', 'Client', 'Tcp', 'List', 'Provider', 'authentication', 'java']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating4a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating5]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['Package', 'Installed', 'package', 'Superseded', 'Default', 'Update', 'Staged', 'Plan', 'pending', 'Absent']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating5a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating6]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['task', 'START', 'ATTEMPT', 'session', 'state', 'INFO', 'stream', 'len', 'set', 'thread']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating6a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating7]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['false', 'INFO', 'true', 'qiyi', 'LOG', 'null', 'state', 'java', 'type', 'android']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating7a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating8]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['key', 'video', 'file', 'neutral', 'null', 'state', 'type', 'event', 'public', 'status']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating8a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating9]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['video', 'alarm', 'false', 'null', 'state', 'qiyivideo', 'sensor', 'presenter', 'type', 'true']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating9a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating10]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['false', 'null', 'qiyi_log_info', 'size', 'true', 'high', 'lifecycle', 'low', 'len', 'result']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating10a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating11]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['kvi', 'equator', 'length']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating11a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating12]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['MOSAL', 'file_pgoff', 'Could', 'ISP', 'wake', 'exited', 'timestamp', 'signal', 'TDLS', 'mail_queue_enter']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating12a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating13]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['MOSAL1', 'filepgoff', '0x00000000', 'systemu', 'systemr', 'denied', 'port', 'pid', 'dev', 'kernelt']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating13a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating14]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['false', 'true', 'state', '中国移动', 'null', 'mCurrentState', 'INFO', 'wlan0', 'port', 'home']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating14a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating15]]
+Please rate how related the following terms are to each other: </br> <span style="font-family:Courier New,Courier,monospace;">['HwAppPermissions', 'value', 'permissionCfg', 'permissionCode', 'trust', 'type', 'group', 'permissionType', 'size', 'fixed']</span>
+[[Choices]]
+Not very related
+Somewhat related
+Very related
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:Rating15a]]
+Do the previously mentioned terms refer to something that should not normally happen, and perhaps trigger an alert?[[Choices]]
+Not likely to be anomalous
+Somewhat likely to be anomalous
+Very likely to be anomalous

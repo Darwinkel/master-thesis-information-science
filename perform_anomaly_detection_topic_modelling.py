@@ -17,10 +17,30 @@ from sklearn.metrics import homogeneity_score, adjusted_mutual_info_score, compl
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
+
 # Fix Python and numpy seeds
 random.seed(42)
 np.random.seed(42)
 
+def get_topics(vectorizer, H, top_words):
+    id2word = {i: k for i, k in enumerate(
+        vectorizer.get_feature_names_out())}
+
+
+    topic_list = []
+
+    for topic in H:
+        words_list = sorted(
+            list(enumerate(topic)), key=lambda x: x[1], reverse=True)
+
+        if top_words == -1:
+            topk = [tup[0] for tup in words_list]
+        else:
+            topk = [tup[0] for tup in words_list[0:top_words]]
+
+        topic_list.append([id2word[i] for i in topk])
+
+    return topic_list
 
 def mean_topic_entropy_score(topic_entropies: list) -> float:
     # print(weights)
@@ -95,6 +115,13 @@ def do_anomaly_detection(model: str, df_train: DataFrame, df_test: DataFrame, nu
         lda = LatentDirichletAllocation(n_components=num_topics).fit(vectorizer_model.transform(df_train_ComponentEventTemplate))
         doc_topic_distr = lda.transform(vectorizer_model.transform(df_test_ComponentEventTemplate))
         predictions = np.argmax(doc_topic_distr, axis=1)
+        print("Important: LDA topics")
+        topics = get_topics(vectorizer_model, lda.components_, 10)
+        topic_counts = Counter(predictions)
+        counts = []
+        for idx, topic in enumerate(topics):
+            counts.append(topic_counts[idx])
+
 
     else:
         topic_model = BERTopic(verbose=True, vectorizer_model=vectorizer_model, calculate_probabilities=False,
@@ -104,9 +131,13 @@ def do_anomaly_detection(model: str, df_train: DataFrame, df_test: DataFrame, nu
 
         predictions, distributions = topic_model.transform(df_test_ComponentEventTemplate)
 
-        #print(predictions)
-        print(topic_model.get_topic_info())
-        print(topic_model.get_topic_freq())
+        print("Important: BERTopic topics")
+        counts = []
+        topics = []
+        for idx, row in topic_model.get_topic_info().iterrows():
+            counts.append(row["Count"])
+            topics.append(row["Representation"][:10])
+        #print(topic_model.get_topic_freq())
 
         # hierarchical_topics = topic_model.hierarchical_topics(df_test["ComponentEventTemplate"]) only works with fit_transform
         # tree = topic_model.get_topic_tree(hierarchical_topics)
@@ -115,13 +146,15 @@ def do_anomaly_detection(model: str, df_train: DataFrame, df_test: DataFrame, nu
     binary_labels = [int(label != "-") for label in df_test["Label"]]
     print(binary_labels)
     print(predictions)
+    print(counts)
+    print(topics)
     print({
         "homogeneity_score": homogeneity_score(binary_labels, predictions),
         "completeness_score": completeness_score(binary_labels, predictions),
         "ami_score": adjusted_mutual_info_score(binary_labels, predictions),
     })
 
-    return predictions, {
+    return counts, topics, {
         "homogeneity_score": homogeneity_score(binary_labels, predictions),
         "completeness_score": completeness_score(binary_labels, predictions),
         "ami_score": adjusted_mutual_info_score(binary_labels, predictions),
@@ -143,29 +176,29 @@ def main():
     # Across dataset x2
     datasets = {
         "BGL-within": (bgl_df_train, bgl_df_test),
-        "TB-within": (thunderbird_df_train, thunderbird_df_test),
-        "BGL-TB-cross": (
-            pd.concat([bgl_df_train, bgl_df_test]), pd.concat([thunderbird_df_train, thunderbird_df_test])),
-        "TB-BGL-cross": (
-            pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
-        "BGL+TB-TB-cross": (
-            pd.concat([bgl_df_train, thunderbird_df_train]), thunderbird_df_test),
-        "BGL+TB-BGL-cross": (
-            pd.concat([bgl_df_train, thunderbird_df_train]), bgl_df_test),
-        "All": (all_data, all_data)  # Explainer
+        # "TB-within": (thunderbird_df_train, thunderbird_df_test),
+        # "BGL-TB-cross": (
+        #     pd.concat([bgl_df_train, bgl_df_test]), pd.concat([thunderbird_df_train, thunderbird_df_test])),
+        # "TB-BGL-cross": (
+        #     pd.concat([thunderbird_df_train, thunderbird_df_test]), pd.concat([bgl_df_train, bgl_df_test])),
+        # "BGL+TB-TB-cross": (
+        #     pd.concat([bgl_df_train, thunderbird_df_train]), thunderbird_df_test),
+        # "BGL+TB-BGL-cross": (
+        #     pd.concat([bgl_df_train, thunderbird_df_train]), bgl_df_test),
+        # "All": (all_data, all_data)  # Explainer
     }
 
     results = []
     for dataset_key, train_test_tuple in datasets.items():
         train_df, test_df = train_test_tuple
-        for num_topics in [4, 8, 16, 32]:
+        for num_topics in [4, 16]: #, 8, 16, 32]:
             # Supervised by all classes (no need to change metric; binary is easier than multiclass so its actually quite lenient)
             # Supervised anomaly yes/no
             # Unsupervised (LDA, BERTopic baselines)
             labels = {
                 "Unsupervised": None,
                 "Binary": [int(label != "-") for label in train_df["Label"]],
-                "Multiclass": LabelEncoder().fit_transform(train_df["Label"]),
+                #"Multiclass": LabelEncoder().fit_transform(train_df["Label"]),
             }
 
             for label_key, label in labels.items():
@@ -173,7 +206,7 @@ def main():
                 # Do LDA as well
                 if label_key == "Unsupervised":
                     print(f"LDA - {dataset_key} - {num_topics} - {label_key}")
-                    distributions, score = do_anomaly_detection("LDA", train_df, test_df, num_topics, label)
+                    counts, topics, score = do_anomaly_detection("LDA", train_df, test_df, num_topics, label)
 
                     results.append({
                         "Model": "LDA",
@@ -183,11 +216,12 @@ def main():
                         "Homogeneity Score": score["homogeneity_score"],
                         "Completeness Score": score["completeness_score"],
                         "AMI Score": score["ami_score"],
-                        "Distributions": distributions
+                        "Counts": counts,
+                        "Topics": topics,
                     })
 
                 print(f"BERTopic - {dataset_key} - {num_topics} - {label_key}")
-                distributions, score = do_anomaly_detection("BERTopic", train_df, test_df, num_topics, label)
+                counts, topics, score = do_anomaly_detection("BERTopic", train_df, test_df, num_topics, label)
 
                 results.append({
                     "Model": "BERTopic",
@@ -197,7 +231,8 @@ def main():
                     "Homogeneity Score": score["homogeneity_score"],
                     "Completeness Score": score["completeness_score"],
                     "AMI Score": score["ami_score"],
-                    "Distributions": distributions
+                    "Counts": counts,
+                    "Topics": topics,
                 })
 
     pd.DataFrame(results).to_csv("anomaly_detection_results.tsv", sep="\t")

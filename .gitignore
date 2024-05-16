@@ -2,7 +2,8 @@
 datasets/
 SwissLog/
 templated_datasets/
-trial2/
-qualtrics_*
-boxplot_*
+#trial2/
+#qualtrics_*
+#boxplot_*
 screenlog*
+templates.pkl
