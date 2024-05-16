@@ -39,7 +39,7 @@ def main():
     print(len(lda_unique_words))
 
     plt.figure()
-    sns.boxplot(data=df_counts, x="Model", y="Documents assigned to topic")
+    sns.boxplot(data=df_counts, y="Model", x="Documents assigned to topic")
     plt.savefig(f"boxplot_anomaly_detection_results_topic_counts.png")
 
 if __name__ == "__main__":

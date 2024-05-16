@@ -114,11 +114,11 @@ def main():
 
     features = ["model", "remove_digits_special_chars", "lowercase", "split_words"]
 
-    df_melted = pd.melt(metric_df, id_vars=features, value_vars=['quality', 'anomaly', 'wi_accuracy'], var_name="task", value_name="score")
+    df_melted = pd.melt(metric_df, id_vars=features, value_vars=['quality', 'anomaly', 'wi_accuracy'], var_name="Task", value_name="Score")
 
     for feature in features:
         plt.figure()
-        sns.boxplot(data=df_melted, x='task', y='score', hue=feature)
+        sns.boxplot(data=df_melted, y='Task', x='Score', hue=feature)
         plt.savefig(f"boxplot_configuration_{feature}.png")
 
         quality_groups = tuple(metric_df.groupby(by=feature)["quality"])

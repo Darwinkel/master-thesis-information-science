@@ -21,12 +21,15 @@ def main():
         for feature in features:
             plt.figure()
             #plt.ylim(0.0, 0.16)
-            sns.boxplot(data=results_df_no_lda, x=feature, y=f"{metric} Score")
+            if feature == "No. topics":
+                sns.boxplot(data=results_df_no_lda, x=feature, y=f"{metric} Score")
+            else:
+                sns.boxplot(data=results_df_no_lda, y=feature, x=f"{metric} Score")
             plt.savefig(f"boxplot_anomaly_detection_results_{metric}_{feature}.png")
 
         plt.figure()
         #plt.ylim(0.0, 0.16)
-        sns.boxplot(data=results_df_only_unsupervised, x="Model", y=f"{metric} Score")
+        sns.boxplot(data=results_df_only_unsupervised, y="Model", x=f"{metric} Score")
         plt.savefig(f"boxplot_anomaly_detection_results_lda_v_bertopic_{metric}.png")
 
 

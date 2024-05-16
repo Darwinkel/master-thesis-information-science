@@ -20,17 +20,15 @@ def main():
     print(thunderbird_df['Label'].value_counts())
     print(len(thunderbird_df))
     plt.figure()
-    plt.xticks(rotation=90)
     thunderbird_only_anomalies = thunderbird_df[thunderbird_df["Label"] != "-"]
-    sns.countplot(data=thunderbird_only_anomalies, x="Label", order = thunderbird_only_anomalies['Label'].value_counts().index)
+    sns.countplot(data=thunderbird_only_anomalies, y="Label", order = thunderbird_only_anomalies['Label'].value_counts().index)
     plt.savefig(f"datasets_countplot_thunderbird.png")
 
     print(bgl_df['Label'].value_counts())
     print(len(bgl_df))
     plt.figure()
-    plt.xticks(rotation=90)
     bgl_only_anomalies = bgl_df[bgl_df["Label"] != "-"]
-    sns.countplot(data=bgl_only_anomalies, x="Label", order = bgl_only_anomalies['Label'].value_counts().index)
+    sns.countplot(data=bgl_only_anomalies, y="Label", order = bgl_only_anomalies['Label'].value_counts().index)
     plt.savefig(f"datasets_countplot_bgl.png")
 
     # Histogram / distribution of template length
