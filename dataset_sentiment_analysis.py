@@ -44,15 +44,17 @@ def main():
     # Histogram / distribution of template length
     thunderbird_df["Sentiment"] = thunderbird_df["ComponentEventTemplate"].apply(sentiment_analysis)
     print(thunderbird_df)
-    plt.figure()
+    plt.figure(figsize=(8, 6), dpi=200)
     sns.boxplot(data=thunderbird_df, x="Sentiment", y="Label")
-    plt.savefig("datasets_boxplot_sentiment_thunderbird.png")
+    plt.tight_layout()
+    plt.savefig("plots/datasets_boxplot_sentiment_thunderbird.png")
 
     bgl_df["Sentiment"] = bgl_df["ComponentEventTemplate"].apply(sentiment_analysis)
     print(bgl_df)
-    plt.figure()
+    plt.figure(figsize=(8, 6), dpi=200)
     sns.boxplot(data=bgl_df, x="Sentiment", y="Label")
-    plt.savefig("datasets_boxplot_sentiment_bgl.png")
+    plt.tight_layout()
+    plt.savefig("plots/datasets_boxplot_sentiment_bgl.png")
 
     thunderbird_df_anomaly = thunderbird_df[thunderbird_df["Label"] == "Anomaly"]["Sentiment"]
     thunderbird_df_not_anomaly = thunderbird_df[thunderbird_df["Label"] == "Not anomaly"]["Sentiment"]

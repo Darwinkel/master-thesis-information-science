@@ -38,9 +38,10 @@ def main():
     print(len(bertopic_unique_words))
     print(len(lda_unique_words))
 
-    plt.figure()
+    plt.figure(figsize=(8, 6), dpi=200)
     sns.boxplot(data=df_counts, y="Model", x="Documents assigned to topic")
-    plt.savefig(f"boxplot_anomaly_detection_results_topic_counts.png")
+    plt.tight_layout()
+    plt.savefig(f"plots/boxplot_anomaly_detection_results_topic_counts.png")
 
 if __name__ == "__main__":
     main()

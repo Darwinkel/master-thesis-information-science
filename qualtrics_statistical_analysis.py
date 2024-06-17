@@ -112,28 +112,37 @@ def main():
     metric_df["anomaly"] = anomaly_df_mean
     metric_df["wi_accuracy"] = wi_accuracies_df
 
-    features = ["model", "remove_digits_special_chars", "lowercase", "split_words"]
+    print(metric_df)
 
-    df_melted = pd.melt(metric_df, id_vars=features, value_vars=['quality', 'anomaly', 'wi_accuracy'], var_name="Task", value_name="Score")
+    metric_df = metric_df.rename(columns={"model": "Model", "remove_digits_special_chars": "Remove digits & special characters", "lowercase": "Lowercase everything", "split_words": "Split words", "quality": "Quality rating", "anomaly": "Anomaly rating", "wi_accuracy": "Word intrusion accuracy"})
+
+    metric_df = metric_df.replace({"Model": {"lda": "LDA", "bertopic": "BERTopic"}})
+
+    print(metric_df)
+
+    features = ["Model", "Remove digits & special characters", "Lowercase everything", "Split words"]
+
+    df_melted = pd.melt(metric_df, id_vars=features, value_vars=['Quality rating', 'Anomaly rating', 'Word intrusion accuracy'], var_name="Task", value_name="Score")
 
     for feature in features:
-        plt.figure()
+        plt.figure(figsize=(8, 6), dpi=200)
         sns.boxplot(data=df_melted, y='Task', x='Score', hue=feature)
-        plt.savefig(f"boxplot_configuration_{feature}.png")
+        plt.tight_layout()
+        plt.savefig(f"plots/boxplot_configuration_{feature}.png")
 
-        quality_groups = tuple(metric_df.groupby(by=feature)["quality"])
-        anomaly_groups = tuple(metric_df.groupby(by=feature)["anomaly"])
-        wi_accuracy_groups = tuple(metric_df.groupby(by=feature)["wi_accuracy"])
+        quality_groups = tuple(metric_df.groupby(by=feature)["Quality rating"])
+        anomaly_groups = tuple(metric_df.groupby(by=feature)["Anomaly rating"])
+        wi_accuracy_groups = tuple(metric_df.groupby(by=feature)["Word intrusion accuracy"])
 
-        print(metric_df.groupby(by=feature)["quality"].describe())
+        print(metric_df.groupby(by=feature)["Quality rating"].describe())
         print(ttest_rel(quality_groups[0][1], quality_groups[1][1]))
         print(wilcoxon(quality_groups[0][1], quality_groups[1][1]))
 
-        print(metric_df.groupby(by=feature)["anomaly"].describe())
+        print(metric_df.groupby(by=feature)["Anomaly rating"].describe())
         print(ttest_rel(anomaly_groups[0][1], anomaly_groups[1][1]))
         print(wilcoxon(anomaly_groups[0][1], anomaly_groups[1][1]))
 
-        print(metric_df.groupby(by=feature)["wi_accuracy"].describe())
+        print(metric_df.groupby(by=feature)["Word intrusion accuracy"].describe())
         print(ttest_rel(wi_accuracy_groups[0][1], wi_accuracy_groups[1][1]))
         print(wilcoxon(wi_accuracy_groups[0][1], wi_accuracy_groups[1][1]))
 
