@@ -1,0 +1,159 @@
+[[AdvancedFormat]]
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion0 | capability]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">mct</span>
+<span style="font-family:Courier New,Courier,monospace;">provider</span>
+<span style="font-family:Courier New,Courier,monospace;">capability</span>
+<span style="font-family:Courier New,Courier,monospace;">mosal</span>
+<span style="font-family:Courier New,Courier,monospace;">pgoff</span>
+<span style="font-family:Courier New,Courier,monospace;">file</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion1 | file]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">conf</span>
+<span style="font-family:Courier New,Courier,monospace;">dhcp</span>
+<span style="font-family:Courier New,Courier,monospace;">lease</span>
+<span style="font-family:Courier New,Courier,monospace;">eth</span>
+<span style="font-family:Courier New,Courier,monospace;">wrote</span>
+<span style="font-family:Courier New,Courier,monospace;">file</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion2 | illegalstateexception]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">job</span>
+<span style="font-family:Courier New,Courier,monospace;">illegalstateexception</span>
+<span style="font-family:Courier New,Courier,monospace;">null</span>
+<span style="font-family:Courier New,Courier,monospace;">ips</span>
+<span style="font-family:Courier New,Courier,monospace;">true</span>
+<span style="font-family:Courier New,Courier,monospace;">false</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion3 | class]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">job</span>
+<span style="font-family:Courier New,Courier,monospace;">jobs</span>
+<span style="font-family:Courier New,Courier,monospace;">class</span>
+<span style="font-family:Courier New,Courier,monospace;">create</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion4 | PKG]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">set</span>
+<span style="font-family:Courier New,Courier,monospace;">Service</span>
+<span style="font-family:Courier New,Courier,monospace;">PKG</span>
+<span style="font-family:Courier New,Courier,monospace;">check</span>
+<span style="font-family:Courier New,Courier,monospace;">INFO</span>
+<span style="font-family:Courier New,Courier,monospace;">Time</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion5 | Data]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">file</span>
+<span style="font-family:Courier New,Courier,monospace;">pgoff</span>
+<span style="font-family:Courier New,Courier,monospace;">cache</span>
+<span style="font-family:Courier New,Courier,monospace;">ffffffff</span>
+<span style="font-family:Courier New,Courier,monospace;">Data</span>
+<span style="font-family:Courier New,Courier,monospace;">MOSAL</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion6 | PKG]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">denied</span>
+<span style="font-family:Courier New,Courier,monospace;">MOSAL</span>
+<span style="font-family:Courier New,Courier,monospace;">PKG</span>
+<span style="font-family:Courier New,Courier,monospace;">file</span>
+<span style="font-family:Courier New,Courier,monospace;">pgoff</span>
+<span style="font-family:Courier New,Courier,monospace;">user</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion7 | flgs]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">flgs</span>
+<span style="font-family:Courier New,Courier,monospace;">setup</span>
+<span style="font-family:Courier New,Courier,monospace;">speconf</span>
+<span style="font-family:Courier New,Courier,monospace;">CAP</span>
+<span style="font-family:Courier New,Courier,monospace;">Configure</span>
+<span style="font-family:Courier New,Courier,monospace;">Install</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion8 | neutral]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">pid</span>
+<span style="font-family:Courier New,Courier,monospace;">download</span>
+<span style="font-family:Courier New,Courier,monospace;">null</span>
+<span style="font-family:Courier New,Courier,monospace;">qiyi</span>
+<span style="font-family:Courier New,Courier,monospace;">qiyi_log_info</span>
+<span style="font-family:Courier New,Courier,monospace;">neutral</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion9 | pause]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">contact</span>
+<span style="font-family:Courier New,Courier,monospace;">conversation</span>
+<span style="font-family:Courier New,Courier,monospace;">list</span>
+<span style="font-family:Courier New,Courier,monospace;">pause</span>
+<span style="font-family:Courier New,Courier,monospace;">fragment</span>
+<span style="font-family:Courier New,Courier,monospace;">lifecycle</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion10 | illegalstateexception]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">pid</span>
+<span style="font-family:Courier New,Courier,monospace;">error</span>
+<span style="font-family:Courier New,Courier,monospace;">system_u</span>
+<span style="font-family:Courier New,Courier,monospace;">illegalstateexception</span>
+<span style="font-family:Courier New,Courier,monospace;">int</span>
+<span style="font-family:Courier New,Courier,monospace;">port</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion11 | client]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">configure</span>
+<span style="font-family:Courier New,Courier,monospace;">cap</span>
+<span style="font-family:Courier New,Courier,monospace;">dell</span>
+<span style="font-family:Courier New,Courier,monospace;">setup</span>
+<span style="font-family:Courier New,Courier,monospace;">install</span>
+<span style="font-family:Courier New,Courier,monospace;">client</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion12 | CUPID]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">qiyi_LOG_INFO</span>
+<span style="font-family:Courier New,Courier,monospace;">CUPID</span>
+<span style="font-family:Courier New,Courier,monospace;">Download</span>
+<span style="font-family:Courier New,Courier,monospace;">false</span>
+<span style="font-family:Courier New,Courier,monospace;">true</span>
+<span style="font-family:Courier New,Courier,monospace;">Data</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion13 | Activity]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">processing</span>
+<span style="font-family:Courier New,Courier,monospace;">Activity</span>
+<span style="font-family:Courier New,Courier,monospace;">Installer</span>
+<span style="font-family:Courier New,Courier,monospace;">Starting</span>
+<span style="font-family:Courier New,Courier,monospace;">setup</span>
+<span style="font-family:Courier New,Courier,monospace;">Install</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion14 | _kCFStreamErrorCodeKey]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">MOSAL</span>
+<span style="font-family:Courier New,Courier,monospace;">r17</span>
+<span style="font-family:Courier New,Courier,monospace;">r18</span>
+<span style="font-family:Courier New,Courier,monospace;">file_pgoff</span>
+<span style="font-family:Courier New,Courier,monospace;">r16</span>
+<span style="font-family:Courier New,Courier,monospace;">_kCFStreamErrorCodeKey</span>
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:Intrusion15 | start]]
+Select which term is the least related to all other terms
+[[Choices]]
+<span style="font-family:Courier New,Courier,monospace;">onDestroy</span>
+<span style="font-family:Courier New,Courier,monospace;">start</span>
+<span style="font-family:Courier New,Courier,monospace;">lifecycle</span>
+<span style="font-family:Courier New,Courier,monospace;">onCreate</span>
+<span style="font-family:Courier New,Courier,monospace;">ConversationList</span>
+<span style="font-family:Courier New,Courier,monospace;">onSaveInstanceState</span>

@@ -1,0 +1,2146 @@
+ComponentEventTemplate	Label	Count
+kernel <ffffffff802a2e36>{sk_alloc+38} <ffffffff802e8153>{inet_create+280}	-	171
+kernel MOSAL(1) : file_pgoff = 0x1ab00	-	1
+postfix/cleanup BA5E15181D1 : message-id = <20060120145030.BA5E15181D1@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e5 : bc : ea via eth1 : unknown lease <*> .	-	4
+kernel MOSAL(1) : file_pgoff = 0x1a76a	-	1
+kernel MOSAL(1) : file_pgoff = 0x7693	-	6
+kernel sam raid obsd error on write : local_status 0x2b14 (rmm : The requested service is unavailable due to the fact that the blade it resides upon is currently not available , the realm is offline , or the service itself is not active) , obsd_error 0x0 (Success) virtual object I-xD020038da11df0002-xGf5edfff4-xU3896b871ed2e8667 index <*> , stor_op <*> , component device 0x06003fc4121f0001(OBSD)	-	1
+ACPI <*> used by override.	-	6
+postfix/cleanup 5B4C9F2012C : message-id = <20060605002257.5B4C9F2012C@#56#.#207#>	-	1
+UTC <*> : CP %IFMGR-5-OSTATE_UP : Changed interface state to up : <*> <*>	-	381
+kernel MOSAL(1) : file_pgoff = 0x2d681	-	2
+kernel [KERNEL_IB][ib_cache_update][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/core/obj_host_amd64_custom1_rhel4/ts_ib_core/core_cache.c : 389]port_query failed (-22) for InfiniHost0	-	18
+kernel MOSAL(1) : file_pgoff = 0x99ff	-	1
+postfix/cleanup 48C25F20097 : message-id = <20060622054252.48C25F20097@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x18d1f	-	1
+postfix/cleanup A63CC518F7F : message-id = <20060228000406.A63CC518F7F@tbird-#206#>	-	1
+login(pam_unix) authentication failure ; logname = LOGIN uid = <*> euid = <*> tty = tty1 ruser = rhost =	-	4
+postfix/cleanup BDAD6F200A3 : message-id = <20060413145204.BDAD6F200A3@#56#.#207#>	-	1
+postfix/cleanup 88BDAAC4073 : message-id = <20060324201703.88BDAAC4073@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f6b8	-	2
+logger Kickstart Install : SISUITE Client RPMS	-	454
+postfix/cleanup 11D82F20131 : message-id = <20060626034249.11D82F20131@#56#.#207#>	-	1
+ntpd Frequency format error in /var/lib/ntp/drift	-	1
+postfix/cleanup BA9EDAC4078 : message-id = <20060530213216.BA9EDAC4078@tbird-#2124#>	-	1
+ib_mgr.x [INFO] : event loop conn local to <*> fd = <*>	-	14
+crond (root) CMD (/home/#57#/GetVolts.sh a)	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : bf : cc via eth1	-	1
+usbcore registered new driver hiddev	-	2
+postfix/cleanup 39367F200A8 : message-id = <20060707012756.39367F200A8@#56#.#207#>	-	1
+kernel <4 <ffffffff80110c9f>{child_rip+0}	-	1
+postfix/cleanup 788BF518BA6 : message-id = <20060331065428.788BF518BA6@tbird-#206#>	-	1
+smartd Device : /dev/sda , SMART Failure : FAILURE PREDICTION THRESHOLD EXCEEDED	-	204
+kernel MOSAL(1) : file_pgoff = 0x11211	-	1
+postfix/cleanup F4054F200A7 : message-id = <20060709122405.F4054F200A7@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x13034	-	3
+crond (#41#) CMD (crontab /home/sntools/production/current/sntools/engine/systems/Sierra/crontabs/cronfile.tbird-#41#.opt)	-	4
+kernel pan_ips : error -- IPS command timeout command timed out expire_time = <*> : <*> now = <*> : <*> lifetime = <*> : <*> grace_timeouts = <*> cd = <*> session = <*> (initiator : <*> <-> target-OSD : <*> : 3260) id = <*> : <*> : <*>	-	1471
+RT Use of uninitialized value in substitution (s///) at RAS.pm line 408. (/opt/rt3/lib/RT.pm : 287)	-	1
+kernel 0000010193e89ee8 <*> <*> ffffffff0000007d	-	1
+kernel <ffffffff8015f5nfs : pan_sys_thread_launch+0}	-	1
+LustreError <*> : <*> : (events.c : <*> : request_out_callback()) @@@ type <*> , status <*> <*> <*> <*> : <*> lens <*> ref <*> fl Rpc : <*> rc 0/0	-	9
+syslog klogd shutdown succeeded	-	85
+sshd2 <*> <*> <*>	-	1
+postfix/cleanup 4CD3EF20094 : message-id = <20060311003006.4CD3EF20094@#56#.#207#>	-	1
+smokeping FPing : Got fping output : <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	9405
+kernel MOSAL(1) : file_pgoff = 0x2d6f3	-	3
+kernel MOSAL(1) : file_pgoff = 0x1e222	-	1
+postfix/cleanup 57EBB5180EE : message-id = <20051211005520.57EBB5180EE@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16679	-	21
+kernel MOSAL(1) : file_pgoff = 0x782b	-	2
+kernel 00000101bfe177f0 <*> 000001000725d840 <*>	-	1
+kernel sshd S <*> <*> <*> <*> <*> <*> (NOTLB)	-	2
+LustreError This client was evicted by <*> ; in progress operations using this service #15# fail.	-	4
+postfix/cleanup 286D6F200A0 : message-id = <20060412055803.286D6F200A0@#56#.#207#>	-	1
+ib_sm [ib_sm_assign.c : 667] : cleaning DB for guid <*> : <*> : ad : <*> : <*> : <*> : <*> <*> df , lid <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x14ca5	-	24
+ib_sm [ib_sm_bringup.c : 562] : Program port state , node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : bc , port = <*> , current state <*> , neighbor node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : bc , port = <*> , current state <*>	-	14
+kernel MOSAL(1) : file_pgoff = 0x2d416	-	13
+postfix/cleanup 3B2DEF20132 : message-id = <20060408095503.3B2DEF20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ef75	-	1
+dhcpd Copyright <*> Internet Systems Consortium.	-	500
+kernel MOSAL(1) : file_pgoff = 0x2d2dd	-	1
+postfix/cleanup D5376F2009E : message-id = <20060419144506.D5376F2009E@#56#.#207#>	-	1
+postfix/cleanup 06ED5F200A9 : message-id = <20060405083103.037B5F20126@#56#.#207#>	-	1
+postfix/cleanup EA64E518B50 : message-id = <20060228000308.EA64E518B50@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : <*> : <*> <*> ca via eth1 : unknown lease <*> .	-	9
+postfix/cleanup 5E5ABF200A7 : message-id = <20060413171903.5E5ABF200A7@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x801f	-	2
+kernel MOSAL(1) : file_pgoff = 0x113eb	-	1
+postfix/cleanup 338F5AC4087 : message-id = <20060510153111.338F5AC4087@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a726	-	1
+postfix/cleanup 68D39F2012E : message-id = <20060618142807.68D39F2012E@#56#.#207#>	-	1
+postfix/cleanup 3CDDDAC4075 : message-id = <20060407225723.3CDDDAC4075@tbird-#2124#>	-	1
+sshd debug3 : mm_answer_sign : signature <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x1f87d	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a2af	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d552	-	1
+kernel MOSAL(1) : file_pgoff = 0x8e17	-	5
+kernel MOSAL(1) : file_pgoff = 0x98a0	-	235
+ib_sm.x [ib_sm_bringup.c : 450] : Active state mismatch GUID = <*> , port = <*> , state <*> , GUID = <*> , port = <*> , state <*>	-	641
+kernel MOSAL(1) : file_pgoff = 0xfc8e	-	26
+kernel MOSAL(1) : file_pgoff = 0xf748	-	1
+kernel MOSAL(1) : file_pgoff = 0x7654	-	4
+postfix/cleanup 4921951814E : message-id = <20051110184806.4921951814E@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x406c3	-	1
+sshd connection lost : 'Connection closed by remote host.'	-	3
+smartd Home page is http : //#20#/	-	3966
+postfix/cleanup 93AC2337E1 : message-id = <20060630021428.93AC2337E1@tbird-#2402#>	-	1
+warning <*> <*> <*>	-	2
+kernel VIPKL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/vip/obj_host_amd64_custom1_rhel4/mod_vip/mmu.c[243] : make_iobuf : MOSAL_iobuf_register failed : va = 0x1DAA0000size = 0opspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[290] : unlock_it : unknown error (-11)	-	1
+postfix/cleanup 311F1F200A0 : message-id = <20060412030704.311F1F200A0@#56#.#207#>	-	1
+postfix/cleanup 82635F20132 : message-id = <20060408184002.82635F20132@#56#.#207#>	-	1
+exportfs eadmin1 : /install/linux	-	2
+kernel fs_client_batch_cancel_cb_walkfunc : cancel_callback_multi (0x3aad (fm_client : rpc/network failure (translated)))	-	1
+postfix/cleanup C408C519283 : message-id = <20051115172958.C2D11519271@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d059	-	1
+postfix/cleanup C9727518A6D : message-id = <20060331224705.C9727518A6D@tbird-#206#>	-	1
+kernel fs_client_release : last call to write_page on object <*> failed with 0x1a30 (fs client : Interrupted system call) ; data #15# be dropped (line <*>	-	12
+chsh <*> : authenticating <*>	-	1
+postfix/cleanup BF668F20092 : message-id = <20060407104524.BBE00F20131@#56#.#207#>	-	1
+LustreError <*> : <*> : (llite_lib.c : <*> : lustre_fill_super()) Unable to process log : client	-	1
+postfix/cleanup CF5D1F200E0 : message-id = <20060622100230.C078EF2012E@#56#.#207#>	-	1
+kernel Aborting journal on device <*>	-	8
+ib_sm [ib_sm_discovery.c : 1190] : Found new neighbor <*> : <*> : ad : <*> : <*> : <*> : <*> <*> <*> , port_num = <*>	-	3937
+postfix/cleanup 0F2DC518B53 : message-id = <20060228000308.0F2DC518B53@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x131c4	-	7
+postfix/cleanup E44D3F20132 : message-id = <20060411011902.E44D3F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x53ac	-	6
+kernel panfs : module license 'Proprietary' taints kernel.	-	162
+megaraid fw version : [516A] bios version : [H418]	-	7
+kernel MOSAL(1) : file_pgoff = 0x1da90	-	1
+kernel <ffffffffa0480de4>{ : panfs : <*> <*> , batch <*>	-	2
+UTC <*> : CP %IFMGR-5-OSTATE_DN : Changed interface state to down : <*> <*>	-	360
+kernel MOSAL(1) : file_pgoff = 0xae60	-	1
+kernel MOSAL(1) : file_pgoff = 0xb261	-	1
+kernel MOSAL(1) : file_pgoff = 0x4e9d	-	7
+pbs_mom run_pelog , prolog/epilog failed , file : /var/spool/pbs/mom_priv/epilogue , exit : -4 , prolog/epilog timeout occurred , child cleaned up	-	98
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_iobuf.c[126] : 0size = 0xEA000	-	1
+kernel MOSAL(1) : file_pgoff = 0xcbce	-	1
+kernel MOSAL(1) : file_pgoff = 0xa97d	-	11
+postfix/cleanup 139C6F2012E : message-id = <20060620211753.139C6F2012E@#56#.#207#>	-	1
+postfix/cleanup D545F518AF1 : message-id = <20060228000257.D545F518AF1@tbird-#206#>	-	1
+sshd Illegal user #2771# from <*>	-	1
+crond(pam_unix) session opened for user <*> by <*> = 0)	-	295203
+postfix/cleanup 9A45F518136 : message-id = <20051222092600.9A45F518136@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x18356	-	7
+kernel MOSAL(1) : b_eff[14231] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_iobuf.c : <*> : MOSAL_mlock_iobuf failed - MT_EAGAIN1> MOSAL(1) : iomem = no	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d278	-	1
+sendmail <*> : to = root , ctladdr = root (0/0) , delay = <*> : <*> : <*> , xdelay = <*> : <*> : <*> , mailer = relay , pri = <*> , relay = [ <*> ] [ <*> ] , dsn = 4.0.0 , stat = Deferred : Connection refused by [ <*> ]	-	3893
+kernel snmpd S 000000000000000e <*> <*> <*> <*> <*> (NOTLB)	-	1
+postfix/cleanup 3D48E518DA6 : message-id = <20051113061507.3D48E518DA6@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1eef0	-	1
+kernel MOSAL(1) : file_pgoff = 0xdd29	-	44
+kernel Serial : 8250/16550 driver $Revision : 1.90 $ <*> ports , IRQ sharing enabled	-	4324
+ib_sm [ib_sm_sweep.c : 393] : IB node <*> : <*> : ad : <*> : <*> : <*> : 8b : df port <*> is INIT state	-	1
+kernel MOSAL(1) : file_pgoff = 0x68c9	-	1
+kernel MOSAL(1) : file_pgoff = 0x6ebd	-	1
+kernel MOSAL(1) : file_pgoff = 0x1db1d	-	1
+kernel pciehp : Both _OSC and OSHP methods do not exist	-	858
+kernel <ffffffff80183daf>{link_path_walk+179} <ffffffff801e9d45>{strncpy_from_user+74}	-	1
+ib_sm.x [INFO] : connected to watchd service , sent first pulse.	-	133
+kernel ACPI : Interpreter enabled	-	4391
+sshd debug3 : mm_answer_sign	-	3
+kernel MOSAL(1) : file_pgoff = 0x13fd5	-	2
+postfix/cleanup 8C399F20126 : message-id = <20060405045504.8C399F20126@#56#.#207#>	-	1
+postfix/cleanup 880DA864ABE : message-id = <20060418115203.880DA864ABE@#56#.#207#>	-	1
+postfix/qmgr <*> : to = <*> , relay = none , delay = <*> , status = deferred (delivery temporarily suspended : connect to <*> : Connection timed out)	-	13
+postfix/cleanup B0C2DAC40C7 : message-id = <20060430172543.B0C2DAC40C7@tbird-#2124#>	-	1
+postfix/cleanup 72587F200A7 : message-id = <20060416014603.72587F200A7@#56#.#207#>	-	1
+postfix/cleanup BE4FE519523 : message-id = <20051118174507.BE4FE519523@tbird-#206#>	-	1
+kernel <ffffffff801120bb>{child_rip+8} <ffffffffa000673b>{ : scsi_mod : scsi_error_handler+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d740	-	1
+postfix/cleanup 5159B5189FA : message-id = <20060228000218.5159B5189FA@tbird-#206#>	-	1
+postfix/cleanup CF2C6F20126 : message-id = <20060405164521.CF2C6F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d30b	-	7
+kernel <ffffffff8014d081>{kthread+0} <ffffffff801120b3>{child_rip+0}	-	2
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ac : dc via eth1 : unknown lease <*> .	-	3
+kernel MOSAL(1) : file_pgoff = 0xc625	-	2
+kernel MOSAL(1) : file_pgoff = 0x1700b	-	11
+postfix/cleanup 25304F20132 : message-id = <20060410162804.25304F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d4fc	-	2
+kernel MOSAL(1) : file_pgoff = 0x1a7a0	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d398	-	10
+kernel MOSAL(1) : file_pgoff = 0xfff3	-	1
+pbs_server Connection refused (111) in contact_sched , Could not contact Scheduler - port <*>	-	22
+kernel MOSAL(1) : file_pgoff = 0x2d17f	-	60
+postfix/cleanup BFB96518E68 : message-id = <20051113151505.BFB96518E68@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x8eff	-	2
+kernel MOSAL(1) : file_pgoff = 0x12f38	-	1
+kernel Hyperthreading disabled by user	-	144
+postfix/cleanup 2359F519449 : message-id = <20051118011507.2359F519449@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e224	-	47
+kernel MOSAL(1) : file_pgoff = 0xde49	-	3
+kernel Frgh <*> , batch <*>	-	1
+postfix/cleanup 94943F20131 : message-id = <20060626095244.94943F20131@#56#.#207#>	-	1
+postfix/cleanup C0657518DFA : message-id = <20060228000357.C0657518DFA@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d495	-	5
+postfix/cleanup 21F7CAC4074 : message-id = <20060430161325.21F7CAC4074@tbird-#2124#>	-	1
+kernel crond S <*> <*> <*> <*> <*> <*> (NOTLB)	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d19a	-	1
+kernel <*> <*> Subsystem revision <*>	-	4433
+postfix/cleanup 9A609AC4078 : message-id = <20060613183013.9A609AC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d526	-	10
+postfix/cleanup 972D8F200A2 : message-id = <20060618052749.972D8F200A2@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x18141	-	3
+postfix/cleanup 85E423B8006 : message-id = <20060526110000.82AD83B8003@tbird-#2837#>	-	1
+postfix/cleanup A35DF5181D1 : message-id = <20060120202421.A35DF5181D1@tbird-#206#>	-	1
+sshd Failed gssapi-with-mic for <*> from : : ffff : <*> port <*> ssh2	-	4
+postfix/cleanup A0B4451827B : message-id = <20060217024807.A0B4451827B@tbird-#206#>	-	1
+postfix/cleanup 40DB6F20131 : message-id = <20060427141903.40DB6F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc40d	-	33
+postfix/cleanup 41994F20126 : message-id = <20060405223403.41994F20126@#56#.#207#>	-	1
+insmod Warning : loading <*> #15# taint the kernel : non-GPL license - Proprietary	-	2
+mptscsih ioc0 : attempting task abort! (sc = <*>	-	15
+postfix/cleanup 65DA2518A40 : message-id = <20060404201225.65DA2518A40@tbird-#206#>	-	1
+ib_sm [ib_sm_bringup.c : 581] : Force port (node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : df , port = <*> , state = 4) to DOWN because (1) 1st sweep or (2) role change.	-	4
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock = 0x89ea	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d334	-	40
+ACPI Processor <*> (supports C1)	-	7
+postfix/cleanup 3A2CFAC4074 : message-id = <20060518101148.3A2CFAC4074@tbird-#2124#>	-	1
+postfix/cleanup 17A34AC407A : message-id = <20060516173910.17A34AC407A@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc3ed	-	2
+postfix/cleanup 6D363F200A3 : message-id = <20060413083702.6D363F200A3@#56#.#207#>	-	1
+postfix/cleanup 0F9E6280B5 : message-id = <20060119110213.0F9E6280B5@#1730#>	-	1
+"crond (#57#) CMD (sudo /home/#57#/show_loggedin.sh | mail -s "" Logged In "" #57#@#207#)"	-	32
+ib_sm [ib_sm_routing.c : 2517] : Allocating ext_port id <*> for node guid <*> : <*> : ad : <*> : <*> : <*> : <*> <*> ae , port <*>	-	61
+kernel MOSAL(1) : file_pgoff = 0xcd89	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d06a	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f2d9	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d50c	-	5
+kernel MOSAL(1) : file_pgoff = 0xc97d	-	1
+sshd debug3 : <*> : sending result <*>	-	5
+kernel MOSAL(1) : file_pgoff = 0x1f0c4	-	3
+cups <*> <*> <*>	-	4
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : df : 4a : cf via eth1 : unknown lease <*> .	-	2
+kernel MOSAL(1) : file_pgoff = 0x85e7	-	5
+su <*> : authenticating <*> to 'krbtgt/#24#@#24#'	-	117
+postfix/cleanup 7218AF20098 : message-id = <20060624045300.7218AF20098@#56#.#207#>	-	1
+kernel mptscsih : ioc0 : target reset : FAILED (sc = <*>	-	4
+postfix/cleanup E928CAC4080 : message-id = <20060508194049.E928CAC4080@tbird-#2124#>	-	1
+postfix/cleanup AAA2CF2009D : message-id = <20060701190746.AAA2CF2009D@#56#.#207#>	-	1
+postfix/cleanup EF0A1F20133 : message-id = <20060629201304.EF0A1F20133@#56#.#207#>	-	1
+moab <*> , IVal , DVal , SVal , SArray , P , IName , Eval , EMsg)	-	3
+kernel <ffffffff80126801>{sys32_rt_sigtimedwait+209} <ffffffff801e74ed>{__up_write+20}	-	2
+postfix/cleanup 3531EF2012E : message-id = <20060619010805.3531EF2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xf464	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e23c	-	4
+mount.panfs pan_ips : error -- real init , 0x5 (Out of memory) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips.c : <*> <11> <*> mount.panfs : bindcache : failed init IPS : 0x5 (Out of memory)	-	111
+kernel MOSAL(1) : file_pgoff = 0x29eca	-	3
+kernel MOSAL(1) : file_pgoff = 0x9cb7	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d85b	-	1
+kernel 00000101bc52e7f0 000000000000978f	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ad : ad via eth1	-	4
+ib_sm [ib_sm_bringup.c : 551] : GUID = <*> : <*> : ad : <*> : <*> : <*> : <*> <*> ae , port = <*> , GUID = <*> : <*> : ad : <*> : <*> : <*> : <*> <*> ae , port = <*> ports are already ACTIVE.	-	389
+kernel MOSAL(1) : file_pgoff = 0x2d3e7	-	4
+postfix/nqmgr <*> : from = <*> , size = <*> , nrcpt = <*> (queue active)	-	34
+kernel ip_conntrack version 2.1 (8192 buckets , <*> max) - <*> bytes per conntrack	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d8ad	-	1
+postfix/cleanup <*> : message-id = <20060217020128.95494518286@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb3d7	-	3
+init Switching to runlevel : <*>	-	4359
+kernel pan_sam : <*> : unable to report I/O error(s) to SM 0x020038da11df0002(SM) : 0x106e (SM : object is currently unavailable due to OSD failures)	-	15
+su <*> : configured realm '#24#'	-	824
+kernel MOSAL(1) : file_pgoff = 0x2d517	-	4
+kernel MOSAL(1) : file_pgoff = 0xe34b	-	2
+kernel MOSAL(1) : file_pgoff = 0x8864	-	4
+chassis_mgr.x [INFO] : suspend watchd pulse monitoring.	-	22
+kernel MOSAL(1) : file_pgoff = 0x2cf6a	-	2
+kernel MOSAL(1) : file_pgoff = 0xaa5b	-	1
+kernel ts_ib_mad S <*> <*> <*> <*> <*> <*> (L-TLB)	-	1
+kernel MOSAL(1) : file_pgoff = 0xff68	-	1
+ACPI LAPIC <*> <*> <*>	-	13
+kernel MOSAL(1) : file_pgoff = 0x190b9	-	2
+postfix/cleanup 16105AC4078 : message-id = <20060628160543.16105AC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xbc53	-	33
+kernel MOSAL(1) : file_pgoff = 0xd486	-	6
+kernel pan_ips : error -- tx sched dequeue and send mod , 0x2399 (pan_sock : connection reset by peer) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_tx_sched.c : <*>	-	4312
+kernel MOSAL(1) : file_pgoff = 0x10b2e	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d2e6	-	1
+ts_customize Skipping customization. custom.cnf not found.	-	16
+/apps/x86_64/system/ganglia-3.0.1/sbin/gmetad RRD_update <*> <*> : illegal attempt to update using time <*> when last update time is <*> (minimum one second step)	-	370
+postfix/cleanup 718C3F200A5 : message-id = <20060420211603.718C3F200A5@#56#.#207#>	-	1
+postfix/cleanup 96D78F20126 : message-id = <20060427020646.96D78F20126@#56#.#207#>	-	1
+postfix/cleanup 72A82F20132 : message-id = <20060408124603.72A82F20132@#56#.#207#>	-	1
+kernel <ffffffff802c604d>{ip_queue_xmit+951} <ffffffff8013731a>{printk+141}	-	2
+distccd (dcc_r_file_timed) <*> bytes received in <*> , rate <*>	-	201
+kernel MOSAL(1) : file_pgoff = 0x1f3a2	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d073	-	1
+postfix/cleanup DF479F2009E : message-id = <20060419092502.DF479F2009E@#56#.#207#>	-	1
+ib_sm [ib_sm_discovery.c : 1318] : Add existing switch neighbor <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , port_num = <*>	-	2012
+postfix/cleanup A745C518276 : message-id = <20060216172049.A745C518276@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x113b5	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a212	-	1
+kernel MOSAL(1) : file_pgoff = 0x14c7f	-	17
+ib_sm [INFO] : Error Threshold Exceeded on node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> port = <*>	-	166
+kernel 0000010037dfdec8 <*> 0000010037dfde18 000001000000007d	-	1
+ib_sm [ib_sm_bringup.c : 551] : GUID = <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , port = <*> , GUID = <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , port = <*> ports are already ACTIVE.	-	12795
+Serial 8250/16550 driver $Revision : 1.90 $ <*> ports , IRQ sharing enabled	-	3
+kernel audit(1131921407.011 : 0) : avc : denied { write } for pid = <*> comm = ntpdate nam<3>audit(1131921407.033 : 0) : avc : denied { getattr } for pid = <*> comm = ntpd path = /dev/null dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = chr_file	-	1
+postfix/cleanup DC6EEF20097 : message-id = <20060622011753.DC6EEF20097@#56#.#207#>	-	1
+postfix/cleanup 7182AF20131 : message-id = <20060407003102.7182AF20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d54f	-	20
+kernel MOSAL(1) : file_pgoff = 0x1d501	-	5
+kernel rpc.idmapd S <*> <*> <*> <*> <*> <*> (NOTLB)	-	1
+ib_sm [ib_sm_discovery.c : 1050] : _ib_smDiscoverPort(port = 13)	-	10
+kernel MOSAL(1) : file_pgoff = 0x9d60	-	5
+ib_sm [ib_sm_bringup.c : 562] : Program port state , node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : ed , port = <*> , current state <*> , neighbor node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : ed , port = <*> , current state <*>	-	10
+postfix/cleanup B0DED518E94 : message-id = <20060228000401.B0DED518E94@tbird-#206#>	-	1
+postfix/cleanup 87B334FA75 : message-id = <20060119110206.87B334FA75@#1448#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1c4cc	-	6
+kernel MOSAL(1) : file_pgoff = 0xde62	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d1aa	-	2
+postfix/cleanup 05A4CAC4082 : message-id = <20060502031846.05A4CAC4082@tbird-#2124#>	-	1
+pbs_mom Inappropriate ioctl for device (25) in search_env_and_open , failed connect to mpiexec process on MS	-	164
+kernel MOSAL(1) : file_pgoff = 0x1d72e	-	1
+kernel EXT3-fs error (device <*> : ext3_find_entry : reading directory <*> offset <*>	-	3
+kernel MOSAL(1) : file_pgoff = 0x1e24d	-	1
+kernel MOSAL(1) : file_pgoff = 0x11447	-	2
+ib_sm.x [ib_sm_bringup.c : 781] : Failed to bring port to ARMED for node = 5ad0000027c5a , port = <*> , state = <*> , hop_count = <*> , mad status 0x1c	-	4
+kernel MOSAL(1) : file_pgoff = 0xeabd	-	1
+postfix/cleanup 94641F2012E : message-id = <20060619145251.94641F2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11fe1	-	1
+postfix/cleanup A2F61518A83 : message-id = <20060331065323.A2F61518A83@tbird-#206#>	-	1
+postfix/cleanup F2C3FF2009F : message-id = <20060703120748.F2C3FF2009F@#56#.#207#>	-	1
+nfsd <*> <*> <*>	-	6
+postfix/cleanup 8162F518076 : message-id = <20051121203159.8162F518076@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29e98	-	3
+kernel MOSAL(1) : file_pgoff = 0x1d773	-	1
+postfix/cleanup 4B4A1519075 : message-id = <20051114001512.4B4A1519075@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x9a36	-	3
+postfix/cleanup 72149AC4078 : message-id = <20060707052058.72149AC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d0b2	-	37
+kernel MOSAL(1) : file_pgoff = 0x1c4c1	-	35
+postfix/cleanup 6DA5EF200A8 : message-id = <20060708174752.6DA5EF200A8@#56#.#207#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ca : ec via eth1 : unknown lease <*> .	-	3
+ib_sm [INFO] : Cold synchronize partition port table	-	60
+kernel PCI : Transparent bridge - <*> : <*> : 1e.0	-	4373
+kernel asking for cache data failed	-	2
+kernel MOSAL(1) : file_pgoff = 0x1cb52	-	1
+kernel <ffffffff80132fa7>{__wake_up_common+67} <ffffffff80131261>{task_rq_lock+59}	-	4
+mount.panfs mount.panfs : started PanFS device [panfs : <*>	-	4292
+kernel MOSAL(1) : file_pgoff = 0x153aa	-	1
+ib_sm [ib_sm_discovery.c : 1367] : Discover switch <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*>	-	2258
+postfix/cleanup F4066AC4074 : message-id = <20060428124848.F4066AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cf09	-	1
+kernel MOSAL(1) : file_pgoff = 0xb9a3	-	133
+kernel <ffffffffa03108a1>{ : panfs1	-	1
+postfix/cleanup 5F927F20137 : message-id = <20060407120102.5F927F20137@#56#.#207#>	-	1
+ib_sm [ib_sm_bringup.c : 629] : Force neighbor port (node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : cf , port = <*> , state = 4) to DOWN because (1) 1st sweep or (2) role change.	-	10
+kernel Info fld = 0xc1c1<2>EXT3-fs error (device sda3) in start_transaction : Journal has aborted	-	1
+kernel fs_client_writepage : llapi_io_sync failed (0x1a30 (fs client : Interrupted system call)) ; data #15# be dropped	-	3
+kernel MOSAL(1) : file_pgoff = 0xee1a	-	2
+kernel panfs : raid : b68cc260 : dag : 1136fa00 : node : Block Node : status : <*> child : <*> : child done : <*> obsd retries <*> , dev_id 0x0 obsd_firing_time : <*> : <*>	-	1
+postfix/cleanup DFE87F20126 : message-id = <20060405213403.DFE87F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10bd7	-	3
+moab INFO : detected array index <*>	-	4
+kernel MOSAL(1) : file_pgoff = 0x2d2fa	-	1
+kernel testing NMI watchdog ... OK.	-	4459
+postfix/cleanup 094C25181C1 : message-id = <20060111180152.094C25181C1@tbird-#206#>	-	1
+postfix/cleanup CDE9AAC40C8 : message-id = <20060502191942.CDE9AAC40C8@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16d56	-	3
+postfix/cleanup 03C3AF200A8 : message-id = <20060625193800.03C3AF200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d752	-	13
+postfix/cleanup 722B2F20126 : message-id = <20060424125803.722B2F20126@#56#.#207#>	-	1
+shpchp Address64 -------- Resource unparsed	-	1
+kernel MOSAL(1) : file_pgoff = 0xd48d	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e313	-	1
+chassis_mgr.x [CONF] : [super] : install <*> : image : Topspin120-TopspinOS-2.5.0-build251.img	-	16
+postfix/cleanup DE891F20131 : message-id = <20060407133101.DE891F20131@#56#.#207#>	-	1
+postfix/cleanup 98465518D2B : message-id = <20060331065550.98465518D2B@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x12cb6	-	1
+kernel <*> pages swap caB 2*16kB 4*32kB 2*64kB 4*128kB 1*256kB 1*512kB 0*1024kB 1*2048kB 2*4096kB = 11832kB	-	1
+postfix/cleanup 34C1DF2009D : message-id = <20060702025249.34C1DF2009D@#56#.#207#>	-	1
+kernel IRQ19 -> <*> : <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0xdf98	-	48
+kernel MOSAL(1) : file_pgoff = 0x135e7	-	1
+kernel MOSAL(1) : file_pgoff = 0x108a6	-	2
+kernel MOSAL(1) : file_pgoff = 0x8c70	-	1
+kernel MOSAL(1) : file_pgoff = 0xc791	-	71
+acceptor-988 started , listening on port <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d6a0	-	7
+kernel MOSAL(1) : file_pgoff = 0x1241d	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d293	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d370	-	1
+slot101:10.100.253.143 IsmMadUPoll Ism : Device has become inaccessible Switch Leaf <*>	-	7
+kernel MOSAL(1) : needL(1) : file_p = <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x12b17	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ae42	-	50
+kernel MOSAL(1) : file_pgoff = 0x19263	-	1
+kernel MOSAL(1) : file_pgoff = 0x1275e	-	1
+postfix/cleanup D6D18F20097 : message-id = <20060701073754.D6D18F20097@#56#.#207#>	-	1
+postfix/cleanup D28DBF200E0 : message-id = <20060423170702.D28DBF200E0@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d66c	-	1
+postfix/cleanup 402DB518073 : message-id = <20051118204309.39960518072@tbird-#206#>	-	1
+ib_sm.x [WARN] : Port <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> : <*> is <*> while <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> : <*> is <*>	-	6
+postfix/cleanup 0AE04AC4085 : message-id = <20060516173841.0AE04AC4085@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d060	-	2
+Mount-cache hash table entries <*> (order : <*> , <*> bytes)	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d6e3	-	3
+kernel MOSAL(1) : file_pgoff = 0x16fdc	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d884	-	16
+postfix/cleanup 38D68F2009D : message-id = <20060701164309.38D68F2009D@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb72f	-	1
+kernel 000001000bf39010 <*> <*> <*>	-	1
+postfix/cleanup 02B95F200A9 : message-id = <20060629151747.02B95F200A9@#56#.#207#>	-	1
+sshd PAM pam_parse : expecting return value ; [.../lib/security/$ISA/pam_krb5.so]	-	1
+kernel MOSAL(1) : file_pgoff = 0x15498	-	1
+kernel 00000101b419de58 <*> ffffffff80134e39 <*>	-	1
+kernel <*> : <*> dirty : <*> writeback : <*> unstable : <*> free : <*> slab : <*> mapped : <*> pagetables : <*>	-	4
+postfix/cleanup C1C8651897C : message-id = <20060301092635.C1C8651897C@tbird-#206#>	-	1
+postfix/cleanup 8FBD0864ABE : message-id = <20060710180748.8FBD0864ABE@#56#.#207#>	-	1
+sshd <*> : configured realm '#24#'	-	6450
+kernel MOSAL(1) : file_pgoff = 0x1b114	-	1
+postfix/cleanup 08228AC40BE : message-id = <20060510153114.08228AC40BE@tbird-#2124#>	-	1
+kernel lp : driver loaded but no devices found	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a702	-	2
+kernel Virtual Wire compatibility mode.	-	1
+postfix/cleanup B6AC7F2009C : message-id = <20060707222748.B6AC7F2009C@#56#.#207#>	-	1
+postfix/cleanup 5C968518082 : message-id = <20051119152815.5C968518082@tbird-#206#>	-	1
+postfix/cleanup 472CB5181D1 : message-id = <20060120175347.472CB5181D1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd089	-	1
+kernel pan_ips : error -- worker initiator read callback , 0x7 (Invalid argument) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_worker.c : <*>	-	7
+postfix/cleanup 052BEF2012C : message-id = <20060615174747.052BEF2012C@#56#.#207#>	-	1
+postfix/cleanup 9562FF200A3 : message-id = <20060704031703.9562FF200A3@#56#.#207#>	-	1
+mount.panfs bindcache : failed init IPS : 0x5 (Out of memory)	-	3246
+kernel MOSAL(1) : file_pgoff = 0x2d530	-	6
+kernel MOSAL(1) : file_pgoff = 0xb326	-	1
+postfix/cleanup E65FE5189F7 : message-id = <20060323014454.E65FE5189F7@tbird-#206#>	-	1
+userhelper pam_timestamp : updated timestamp file <*>	-	1727
+postfix/cleanup E67F1F20131 : message-id = <20060407165801.E67F1F20131@#56#.#207#>	-	1
+kernel audit(1133340426.621 : 0) : avc : denied { write } for pid = <*> comm = ntpdate name = log de<3>audit(1133340426.643 : 0) : avc : denied { getattr } for pid = <*> comm = ntpd path = /dev/null dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = chr_file	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a9b2	-	3
+sudo <*> : ccache dir : /tmp	-	1
+kernel MOSAL(1) : file_pgoff = 0x2b31c	-	30
+kernel MOSAL(1) : file_pgoff = 0x2d377	-	1
+postfix/cleanup 80D26518F57 : message-id = <20060228000406.80D26518F57@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d367	-	12
+kernel MOSAL(1) : file_pgoff = 0x406c7	-	1
+"kernel pan_kmod : quiescing subdev 0x78 ( "" PANASAS kernel trace facility "" )"	-	3005
+ntpd [ -t trust_key ] [ -v sys_var ] [ -V default_sysvar ]	-	2
+kernel MOSAL(1) : file_pgoff = 0xde09	-	6
+postfix/cleanup 0611AF2009C : message-id = <20060617072247.0611AF2009C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x5047	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d28f	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d583	-	10
+kernel <*> : 0) : avc : denied { append } for pid = <*> comm = ntpdate path = /tmp/anaconda.log dev = ramfs ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : ramfs_t tclass = file	-	405
+kernel MOSAL(1) : file_pgoff = 0x2d1b8	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d49a	-	1
+fsck Checking all file systems.	-	4493
+postfix/master daemon started -- version 2.1.5	-	2475
+postfix/cleanup 7AFD351807B : message-id = <20051120153015.7AFD351807B@tbird-#206#>	-	1
+sendmail _sasl_plugin_load failed on sasl_auxprop_plug_init for plugin : sql	-	2
+postfix/cleanup 55097F200A6 : message-id = <20060706030248.55097F200A6@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xcc04	-	5
+kernel MOSAL(1) : file_pgoff = 0xde7f	-	1
+kernel <*> : prev = <*>	-	30565
+"(root-15607) Resolved address "" xml : readonly : <*> "" to a read-only configuration source at position <*>"	-	1
+kernel MOSAL(1) : file_pgoff = 0xd754	-	1
+postfix/cleanup 0E5AEF20126 : message-id = <20060425101903.0E5AEF20126@#56#.#207#>	-	1
+kernel Processor <*> (supports C1)	-	8731
+kernel MOSAL(1) : file_pgoff = 0x10b7f	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d494	-	22
+postfix/cleanup 08BF1F20098 : message-id = <20060623153847.08BF1F20098@#56#.#207#>	-	1
+sshd debug3 : channel <*> : status : The following connections are open : \r\n	-	1
+crond (root) CMD (/projects/tbird/temps/rotate.sh)	-	6
+kernel MOSAL(1) : file_pgoff = 0x2d467	-	2
+kernel MOSAL(1) : file_pgoff = 0xfde7	-	1
+kernel MOSAL(1) : file_pgoff = 0x7723	-	1
+dhcpd ** Ignoring requests on <*> : <*> If this is not what	-	366
+postfix/cleanup 265B7518241 : message-id = <20060201012005.265B7518241@tbird-#206#>	-	1
+postfix/cleanup A2744518CD5 : message-id = <20051113034505.A2744518CD5@tbird-#206#>	-	1
+postfix/cleanup 1005E518968 : message-id = <20060222234212.1005E518968@tbird-#206#>	-	1
+postfix/cleanup 639F0F200A9 : message-id = <20060630043753.639F0F200A9@#56#.#207#>	-	1
+kernel pan_sam : <*> : unable to report I/O error(s) to SM 0x020038da11df0002(SM) : 0x109f (SM : obsd queue overflowed (transient))	-	30
+kernel MOSAL(1) : file_pgoff = 0x1a0bb	-	1
+kernel time.c : Los0)	-	1
+postfix/cleanup F40A3F20126 : message-id = <20060426181602.F40A3F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1114b	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d8c6	-	11
+kernel <*> hash table entries : <*> (order <*> <*> , <*> <*>	-	17399
+kernel UDP : short packet : From <*> <*> to #112# : <*>	-	173
+kernel pan_sam : <*> : error report : failure <*> : <*> osd_op = <*> offset = <*> length = <*> error = 0x7e9 (RPC : No response within the timeout period)	-	478
+syslog-ng io.c : accept() failed , Too many open files	-	2
+ntpd kernel time sync enabled <*>	-	5945
+ide0 Wait for ready failed before probe !	-	1
+kernel MOSAL(1) : file_pgoff = 0xa8fe	-	28
+kernel MOSAL(1) : file_pgoff = 0x1d4fd	-	2
+kernel MOSAL(1) : file_pgoff = 0x1d769	-	51
+kernel MOSAL(1) : va = 0xB5550om1_rhel4/mod_vip/mmu.c[243] : make_iobuf : MOSAL_iobuf_register failed : va = 0xB5F3000size = 0x1C000	-	1
+postfix/cleanup 4CB77519331 : message-id = <20051116164504.4CB77519331@tbird-#206#>	-	1
+postfix/cleanup AD075518A1C : message-id = <20060328200828.AD075518A1C@tbird-#206#>	-	1
+kernel Swap cache : add <*> , high <*> , batch <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ccdd	-	1
+mount mount : fs type panfs not supported by kernel	-	3
+sshd <*> : account management succeeds for <*>	-	434
+kernel MOSAL(1) : file_pgoff = 0x15da1	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d608	-	1
+mount mount : special device LABEL = <*> does not exist	-	2014
+kernel MOSAL(1) : file_pgoff = 0xb187	-	1
+smartd Opened configuration file /etc/smartd.conf	-	4030
+kernel command = Inquiry <*> <*> <*> ff <*>	-	1
+pbs_mom <*> <*> <*> <*> <*> failed	-	12
+kernel <ffffffff802cb7a8>{tcp_recvmsg+1798} <ffffffff802a095f>{sock_sendmsg+271}	-	1
+kernel MOSAL(1) : file_pgoff = 0x186c6	-	3
+kernel MOSAL(1) : file_pgoff = 0xdd00	-	1
+crond (root) CMD (/apps/breakfix-testing/get_F10_data.sh)	-	3
+kernel MOSAL(1) : file_pgoff = 0xe53b	-	1
+postfix/cleanup 8BE0B518E18 : message-id = <20051113071508.8BE0B518E18@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x15f71	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a9db	-	1
+sshd <*> : krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328378 (Client not found in Kerberos database)	-	5
+kernel MOSAL(1) : file_pgoff = 0x2d64d	-	44
+lvm.static /var/lock/lvm : mkdir failed : Read-only file system	-	466
+kernel MOSAL(1) : file_pgoff = 0x1a3d3	-	1
+kernel MOSAL(1) : file_pgoff = 0xe9f4	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d569	-	5
+kernel Node <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	8
+kernel MOSAL(1) : file_pgoff = 0x16fb0	-	1
+postfix/cleanup B9B29864ABF : message-id = <20060617021303.B9B29864ABF@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a74e	-	3
+kernel pan_sam : <*> : unable to report I/O error(s) to SM 0x020038da11df0002(SM) : 0x2eea (bindcache : No realm managers found)	-	108
+postfix/cleanup A880EF2009F : message-id = <20060703163331.A880EF2009F@#56#.#207#>	-	1
+postfix/cleanup CF4ACAC4074 : message-id = <20060412224821.CF4ACAC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d661	-	5
+kernel MOSAL(1) : file_pgoff = 0xf8c2	-	2
+kernel <ffffffff8015fa23>{kmem_cache_alloc+90} <ffffffff802a2e36>{sk_alloc+38}	-	1538
+postfix/cleanup 89571AC4074 : message-id = <20060426110524.89571AC4074@tbird-#2124#>	-	1
+postfix/cleanup B83B5F200A2 : message-id = <20060709002748.B83B5F200A2@#56#.#207#>	-	1
+kernel time.c : Lost <*> timer tick(s)! <3>LustreError : <*> : <*> : (client.c : <*> : ptlrpc_expire_one_request()) @@@ timeout (sent at <*> , <*> ago) <*> <*> <*> : <*> lens <*> ref <*> fl Rpc : <*> rc 0/0	-	19
+kernel Vendor : FUJITSU Model : MAT3073NC Rev : <*>	-	129
+kernel MOSAL(1) : file_pgoff = 0x1f906	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d666	-	3
+kernel <ffffffff801120bb>{child_rip+8} <ffffffff8014d12b>{keventd_create_kthread+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0xd2b8	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d4b1	-	13
+postfix/cleanup C3BA4864ABE : message-id = <20060414183249.C3BA4864ABE@#56#.#207#>	-	1
+postfix/cleanup D82FC518D25 : message-id = <20051113044507.D82FC518D25@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d595	-	5
+postfix/cleanup 7925FF200E0 : message-id = <20060711152250.7925FF200E0@#56#.#207#>	-	1
+kernel LustreError : Connection to <*> @tcp at host <*> on port <*> was reset : is it running a compatible version of Lustre and is <*> @tcp one of its NIDs?	-	2
+kernel MOSAL(1) : file_pgoff = 0x15325	-	1
+kernel MOSAL(2) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[1173] : MOSAL_mlock_ctx_cleanup : mm still exists (pid = 3053) - continue cleanup	-	1
+postfix/cleanup 1FBDA518EE2 : message-id = <20051113151511.1FBDA518EE2@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cf7e	-	1
+MDT <*> : CP %SEC-5-LOGOUT : Exec session is terminated for user admin on line <*> <*> <*> <*>	-	461
+postfix/cleanup 6E7EEF200A0 : message-id = <20060411225503.6E7EEF200A0@#56#.#207#>	-	1
+postfix/cleanup BF5E67F4170 : message-id = <20060601100203.B86797F4290@#2116#.#207#>	-	1
+kernel ib_mthca : Mellanox InfiniBand HCA driver v0.06 ( <*> e <*> , 2005)	-	150
+LustreError <*> : <*> : (import.c : <*> : ptlrpc_connect_interpret()) #685#@ca876_UUID changed handle from 0xe517a63d799dc9bf to 0xe9a13f56f39217a ; copying , but this may foreshadow disaster	-	1
+postfix/cleanup 7B9BDF20099 : message-id = <20060703012754.7B9BDF20099@#56#.#207#>	-	1
+VFS <*> <*> <*>	-	5
+postfix/cleanup 8B4F0F200A5 : message-id = <20060420185503.8B4F0F200A5@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e251	-	3
+crond <*> : no v5 creds for user <*> , skipping session setup	-	2533
+kernel Lustre : Skipped <*> previous similar messages	-	367
+kernel BIOS-e820 : 00000000fec00000 - 00000000fec90000 (reserved)	-	3437
+MDT %RPM0-P : CP %SYS-5-CONFIG_I : Configured from console by <*> ( <*> )	-	1
+kernel netconsole : remote ethernet address <*> : <*> : <*> : e3 : ba : a7	-	5
+kernel MOSAL(1) : file_pgoff = 0x12c94	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d654	-	1
+kernel MOSAL(1) : file_pgoff = 0x29ee5	-	1
+postfix/cleanup 0FBCA864ABE : message-id = <20060415025803.0FBCA864ABE@#56#.#207#>	-	1
+postfix/cleanup 76781F20132 : message-id = <20060410042502.76781F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a0e8	-	2
+kernel MOSAL(1) : file_pgoff = 0x756d	-	2
+kernel Initializing IPsec netlink socket	-	4368
+postfix/cleanup C944D518C10 : message-id = <20060228000327.C944D518C10@tbird-#206#>	-	1
+postfix/cleanup 61F8B518961 : message-id = <20060222234227.61F8B518961@tbird-#206#>	-	1
+postfix/cleanup D5E20F20097 : message-id = <20060622035307.D5E20F20097@#56#.#207#>	-	1
+md stopping all md devices.	-	2
+postfix/cleanup 46554F2012E : message-id = <20060619073245.46554F2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5ed	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f180	-	14
+kernel MOSAL(1) : file_pgoff = 0x11525	-	1
+postfix/cleanup BC158AC4175 : message-id = <20060516041527.BC158AC4175@tbird-#2124#>	-	1
+postfix/cleanup 2F1AFF200A7 : message-id = <20060413184003.2F1AFF200A7@#56#.#207#>	-	1
+ib_sm.x [INFO] : Configuration caused by previous GET/SET operation failures	-	359
+ib_sm [ib_sm_discovery.c : 1484] : setting local_node <*> : <*> : ad : <*> : <*> : <*> : <*> : <*>	-	13
+kernel 00000001be133e18 00000101bfe20030	-	1
+kernel MOSAL(1) : file_pgoff = 0x11358	-	1
+sshd WARNING : Logins are currently denied with /etc/nologin :	-	8
+kernel MOSAL(1) : file_pgoff = 0x2d4e1	-	1
+kernel kpanfs_thpool : page allocation failure. order : <*> , mo42 dirty : <*> writeback : <*> unstable : <*> free : <*> slab : <*> mapped : <*> pagetables : <*>	-	1
+postfix/cleanup 0E69D518B99 : message-id = <20060331065426.0E69D518B99@tbird-#206#>	-	1
+crond (root) CMD (ssh -t tbird-sm1 /home/#1867#/SCRIPTS/counters.cron1 )	-	2
+kernel MOSAL(1) : file_pgoff = 0x127d9	-	2
+kernel LustreError : <*> : <*> : (socklnd_cb.c : <*> : ksocknal_find_timed_out_conn()) Timed out TX to 12345- <*> @tcp <*> <*> <*>	-	9
+Server Administrator Instrumentation Service EventID : <*> Voltage sensor returned to a normal value Sensor location : BMC ROMB Battery Chassis location : Main System Chassis Previous state was : Critical (Failed) Discrete voltage state : Good	-	75
+postfix/cleanup A2424AC4080 : message-id = <20060516173937.A2424AC4080@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d429	-	9
+postfix/cleanup 0F163F200A5 : message-id = <20060420224506.0F163F200A5@#56#.#207#>	-	1
+postfix/cleanup E411AAC407B : message-id = <20060601125901.E411AAC407B@tbird-#2124#>	-	1
+rz [#2761#] <*> : <*> Bytes , <*> BPS	-	7
+moab <*> , ValList , FALSE , 0)	-	7
+postfix/cleanup 8D15B5181DA : message-id = <20060111180208.8D15B5181DA@tbird-#206#>	-	1
+pbs_mom job_start_error , job_start_error : sent <*> ABORT requests , should be <*>	-	26
+moab <*> , <*> <*> PERIOD = INFINITY)	-	2
+kernel MOSAL(1) : file_pgoff = 0x1194f	-	1
+kernel MOSAL(1) : file_pgoff = 0xf3f5	-	1
+postfix/cleanup C8229F20133 : message-id = <20060629005244.C8229F20133@#56#.#207#>	-	1
+postfix/cleanup 69003F20126 : message-id = <20060404071524.69003F20126@#56#.#207#>	-	1
+postfix/cleanup 64799AC4106 : message-id = <20060510153134.64799AC4106@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5b5	-	10
+postfix/cleanup 84CEC5181C5 : message-id = <20060119005155.84CEC5181C5@tbird-#206#>	-	1
+postfix/cleanup 2E104F2009C : message-id = <20060421114247.2E104F2009C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1cd2f	-	201
+kernel MOSAL(1) : file_pgoff = 0x6632	-	1
+kernel MOSAL(1) : file_pgoff = 0xb94e	-	1
+kernel <ffffffff801c0783>{compat_sys_semctl+891} <ffffffff80187b12>{sys_fcntl+831}	-	1
+kernel SCSI device sda : <*> 512-byte hdwr sectors <*> MB)	-	4506
+postfix/cleanup 3A025F200A9 : message-id = <20060405220403.367EFF20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1009a	-	11
+ib_sm [INFO] : Program switch port state to down , node = <*> : <*> : ad : <*> : <*> : <*> : <*> : <*> , port = <*> , due to non-responding CA	-	216
+postfix/cleanup BDFCBAC4078 : message-id = <20060609015224.BDFCBAC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xdba0	-	4
+devlabel devlabel's temporary ignore list /etc/sysconfig/devlabel.d/ignore_list has been emptied due to a change in device configuration.	-	1
+kernel 00000101b3ad3ee8 <*> <*> ffffffff00000000	-	1
+logger Kickstart Install : pdsh + ssh packages	-	430
+kernel MOSAL(1) : file_pgoff = 0x1f21e	-	2
+postfix/cleanup B69F4F20132 : message-id = <20060410161903.B69F4F20132@#56#.#207#>	-	1
+postfix/cleanup 4D8B1F2009E : message-id = <20060419160702.4D8B1F2009E@#56#.#207#>	-	1
+ib_sm [ib_sm_bringup.c : 629] : Force neighbor port (node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : bc , port = <*> , state = 4) to DOWN because (1) 1st sweep or (2) role change.	-	20
+RT We don't do scips yet <*> (/opt/rt3/lib/RTx/AssetTracker/Transaction_Overlay.pm : 155)	-	819
+kernel MOSAL(1) : file_pgoff = 0xd350	-	29
+kernel MOSAL(1) : file_pgoff = 0x2d955	-	2
+sudo #57# : (command continued) list_nodes-bak1 list_nodes_from_qstat list_nodes_tbird.orig longccmd.sh mgrcmd.sh miscres.sh MOM_CONFIG mstdump node2job_list nodeprops nodesrvcs.sh node_track OLD-get-sel-log.sh out panasas_ctrl.sh pbsnodestat power-section-e.sh power-section.sh power-test pping pping-ipmi prepnode qcmd.sh qmpdctrl.sh qpeek rangecmd.pl resappend.sh resolv.conf resrange.sh sel2 selpbsnodes.sh selres.sh showmesh showmesh.old showmesh.works sm smnew smoo.pl sol-console stop_#125#_on_section sweep_torque_nodes.sh sync-images temps torque-maui-client.cfg upport-node.sh	-	1
+kernel pan_ips : error -- mem generic buffer , allocation failed.	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d13e	-	3
+postfix/cleanup 3ADD9F200A2 : message-id = <20060707142746.3ADD9F200A2@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1971c	-	1
+kernel MOSAL(1) : file_pgoff = 0x1b0a2	-	3
+ib_sm.x [ib_sm_sweep.c : <*> : Detect switch (LID = <*> port state change	-	16
+kernel MOSAL(1) : file_pgoff = 0x2d5c8	-	3
+kernel MOSAL(1) : file_pgoff = 0x11eae	-	2
+postfix/cleanup E14023B8003 : message-id = <20060523110000.E14023B8003@tbird-#2652#>	-	1
+ib_sm.test [INFO] : Generate SM <*> trap for GID = fe : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : ad : <*> : <*> : <*> : <*> <*> <*>	-	76
+kernel MOSAL(1) : file_pgoff = 0x2d087	-	2
+kernel MOSAL(1) : file_pgoff = 0x1a9fb	-	1
+postfix/cleanup 2B5B7780092 : message-id = <20060524100348.2B5B7780092@#819#>	-	1
+kernel MOSAL(1) : b_eff[6997] : mnt_projects/sysapps/src/ib/topspin/topspin-src000	-	1
+postfix/cleanup 572CBF2009E : message-id = <20060419094002.572CBF2009E@#56#.#207#>	-	1
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[1326] : priv_mosal_mlock : could not find mm = <*> (pid = <*> in the hash	-	1732
+kernel <*> <*> size = <*>	-	30399
+kernel klogd 1.4.1 , log source = /proc/kmsg started.	-	4889
+kernel MOSAL(1) : file_pgoff = 0x11208	-	1
+pciehp Address64 -------- Resource unparsed	-	5
+postfix/cleanup 1D61C518995 : message-id = <20060305113249.1D61C518995@tbird-#206#>	-	1
+sshd <*> : got result -1765328353 ( <*> rypt integrity check failed)	-	34
+kernel <*> <*> scanning scsi channel <*> <*> for logical <*>	-	295
+kernel MOSAL(1) : file_pgoff = 0x9b85	-	1
+kernel MOSAL(1) : file_pgoff = 0x72c0	-	2
+postfix/cleanup AE6CC3B8003 : message-id = <20060428000001.AE6CC3B8003@tbird-#2652#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc384	-	1
+eth1 <*> <*> no IPv6 routers present	-	7
+postfix/cleanup 46C2B864ABF : message-id = <20060616171803.3DB8F864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xdfc0	-	1
+postfix/cleanup CD33FAC4073 : message-id = <20060318095948.CD33FAC4073@tbird-#2124#>	-	1
+postfix/cleanup 9F3F35181B1 : message-id = <20060111180115.9F3F35181B1@tbird-#206#>	-	1
+postfix/cleanup 0F5AAAC407B : message-id = <20060424170503.0F5AAAC407B@tbird-#2124#>	-	1
+postfix/cleanup 8152BF200A7 : message-id = <20060415081603.8152BF200A7@#56#.#207#>	-	1
+postfix/cleanup 30BF1F200A8 : message-id = <20060708235749.30BF1F200A8@#56#.#207#>	-	1
+kernel [IB_NET][ipoib_mcast_attach][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/host/ulp/ipoib/obj_host_amd64_custom1_rhel4/ts_ipoib/ipoib_verbs.c : 71]ib0 : failed to modify QP , ret = -22	-	5
+kernel MOSAL(1) : file_pgoff = 0x2d062	-	9
+kernel <*> 00000100bff27740 <*> <*>	-	1
+kernel ASC = <*> ASCQ = <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d438	-	2
+kernel Vendor : MAXTOR Model : ATLAS10K5_73SCA Rev : <*>	-	1805
+kernel sam raid obsd error on write : local_status 0x0 (Success) , obsd_error 0x5f2 (OBSD : Object not found) virtual object I-xD020038da11df0002-xGf5edfff4-xUf053e08c9483db33 index <*> , stor_op <*> , component device <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d430	-	3
+postfix/cleanup B64C0518D84 : message-id = <20060228000352.B64C0518D84@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d4bd	-	5
+kernel MOSAL(1) : file_pgoff = 0x1a725	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ad : bc via eth1	-	3
+postfix/cleanup 5A5EDF200A8 : message-id = <20060709131746.5A5EDF200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cfcd	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f7b7	-	2
+xinetd START : distccd pid = <*> from = <*>	-	223
+ib_sm [ib_sm_bringup.c : <*> : Active port(s) now in INIT state node = <*> , port = <*> , state = <*> , neighbor node = <*> , port = <*> , state = <*>	-	2
+kernel SCSI device sda : drive cache : write through	-	4216
+kernel MOSAL(1) : file_pgoff = 0x11a1f	-	1
+postfix/cleanup 9D83E51822E : message-id = <20060201011537.9D83E51822E@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xa4bb	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d6f5	-	1
+kernel MOSAL(1) : file_pgoff = 0x29f20	-	1
+kernel MOSAL(1) : file_pgoff = 0xdf0b	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d748	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f6c2	-	1
+postfix/cleanup C74DDF20097 : message-id = <20060701083300.C74DDF20097@#56#.#207#>	-	1
+postfix/cleanup 687F15181D1 : message-id = <20060120125026.687F15181D1@tbird-#206#>	-	1
+postfix/cleanup 6CCE5AC4078 : message-id = <20060709151406.6CCE5AC4078@tbird-#2124#>	-	1
+postfix/cleanup BB01AF20131 : message-id = <20060406153721.BB01AF20131@#56#.#207#>	-	1
+postfix/cleanup 09321864ABE : message-id = <20060702113405.09321864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x5e11	-	1
+kernel <ff639888/1775317 , race 7+15	-	1
+postfix/cleanup 152AA864ABE : message-id = <20060623071745.152AA864ABE@#56#.#207#>	-	1
+anacron <*> <*> <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29f9d	-	1
+"crond (root) CMD (/home/#57#/Get_SEL_Detail.sh clear | mail -s "" Compute Node SELs "" tbird-#214#@#207# <*> <*> /dev/null)"	-	17
+crond (root) CMD (/home/#57#/down_not_offline.sh 2>&1 > /dev/null)	-	1
+kernel MOSAL(1) : file_pgoff = 0xf1c4	-	36
+postfix/cleanup 584DBF200A8 : message-id = <20060709113423.584DBF200A8@#56#.#207#>	-	1
+mtrr v2.0 (20020519)	-	2
+kernel pan_sam : I-xD020038da11df0002-xGf5edfff4-xU69b6330207c90d55 : error report : failure 7/10 : 0x06003a82122f0001(OBSD) osd_op = OP_WRITE offset = <*> length = <*> error = 0x1d7e (IPS : session got unknown error callback)	-	1
+kernel MOSAL(1) : file_pgoff = 0x29f43	-	52
+kernel PCI : cache line size of <*> is not supported by device <*> : <*> : 1d.7	-	4105
+kernel MOSAL(1) : file_pgoff = 0x2d65d	-	1
+postfix/cleanup 1DF4D864ABF : message-id = <20060621084246.1DF4D864ABF@#56#.#207#>	-	1
+postfix/cleanup 4323E864ABF : message-id = <20060616223817.4323E864ABF@#56#.#207#>	-	1
+Free pages <*> <*> <*>	-	29
+kernel 000000d000000000 <*> <*> <*>	-	2
+postfix/cleanup 886005189DC : message-id = <20060317224111.886005189DC@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x81b1	-	1
+audit(1142980294.224:0) <*> <*> <*> <*> avc : denied { read write } for pid = <*> comm = ntpdate path = socket : <*> dev = sockfs ino = <*> scontext = user_u : system_r : ntpd_t tcontext = user_u : system_r : unconfined_t tclass = udp_socket	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d7e7	-	1
+kernel MOSAL(1) : file_pgoff = 0x189d2	-	8
+postfix/cleanup 47734518A5D : message-id = <20060228000235.47734518A5D@tbird-#206#>	-	1
+ib_sm [ib_sm_sweep.c : <*> : IB node <*> port <*> is INIT state	-	46
+postfix/cleanup 74626864ABE : message-id = <20060417173703.74626864ABE@#56#.#207#>	-	1
+kernel <*> : 0) : avc : denied { getattr } for pid = <*> comm = ntpd path = /dev/null dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = chr_file	-	397
+postfix/cleanup B1A73F200A8 : message-id = <20060708100304.B1A73F200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xffa0	-	1
+kernel MOSAL(1) : file_pgoff = 0x16d7d	-	2
+audit(1141838080.384:0) <*> <*> <*> <*> avc : denied { read } for pid = <*> comm = ntpdate path = /tmp/product/.buildstamp dev = ramfs ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : ramfs_t tclass = file	-	1
+postfix/cleanup 10C2D5192D7 : message-id = <20051116151506.10C2D5192D7@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xbe53	-	1
+postfix/cleanup 3DA71F200A7 : message-id = <20060415104903.3DA71F200A7@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1c805	-	3
+Server Administrator Instrumentation Service EventID : <*> Voltage sensor detected a failure value Sensor location : PROC_1 VCORE Chassis location : Main System Chassis Previous state was : Unknown Discrete voltage state : Bad	-	1
+kernel MOSAL(1) : file_pgoff = 0x16e2d	-	1
+"kernel pan_kmod : done quiescing subdev 0x78 ( "" PANASAS kernel trace facility "" )"	-	3082
+kernel drivers/usb/input/hid-core.c : v2.0 : USB HID core driver	-	4313
+postfix/cleanup 7FA53864ABE : message-id = <20060416004744.7FA53864ABE@#56#.#207#>	-	1
+postfix/cleanup 8D774518E1E : message-id = <20060228000358.8D774518E1E@tbird-#206#>	-	1
+crond <*> : authenticating <*> to 'krbtgt/#24#@#24#'	-	48
+kernel MOSAL(1) : file_pgoff = 0x2d51c	-	8
+postfix/cleanup 9E1C4F200A6 : message-id = <20060706020252.9E1C4F200A6@#56#.#207#>	-	1
+kernel LustreError : <*> : <*> : (file.c : <*> : <*> inode <*> mdc close failed : rc = <*>	-	5
+postfix/cleanup F39B0F2009F : message-id = <20060703100302.F39B0F2009F@#56#.#207#>	-	1
+postfix/cleanup B851C518AAB : message-id = <20060331065333.B851C518AAB@tbird-#206#>	-	1
+ACPI <*> <*> Subsystem revision <*>	-	1
+postfix/cleanup 8C157F20132 : message-id = <20060409042803.8C157F20132@#56#.#207#>	-	1
+postfix/cleanup 4A3E8518B36 : message-id = <20060331065826.4A3E8518B36@tbird-#206#>	-	1
+postfix/cleanup AF0283B8003 : message-id = <20060525120000.AF0283B8003@tbird-#2837#>	-	1
+slot101:10.100.253.143 tIouMonSw Ism : MAD Send getNodeInfo Failed for : Leaf <*> (port 0)	-	1
+kernel MOSAL(1) : file_pgoff = 0x1adc4	-	8
+kernel MOSAL(1) : file_pgoff = 0x152de	-	1
+kernel MOSAL(1) : file_pgoff = 0xc6b0	-	2
+postfix/cleanup 65DBE518A46 : message-id = <20060406042933.65DBE518A46@tbird-#206#>	-	1
+postfix/cleanup D014A5188BC : message-id = <20051112064511.D014A5188BC@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc697	-	33
+smartd Device : /dev/sda , Temperature changed <*> Celsius to <*> Celsius since last report	-	63034
+postfix/cleanup 37162F20126 : message-id = <20060425180703.37162F20126@#56#.#207#>	-	1
+kernel audit(1132670168.580 : 0) : avc : denied { write } for pid = <*> comm = ntpdate name = log dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = user_u : object_r<3>audit(1132670168.601 : 0) : avc : denied { getattr } for pid = <*> comm = ntpd path = /dev/null dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = chr_file	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f8ed	-	1
+postfix/cleanup 951A35189B8 : message-id = <20060228000204.951A35189B8@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d341	-	1
+kernel MOSAL(1) : file_pgoff = 0x99a7	-	30
+postfix/cleanup 15256F20126 : message-id = <20060427094146.108AFF20131@#56#.#207#>	-	1
+kernel 0000010037d487f0 00000000000005d0	-	1
+postfix/cleanup 33516F200A9 : message-id = <20060417161604.33516F200A9@#56#.#207#>	-	1
+kernel = 11820kB	-	1
+sendmail <*> : <*> : fl = 0x2 , mode = <*> : SOCK localhost->[[UNIX : /dev/log]]	-	7
+sshd <*> : validating credentials	-	462
+chsh <*> : flag : no <*>	-	5
+kernel MOSAL(1) : file_pgoff = 0x808b	-	1
+slot101:10.100.253.146 ibstatmon Mad Util Send Timeout : LID : <*> QP : <*> timeout = <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d3d3	-	2
+ib_sm.x [INFO] : ib_sm connect to watchdog manager	-	65
+kernel MOSAL(1) : file_pgoff = 0x1f7f9	-	2
+postfix/cleanup CBE07AC4078 : message-id = <20060508194053.CBE07AC4078@tbird-#2124#>	-	1
+kernel LustreError : A timeout occurred sending data to <*> ; the network or that node may be down.	-	11
+ib_sm [ib_sm_discovery.c : 1050] : _ib_smDiscoverPort(port = 22)	-	32
+PBS_Server is_request , Protocol failure in commit from <*> <*> )	-	33
+postfix/cleanup DE9A2AC4074 : message-id = <20060512202013.DE9A2AC4074@tbird-#2124#>	-	1
+kernel pan_fs_client_llapi_lock_share_lease_renew_closure_internal : RPC failed 0x3ca0 (lm : client should delay and retry (generic))	-	2
+kernel MOSAL(1) : file_pgoff = 0x4087c	-	42
+kernel MOSAL(1) : file_pgoff = 0x123e9	-	35
+postfix/cleanup B5D0551809A : message-id = <20051109235402.B5D0551809A@tbird-#206#>	-	1
+sudo <*> : authentication succeeds for <*> <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x1d746	-	1
+kernel MOSAL(1) : file_pgoff = 0xa8a2	-	3
+kernel MOSAL(1) : file_pgoff = 0xa961	-	5
+postfix/cleanup C96D0AC4073 : message-id = <20060407004925.C96D0AC4073@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x15ec4	-	1
+postfix/cleanup 2730CAC4078 : message-id = <20060502181706.2730CAC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x8a28	-	1
+kernel Bootdata ok (command line is initrd = <*> console = tty0 console = ttyS0 , <*> BOOT_IMAGE = <*> )	-	521
+su <*> : banner : Kerberos <*>	-	768
+postfix/cleanup 5C4DDF200A2 : message-id = <20060618051753.5C4DDF200A2@#56#.#207#>	-	1
+postfix/cleanup 01FF3F200A2 : message-id = <20060517155246.01FF3F200A2@#56#.#207#>	-	1
+Vendor PE/PV Model : 1x2 SCSI BP Rev : 1.0	-	2
+kernel MOSAL(1) : file_pgoff = 0x18fdc	-	2
+ib_sm.x [ib_sm_sweep.c : 454] : Failed to get PortInfo from IB node <*> port <*>	-	25
+postfix/postfix-script starting the Postfix mail system	-	2571
+kernel Memory : <*> available <*> kernel code , 0k reserved , <*> data , <*> init)	-	4372
+kernel MOSAL(1) : file_pgoff = 0xb2c0	-	1
+postfix/cleanup 6FF20AC407A : message-id = <20060531200652.6FF20AC407A@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1708c	-	3
+kernel EXT2-fs warning : mounting unchecked fs , running e2fsck is recommended	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5a6	-	1
+kernel MOSAL(1) : file_pgoff = 0x13df3	-	4
+kernel MOSAL(1) : file_pgoff = 0x1ae5b	-	24
+postfix/postdrop warning : unable to look up public/pickup : No such file or directory	-	264
+kernel MOSAL(1) : file_pgoff = 0xa87c	-	12
+kernel <ffffffff8014d12b>{keventd_create_kthread+0} <ffffffff8014d081>{kthread+0}	-	1
+postfix/cleanup C976BF2009D : message-id = <20060701123746.C976BF2009D@#56#.#207#>	-	1
+postfix/cleanup A439D518592 : message-id = <20051111181507.A439D518592@tbird-#206#>	-	1
+postfix/cleanup 13A1D518241 : message-id = <20060120222621.13A1D518241@tbird-#206#>	-	1
+BIOS-e820 00000000fee00000 - 00000000fee10000 (reserved)	-	1
+kernel Call Trace : <*> <*> : panfs : <*>	-	6
+postfix/cleanup 292F6F200A9 : message-id = <20060422071303.292F6F200A9@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d64b	-	7
+postfix/cleanup D8969F20097 : message-id = <20060418081245.D8969F20097@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a13f	-	1
+ib_sm.x [INFO] : thread <*> , got NULL request	-	1
+postfix/cleanup 47F4EF20138 : message-id = <20060407111303.47F4EF20138@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d388	-	2
+kernel MOSAL(1) : file_pgoff = 0xcff3	-	1
+moab MGroup[1792] 3.91	-	1
+kernel MOSAL(1) : file_pgoff = 0xeb62	-	1
+kernel Total of <*> processors activated <*> BogoMIPS).	-	4468
+kernel MOSAL(1) : file_pgoff = 0x2d6a6	-	6
+kernel MOSAL(1) : file_pgoff = 0x19df6	-	11
+postfix/cleanup 7E99FF20126 : message-id = <20060405050702.7E99FF20126@#56#.#207#>	-	1
+postfix/cleanup 53949AC412A : message-id = <20060408000137.53949AC412A@tbird-#2124#>	-	1
+postfix/cleanup 3F986F2012E : message-id = <20060624174253.3F986F2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xf7ed	-	2
+"gconfd (#2171#-11240) Resolved address "" xml : readwrite : <*> "" to a writable configuration source at position <*>"	-	1
+kernel pan_ips : error -- cmd_destroy : destroying aborted (rc = 0x23a8 (pan_sock : broken pipe)) command <*> (0 : <*> : <*>	-	67
+kernel MOSAL(1) : file_pgoff = 0x2d4fd	-	1
+postfix/cleanup A0F9CF200A9 : message-id = <20060619200318.A0F9CF200A9@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb232	-	1
+ntpd precision = <*> usec	-	5509
+postfix/cleanup E3257F20133 : message-id = <20060630153802.E3257F20133@#56#.#207#>	-	1
+postfix/cleanup C6F23864ABE : message-id = <20060417173404.C6F23864ABE@#56#.#207#>	-	1
+postfix/cleanup AF64FF2009E : message-id = <20060419125503.AF64FF2009E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ad5c	-	1
+kernel LustreError : <*> : <*> : (lov_obd.c : <*> : lov_disconnect_obd()) Target <*> disconnect error <*>	-	6
+postfix/cleanup 6489C518B5D : message-id = <20060515215021.6489C518B5D@tbird-#206#>	-	1
+postfix/cleanup 2957BF200A2 : message-id = <20060628072245.2957BF200A2@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cef5	-	2
+postfix/cleanup 47972F200A5 : message-id = <20060420144303.47972F200A5@#56#.#207#>	-	1
+postfix/cleanup B20F2F20132 : message-id = <20060410092503.B20F2F20132@#56#.#207#>	-	1
+postfix/cleanup 3041FF200A1 : message-id = <20060412154603.3041FF200A1@#56#.#207#>	-	1
+ib_sm.x [INFO] : Configuration caused by some ports in INIT state	-	15363
+kernel MOSAL(1) : file_pgoff = 0x2d272	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d1c4	-	2
+postfix/cleanup A6EB5F20126 : message-id = <20060426184302.A6EB5F20126@#56#.#207#>	-	1
+rc Stopping postfix : failed	-	2
+kernel MOSAL(1) : file_pgoff = 0xbb4a	-	2
+postfix/cleanup CC82951875C : message-id = <20051112011509.CC82951875C@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : <*> : <*> <*> ae via eth1	-	3
+kernel MOSAL(1) : file_pgoff = 0x15bb3	-	1
+kernel <ffffffff80132afd>{__wake_up_common+67} <ffffffff80132b53>{__wake_up+54}	-	1
+ib_sm.x <*> : <*> : Failed to discover port - GUID = <*> , port = <*>	-	47
+ib_sm [ib_sm_discovery.c : 1050] : _ib_smDiscoverPort(port = 18)	-	24
+postfix/cleanup 9F8A3F2009C : message-id = <20060707104244.9F8A3F2009C@#56#.#207#>	-	1
+netfs Mounting other filesystems : failed	-	899
+umount Perhaps there is a stale lock file?	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a7ef	-	1
+postfix/cleanup EB424864ABE : message-id = <20060707041254.EB424864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1c4cf	-	4
+kernel MOSAL(1) : file_pgoff = 0x29de6	-	1
+kernel = 11824kB	-	1
+kernel MOSAL(1) : file_pgoff = 0x1707d	-	4
+postfix/cleanup 7165C5189CE : message-id = <20060315154929.7165C5189CE@tbird-#206#>	-	1
+in_atomic():0[expected 0] , irqs_disabled() : <*>	-	6
+kernel MOSAL(1) : file_pgoff = 0x13b5e	-	2
+postfix/cleanup D4C2FF200E0 : message-id = <20060423222802.D4C2FF200E0@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d04d	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f256	-	1
+postfix/cleanup 8E000F200A6 : message-id = <20060614120001.8E000F200A6@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d600	-	4
+haldaemon <*> <*> <*>	-	9694
+kernel MOSAL(1) : file_pgoff = 0x9c88	-	1
+kernel MOSAL(1) : file_pgoff = 0xcc9d	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a46b	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d47c	-	11
+kernel MOSAL(1) : file_pgoff = 0x1d734	-	1
+gconfd (#126#-10249) starting (version 2.8.1) , pid <*> user <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a9ff	-	1
+postfix/cleanup EDC0F518A97 : message-id = <20060419031318.EDC0F518A97@tbird-#206#>	-	1
+kernel Lustre : <*> : <*> : (socknal_cb.c : <*> : ksocknal_process_receive()) <*> EOF from <*> ip <*>	-	5
+kernel MOSAL(1) : file_pgoff = 0xe30e	-	1
+RT DBD : : mysql : : st execute failed : Duplicate entry <*> <*> <*> for key <*> at /usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Handle.pm line 492. (/usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Handle.pm : 492)	-	54
+sshd debug1 : restore_uid : (unprivileged)	-	2
+postfix/cleanup 6C85E864ABF : message-id = <20060616194301.6C85E864ABF@#56#.#207#>	-	1
+postfix/cleanup 959AFF200A8 : message-id = <20060605105244.959AFF200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16c86	-	3
+watchd_mgr.x [INFO] : remove appId <*> from watchd list.	-	71
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : de : df : <*> via eth1 : unknown lease <*> .	-	7
+ib_sm.test [INFO] : IB SM worker <*> PID = <*>	-	3
+postfix/cleanup BBF59AC407A : message-id = <20060424202652.BBF59AC407A@tbird-#2124#>	-	1
+postfix/cleanup 49320F200C6 : message-id = <20060423071435.49320F200C6@#56#.#207#>	-	1
+postfix/cleanup 3D9D6F200A2 : message-id = <20060618175300.3D9D6F200A2@#56#.#207#>	-	1
+postfix/cleanup C45EFF20132 : message-id = <20060410213403.C45EFF20132@#56#.#207#>	-	1
+xinetd xinetd startup succeeded	-	4290
+kernel MOSAL(1) : file_pgoff = 0x2d3d5	-	2
+kernel MOSAL(1) : b_eff[4972] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0OSAL(1) : ref_iobuf = <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d7c5	-	3
+postfix/cleanup E0ACB864ABE : message-id = <20060702124811.E0ACB864ABE@#56#.#207#>	-	1
+kernel pan_ips : error -- cmd_destroy : invoking callback on aborted (rc = 0x5 (Out of memory)) command <*>	-	2
+dhcpd DHCPREQUEST for <*> <*> <*> <*> from <*> : <*> : <*> : <*> : <*> <*> <*> via eth1 : unknown lease <*> .	-	2927
+kernel MOSAL(1) : file_pgoff = 0x2d74f	-	2
+postfix/cleanup AF665F20132 : message-id = <20060428170101.AF665F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d6ea	-	1
+postfix/cleanup 580BBF20098 : message-id = <20060623213314.580BBF20098@#56#.#207#>	-	1
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/p_list = 00000101bc168660	-	1
+postfix/cleanup CF0EFF20126 : message-id = <20060405103101.CF0EFF20126@#56#.#207#>	-	1
+panfs mount Directory Caching is turned ON	-	2
+postfix/cleanup AEC7B518437 : message-id = <20051111074511.AEC7B518437@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xdfee	-	1
+kernel MOSAL(1) : file_pgoff = 0x57ca	-	5
+kernel MOSAL(1) : file_pgoff = 0x2d839	-	39
+dhcpd DHCPREQUEST for <*> <*> <*> <*> from <*> : <*> : <*> : <*> : <*> : <*> via <*>	-	9069
+kernel MOSAL(1) : file_pgoff = 0x1f217	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d6bf	-	3
+kernel MOSAL(1) : file_pgoff = 0xcc6d	-	1
+kernel Lustre : <*> : <*> : (linux-debug.c : <*> : libcfs_run_upcall()) Invoked LNET upcall /usr/lib/lustre/lnet_upcall ROUTER_NOTIFY , <*> @tcp , down , <*>	-	7
+postfix/cleanup 26147864ABE : message-id = <20060622171840.26147864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x137f5	-	1
+kernel MOSAL(1) : file_pgoff = 0x154a4	-	15
+kernel Node <*> DMA : <*> <*> 2*16kB 4*32kB 2*64kB 4*128kB 1*256kB 1*512kB 0*1024kB 1*2048kB 2*4096kB <7>Losing some ticks... checking if CPU frequency changed.	-	9
+sshd debug1 : channel <*> : new [server-session]	-	1
+kernel <*> : 0) : avc : denied { search } for pid = <*> comm = ntpdate name = dev dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = dir	-	396
+kernel MOSAL(1) : file_pgoff = 0x8c16	-	1
+kernel MOSAL(1) : file_pgoff = 0x188b7	-	11
+kernel MOSAL(1) : file_pgoff = 0x2cf4a	-	1
+postfix/cleanup DFFD9AC4078 : message-id = <20060502182103.DFFD9AC4078@tbird-#2124#>	-	1
+SysRq  HELP : loglevel0-8 reBoot Crash tErm kIll saK showMem powerOff showPc unRaw Sync showTasks Unmount shoWcpus	-	1
+kernel MOSAL(1) : alegra_3D_alegr[11989] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_iobuf.c : <*> : MOSAL_mlock_iobuf f00000	-	1
+postfix/cleanup 96268F2009E : message-id = <20060420032803.96268F2009E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb676	-	2
+postfix/cleanup 2F8D6519303 : message-id = <20051116154508.2F8D6519303@tbird-#206#>	-	1
+kernel Total HugeTLB memory allocated , <*>	-	4406
+ide Assuming 33MHz system bus speed for PIO modes ; override with idebus = xx	-	5
+ib_sm [INFO] : Cold synchronize guid table	-	47
+kernel MOSAL(1) : file_pgoff = 0x7b49	-	3
+Server Administrator Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : PROC_1 Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value (in Degrees Celsius) : <*>	-	93
+ib_sm [ib_sm_routing.c : 3678] : Program switch <*> : <*> : ad : <*> : <*> : <*> : <*> : <*> LFT OK	-	183
+postfix/cleanup C8365F200A5 : message-id = <20060421041603.C8365F200A5@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x7487	-	1
+kernel Booting processor <*> rip <*> rsp <*>	-	4258
+postfix/cleanup DDCFDAC4073 : message-id = <20060328225226.DDCFDAC4073@tbird-#2124#>	-	1
+kernel <ffffffff80131812>{schedule_tail+55} <ffffffff80110d17>{child_rip+8}	-	4
+postfix/cleanup 20AC35184CF : message-id = <20051111084510.20AC35184CF@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x166bd	-	1
+postfix/cleanup 2B7FF864ABE : message-id = <20060702170824.2B7FF864ABE@#56#.#207#>	-	1
+audit(1142013867.206:0) <*> <*> <*> <*> avc : denied { read write } for pid = <*> comm = ntpdate name = tty dev = ram0 ino = <*> scontext = user_u : system_r : ntpd_t tcontext = system_u : object_r : file_t tclass = chr_file	-	1
+logger Kickstart Install : tbird kernel package	-	425
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[1226] : MOSAL_mlock_iobuf : Failed (MT_EAGAIN) priojects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_iobuf.c : <*> : MOSAL_mlock_iobuf failed - MT_EAGAIN	-	1
+kernel MOSAL(1) : file_pgoff = 0x7970	-	4
+postfix/cleanup 81D0CF200A2 : message-id = <20060708041256.81D0CF200A2@#56#.#207#>	-	1
+postfix/cleanup C1610518995 : message-id = <20060305113319.C1610518995@tbird-#206#>	-	1
+kernel THH(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/tptm.c[1093] : alloc_reg_pages : Out of MTT hh/tptm.c[1093] : alloc_reg_pages : Out of MTT entries	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e3 : ba : cf via eth1 : unknown lease <*> .	-	6
+postfix/cleanup 18402518B9E : message-id = <20060331065427.18402518B9E@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb2d2	-	1
+postfix/cleanup 9FD42AC4071 : message-id = <20060227182358.9FD42AC4071@tbird-#2124#>	-	1
+exportfs exportfs : eadmin1 : /install/speconf	-	2
+postfix/cleanup DA848F20132 : message-id = <20060410204508.DA848F20132@#56#.#207#>	-	1
+snmpd snmpd shutdown failed	-	5
+postfix/cleanup A62A3F200A7 : message-id = <20060414071602.A62A3F200A7@#56#.#207#>	-	1
+kernel netlog : remote port <*>	-	32
+kernel MOSAL(1) : file_pgoff = 0xa547	-	28
+kernel mptbase : ioc0 : IOCStatus(0x0044) : SCSI Data Overrun	-	1
+postfix/cleanup E6127F200A1 : message-id = <20060412104902.E6127F200A1@#56#.#207#>	-	1
+ib_sm.x [INFO] : Configuration caused by discovering new ports	-	782
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/t = 0x1948a	-	1
+kernel MOSAL(1) : file_pgoff = 0x1cb2e	-	1
+kernel MOSAL(1) : file_pgoff = 0x181ae	-	24
+kernel time.c : .c : Lost <*> timer tick(s)! rip __do_softirq+0x4d/0xd0)	-	1
+postfix/cleanup 33E875189F8 : message-id = <20060323014111.33E875189F8@tbird-#206#>	-	1
+postfix/cleanup C7EEEF20134 : message-id = <20060701013807.C7EEEF20134@#56#.#207#>	-	1
+postfix/cleanup D65D45180C1 : message-id = <20051110011508.D65D45180C1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d72c	-	1
+kernel MOSAL(1) : file_pgoff = 0x710c	-	7
+Intel E7520/7320/7525 detected.<6>pci_hotplug PCI Hot Plug PCI Core version : 0.5	-	4
+kernel MOSAL(1) : file_pgoff = 0x11327	-	1
+kernel MOSAL(1) : file_pgoff = 0xed67	-	1
+kernel LustreError : <*> : <*> : (import.c : <*> : ptlrpc_connect_interpret()) <*> changed handle from <*> to <*> ; copying , but this may foreshadow disaster	-	56
+"crond (root) CMD (/apps/contrib/Get_Admin_SELs.sh | mail -s "" Admin Node SELs "" tbird-#214#@#207# 2>&1 > /dev/null)"	-	9
+kernel MOSAL(1) : file_pgoff = 0x16798	-	1
+postfix/cleanup 43483AC4073 : message-id = <20060418224029.43483AC4073@tbird-#2124#>	-	1
+postfix/cleanup 4F271F2009C : message-id = <20060618030255.4F271F2009C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d505	-	3
+postfix/cleanup 47590F200A8 : message-id = <20060625163756.47590F200A8@#56#.#207#>	-	1
+kernel cpu <*> c{child_rip+8} <ffffffffa031f6b0>{ : panfs : pan_sys_thread_launch+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d6a1	-	2
+postfix/cleanup 53952F20132 : message-id = <20060409220102.53952F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d48f	-	3
+kernel <*> : unknown partition table	-	4
+postfix/cleanup 19382518A76 : message-id = <20060414023026.19382518A76@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a9ce	-	2
+kernel Node <*> Normal free : 156016kB min : 2696kB low : 5392kB high4>Node <*> DMA per-cpu :	-	1
+kernel MOSAL(1) : file_pgoff = 0x17485	-	3
+postfix/cleanup 2F17BAC4080 : message-id = <20060510160831.2F17BAC4080@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x5361	-	6
+postfix/cleanup 1ED75AC4074 : message-id = <20060430234242.1ED75AC4074@tbird-#2124#>	-	1
+postfix/cleanup C1D38F20133 : message-id = <20060629003748.C1D38F20133@#56#.#207#>	-	1
+"RT Can't call method "" id "" without a package or object reference at ./test_cc.pl line 11. (/opt/rt3/lib/RT.pm : 295)"	-	1
+postfix/cleanup 7BC70AC4074 : message-id = <20060427173213.7BC70AC4074@tbird-#2124#>	-	1
+sshd(pam_unix) authentication failure ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>	-	9
+postfix/cleanup 5FB12AC4074 : message-id = <20060510160819.5FB12AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d45c	-	1
+kernel <ffffffffa0147f27>{ : mod_vip : VIPKL_destroy_mr_stat+727}	-	1
+kernel MOSAL(1) : file_pgoff = 0x111a7	-	1
+netfs Mounting other filesystems : succeeded	-	3723
+kernel MOSAL(1) : file_pgoff = 0x2d18a	-	1
+postfix/cleanup 5D4B15181D1 : message-id = <20060120172743.5D4B15181D1@tbird-#206#>	-	1
+kernel SELinux : Disabled at runtime.	-	4427
+kernel MOSAL(1) : file_pgoff = 0x1d77b	-	1
+sshd debug3 : channel <*> : status : The following connections are open : \r\n #0 server-session (t4 r0 i3/0 o3/0 fd <*> cfd -1)\r\n	-	2
+portmap <*> <*> <*>	-	6766
+kernel MOSAL(1) : file_pgoff = 0x196b1	-	1
+kernel MOSAL(1) : file_pgoff = 0x55fb	-	16
+wall wall : user root broadcasted <*> lines <*> chars)	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d07a	-	2
+postfix/cleanup 092F4518A28 : message-id = <20060329205857.092F4518A28@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc9e8	-	4
+postfix/cleanup 8D938F200A8 : message-id = <20060416121343.8D938F200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd195	-	3
+kernel MOSAL(1) : file_pgoff = 0x19612	-	9
+kernel MOSAL(1) : b_eff[4863] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linu63	-	1
+kernel MOSAL(1) : file_pgoff = 0x18db5	-	1
+solproxy <*>	-	6
+postfix/cleanup BC576F20132 : message-id = <20060410225802.BC576F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1fc1a	-	4
+kernel CPU : Physical Processor ID : <*>	-	1
+postfix/cleanup 969B5F200A0 : message-id = <20060411135502.969B5F200A0@#56#.#207#>	-	1
+ib_sm.test [INFO] : Configuration caused by discovering new ports	-	1
+kernel md : Autodetecting RAID arrays.	-	5011
+postfix/cleanup A3C79518424 : message-id = <20051111074510.A3C79518424@tbird-#206#>	-	1
+postfix/cleanup 3720EF200A9 : message-id = <20060405161332.33C74F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x19061	-	1
+LustreError Connection to service <*> via nid <*> @vib was lost ; in progress operations using this service #15# wait for recovery to complete.	-	9
+postfix/cleanup 7E12B518E03 : message-id = <20051113064508.7E12B518E03@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd626	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ca : af via eth1 : unknown lease <*> .	-	4
+time.c <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d4aa	-	4
+postfix/cleanup ECD63F20131 : message-id = <20060408013402.ECD63F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d529	-	2
+kernel MOSAL(1) : file_pgoff = 0x12b2c	-	1
+postfix/cleanup E2AC05181D1 : message-id = <20060120130427.E2AC05181D1@tbird-#206#>	-	1
+kernel <ffffffff8015e76b>{kmem_cache_alloc+34} <ffffffff8016cc04>{__get_vm_area+172}	-	2
+kernel MOSAL(1) : file_pgoff = 0x29ed8	-	1
+sshd <*> : flag : no <*>	-	12866
+kernel MOSAL(1) : file_pgoff = 0x1a2d3	-	1
+postfix/cleanup C51CEAC4074 : message-id = <20060420195829.C51CEAC4074@tbird-#2124#>	-	1
+postfix/cleanup D6C30518AB5 : message-id = <20060425012737.D6C30518AB5@tbird-#206#>	-	1
+postfix/cleanup 71823864ABE : message-id = <20060624231805.71823864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x15337	-	3
+postfix/cleanup AA6CC51898B : message-id = <20060303122556.AA6CC51898B@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd689	-	1
+postfix/cleanup BE6733B8003 : message-id = <20060525140000.BE6733B8003@tbird-#2652#>	-	1
+postfix/cleanup 77743F20131 : message-id = <20060406143102.77743F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xf782	-	9
+postfix/cleanup 7BC35F200A0 : message-id = <20060227203005.7BC35F200A0@#56#.#207#>	-	1
+kernel THH(1) : <*> : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/linux_module.c : <*> : Failed creating THH hob for device <*> in index <*>	-	7
+kernel MOSAL(1) : file_pgoff = 0x7d79	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d26d	-	1
+kernel MOSAL(1) : file_pgoff = 0x1adb4	-	5
+ACPI <*> <*> PCI Root Bridge [PCI0] (00 : 00)	-	3
+kernel MOSAL(1) : file_pgoff = 0x13fdd	-	2
+mount mount : RPC : Unable to receive ; errno = Connection reset by peer	-	1
+kernel MOSAL(1) : file_pgoff = 0xc2bf	-	12
+kernel MOSAL(1) : file_pgoff = 0x64f6	-	1
+postfix/cleanup 51BFEF20126 : message-id = <20060426211003.51BFEF20126@#56#.#207#>	-	1
+postfix/cleanup 83B36518E8A : message-id = <20060228000400.83B36518E8A@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ae : fa via eth1 : unknown lease <*> .	-	9
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/failed (-253 : VAPI_EAGAIN)	-	1
+ntpd sendto( <*> ) : Bad file descriptor	-	437
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mos0000000000000	-	1
+RT Deprecated call to Set*. Asset Tracker uses named parameters for Set methods (/opt/rt3/local/lib/RTx/AssetTracker/Asset_Overlay.pm : 1873)	-	2
+kernel MOSAL(1) : file_pgoff = 0x1ae02	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d638	-	15
+MDT %RPM0-P : CP %CHMGR-5-FAN_TRAY_OK : Major alarm cleared : fan tray <*> present	-	1
+kernel MOSAL(1) : file_pgoff = 0x15330	-	1
+postfix/cleanup 8E65751819E : message-id = <20051110224513.8E65751819E@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x406b0	-	1
+postfix/cleanup EF03B864ABE : message-id = <20060621084745.EF03B864ABE@#56#.#207#>	-	1
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src- : ref_iobuf = <*>	-	1
+umount umount : <*> : device is busy	-	70
+kernel pan_ips : error -- IPS command timeout command in progress expire_time = <*> : <*> now = <*> : <*> lifetime = <*> : <*> grace_timeouts = <*> cd = <*> session = <*> (connection info not avail 0x23a5 (pan_sock : socket not connected)) id = <*> : <*> : <*>	-	168
+kernel MOSAL(1) : file_pgoff = 0x11d5d	-	1
+kernel VIPKL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/vip/obj_host_amd64_custom1_rhel4/mod_vip/mmu.c[WRITE	-	1
+postfix/cleanup CDB08F20131 : message-id = <20060407134902.CDB08F20131@#56#.#207#>	-	1
+postfix/cleanup 0182E864ABE : message-id = <20060417221303.0182E864ABE@#56#.#207#>	-	1
+postfix/cleanup 22AE4F200A0 : message-id = <20060411211003.22AE4F200A0@#56#.#207#>	-	1
+postfix/cleanup BFCBA5181D1 : message-id = <20060120181758.BFCBA5181D1@tbird-#206#>	-	1
+postfix/cleanup B1B7AF20099 : message-id = <20060702170332.B1B7AF20099@#56#.#207#>	-	1
+postfix/qmgr warning : you may need to reduce smtp connect and helo timeouts	-	1
+postfix/cleanup 55AF0F2009E : message-id = <20060419092203.55AF0F2009E@#56#.#207#>	-	1
+postfix/cleanup D5498F200A2 : message-id = <20060628224751.D5498F200A2@#56#.#207#>	-	1
+postfix/cleanup 295B3518B62 : message-id = <20060516170423.295B3518B62@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11f03	-	2
+smartd Device : /dev/sda , SMART Failure : LOGICAL UNIT FAILURE PREDICTION THRESHOLD EXCEEDED	-	60
+kernel MOSAL(1) : file_pgoff = 0xc030	-	1
+postfix/cleanup 4581451827A : message-id = <20060217015923.4581451827A@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x19c4d	-	5
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : bc : ce via eth1 : unknown lease <*> .	-	2
+kernel MOSAL(1) : file_pgoff = 0x1103e	-	1
+kernel MOSAL(1) : file_pgoff = 0x9912	-	3
+kernel <ffffffff8013f56b>{process_timeout+0} <ffffffff80188c9b>{do_select+939}	-	2
+kernel MOSAL(1) : file_pgoff = 0x187ce	-	1
+kernel Attached scsi generic <*> at <*> , channel <*> , id <*> , lun <*> , type <*>	-	8637
+postfix/cleanup 0658FAC4078 : message-id = <20060629153934.0658FAC4078@tbird-#2124#>	-	1
+postfix/cleanup 0A1BA51817C : message-id = <20060105151540.0A1BA51817C@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xfe82	-	1
+kernel kjournald(209) : WRITE block <*> on sda3	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d577	-	2
+postfix/cleanup 49FE9F200A9 : message-id = <20060405210702.4682BF20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x172a1	-	2
+kernel MOSAL(1) : file_pgoff = 0x544a	-	1
+kernel MOSAL(1) : file_pgoff = 0x7f9f	-	4
+"gconfd (#2844#-8778) Resolved address "" xml : readonly : <*> "" to a read-only configuration source at position <*>"	-	1
+postfix/cleanup D5C9E780092 : message-id = <20060610100343.D5C9E780092@#819#>	-	1
+httpd httpd shutdown succeeded	-	7
+httpd httpd : Could not determine the server's fully qualified domain name , using <*> for ServerName	-	1
+slot106:10.100.253.132 cme Osa : ADM1024 Error : device <*> reports voltage of Sensor Failure(-1) , target range is <*> - <*> <*>	-	1
+postfix/cleanup 27D58F20131 : message-id = <20060406185101.27D58F20131@#56#.#207#>	-	1
+postfix/cleanup 7C1F2519375 : message-id = <20051116204509.7C1F2519375@tbird-#206#>	-	1
+LustreError <*> : <*> : (client.c : <*> : ptlrpc_check_status()) @@@ type = = PTL_RPC_MSG_ERR , err = = -16 #316#@00000100bfccd200 x7239/t0 o8->#2464#@ca893_UUID : <*> lens 240/272 ref <*> fl Rpc : R/0/50000 rc 0/-16	-	1
+postfix/cleanup 75977F20133 : message-id = <20060628144809.75977F20133@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a1cd	-	1
+kernel <ffffffff8015fa23>{kmem_cache_alloc+90} <ffffffff802a45c3>{alloc_skb+28}	-	20
+postfix/cleanup C5950518FAC : message-id = <20060228000407.C5950518FAC@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cedb	-	2
+dcdbas version magic '2.6.9-34.EL_lustre. <*> smp SMP gcc-3.4' should be '2.6.9-34.EL_lustre. <*> smp SMP gcc-3.3'	-	1
+kernel MOSAL(1) : file_pgoff = 0x1bdab	-	2
+kernel MOSAL(1) : file_pgoff = 0xf8ff	-	1
+postfix/cleanup 3BA9AAC4081 : message-id = <20060406060658.3BA9AAC4081@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xde71	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e258	-	3
+postfix/cleanup 708F4F2012E : message-id = <20060618183308.708F4F2012E@#56#.#207#>	-	1
+postfix/cleanup CFA20AC407D : message-id = <20060228224119.CFA20AC407D@tbird-#2124#>	-	1
+postfix/cleanup 6F817F200A3 : message-id = <20060623180808.6F817F200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x8173	-	2
+mount mount to NFS server <*> failed : server is down.	-	39
+postfix/cleanup 293ADF20131 : message-id = <20060625155257.293ADF20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xf1b0	-	3
+postfix/cleanup D9ECF101E5D : message-id = <20060119110203.D9ECF101E5D@#1088#>	-	1
+postfix/cleanup 4B2B6F200A3 : message-id = <20060704130252.4B2B6F200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xf303	-	1
+kernel <*> : <*> : Unknown cmd <*> <*> <*> on <*>	-	221
+kernel MOSAL(1) : file_pgoff = 0x12bea	-	2
+cpu 0 hot <*> <*> <*> , high <*> , batch <*>	-	60
+ib_sm [ib_sm_assign.c : 635] : Clean up SA resources for port forced down due to LID conflict , node - GUID = <*> : <*> : ad : <*> : <*> : <*> : <*> : <*> , port = <*>	-	6
+kernel MOSAL(1) : file_pgoff = 0x2d5ce	-	2
+kernel THH(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/cmdif.c[212] : Failed command 0x24 (TAVOR_IF_CMD_MAD_IFC) : status = 0x30 (IF_CMD_STAT_BAD_PKT - Bad management packet (silently discarded))	-	36
+kernel Swap cache : add <*> , delet<4>Node <*> DMA per-cpu :	-	1
+kernel LustreError : Connection to <*> @tcp at host <*> on port <*> was refused : check that Lustre is running on that node.	-	51
+postfix/cleanup 476D1518A4D : message-id = <20060407010758.476D1518A4D@tbird-#206#>	-	1
+ib_sm.working [INFO] : route program elapsed time = 2706366usec	-	1
+kernel MOSAL(1) : file_pgoff = 0x6882	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a72a	-	1
+postfix/cleanup 769D65181D1 : message-id = <20060120203546.769D65181D1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a265	-	1
+kernel Lustre : <*> : <*> : (socklnd.c : <*> : ksocknal_shutdown()) waiting for <*> peers to disconnect	-	29
+kernel Free swap : <*>	-	2920
+kernel <*> pages sharedt : low <*> , high <*> , batch <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d58a	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d381	-	1
+kernel MOSAL(1) : file_pgoff = 0x18cb6	-	4
+kernel MOSAL(1) : file_pgoff = 0xcd97	-	1
+omsad32 <*> <*> <*>	-	1
+crond (root) CMD (/home/#126#/bin/find_users_without_scratch3.rb 2>&1)	-	6
+postfix/cleanup 92ADCF200A0 : message-id = <20060411083402.92ADCF200A0@#56#.#207#>	-	1
+kernel <*> <*> <*> <*> initialised : <*>	-	4361
+sshd <*> : authentication fails for <*> <*> : Authentication failure (Preauthentication failed)	-	11
+postfix/cleanup 03EDD518EBD : message-id = <20051113151509.03EDD518EBD@tbird-#206#>	-	1
+postfix/cleanup 06B855184A7 : message-id = <20051111081509.06B855184A7@tbird-#206#>	-	1
+postfix/cleanup CBDA6F20099 : message-id = <20060703005748.CBDA6F20099@#56#.#207#>	-	1
+postfix/cleanup 207D6AC4078 : message-id = <20060607201627.207D6AC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_aOSAL(1) : file_pgoff = 0x11371	-	1
+-- #26# LOGIN ON tty1 BY #26#	-	3
+kernel MOSAL(1) : file_pgoff = 0x9cf7	-	1
+kernel MOSAL(1) : file_pgoff = 0xd0e8	-	1
+pbs_mom Operation now in progress (115) in obit_reply , DIS_reply_read failed , rc = <*> sock = <*>	-	43
+kernel MOSAL(1) : file_pgoff = 0x108f6	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d337	-	3
+postfix/cleanup 56A5DAC407B : message-id = <20060501194204.56A5DAC407B@tbird-#2124#>	-	1
+postfix/cleanup 5CBE678008F : message-id = <20060316110343.5CBE678008F@#819#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x305fc	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d5c9	-	42
+kernel MOSAL(1) : file_pgoff = 0xc5ff	-	4
+slot101:10.100.253.143 AvpdWorker AVpd : Invalid or corrupt Switch Firmware found	-	2
+postfix/cleanup BA9E1F20126 : message-id = <20060404135911.BA9E1F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xdfa7	-	1
+kernel <ffffffff802c9f4d>{tcp_sendmsg+363} <ffffffff802cb7a8>{tcp_recvmsg+1798}	-	10
+kernel MOSAL(1) : file_pgoff = 0x2d710	-	1
+kernel pan_ips : error -- cmd_destroy : destroying aborted (rc = 0x23a1 (pan_sock : timeout)) command <*> (0 : <*> : <*>	-	2
+postfix/cleanup 5D67F864ABE : message-id = <20060623195816.5D67F864ABE@#56#.#207#>	-	1
+postfix/cleanup A9416AC4074 : message-id = <20060503213926.A9416AC4074@tbird-#2124#>	-	1
+postfix/cleanup 3BA185191CD : message-id = <20051114094511.3BA185191CD@tbird-#206#>	-	1
+ib_sm [ib_sm_discovery.c : 1536] : ---- node <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> is a switch <*> <*>	-	2256
+ib_sm [INFO] : Program switch port state to down , node = <*> , port = <*> , due to non-responding CA	-	9
+hal.hotplug DEVPATH is not set	-	54
+kernel MOSAL(1) : file_pgoff = 0x150c6	-	5
+mount pan_kernel : expected release : <*> release is : <*> <*> <*>	-	340
+postfix/cleanup 9532D518B56 : message-id = <20060515205040.9532D518B56@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1933b	-	1
+sshd auths-pam : PAM subprocess returned packet SSH_PAM_OP_ERROR. (err_num : <*> , err_msg : Authentication failure)	-	23
+postfix/cleanup DA80DF200A0 : message-id = <20060411223102.DA80DF200A0@#56#.#207#>	-	1
+smartd Unable to register device /dev/sda (no Directive -d removable). Exiting.	-	351
+kernel MOSAL(1) : file_pgoff = 0x2d662	-	22
+sshd Remote host disconnected : Disconnect requested by Windows SSH Client.	-	7
+postfix/cleanup 280CBF200A9 : message-id = <20060416191603.280CBF200A9@#56#.#207#>	-	1
+fsck [/sbin/fsck.ext3 (1) -- /tmp] fsck.ext3 -a /dev/sda6	-	2608
+kernel <ffffffff802c519a>{ip_finish_output+356} <ffffffff802c55d6>{ip_queue_xmit+951}	-	3
+RT Test4 (/opt/rt3/lib/RT.pm : 289)	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d79e	-	5
+smartd smartd version 5.33 [x86_64-redhat-linux-gnu] Copyright (C) 2002-4 Bruce Allen	-	4076
+ib_sm [ib_sm_util.c : 641] : Skipping programming port HOQLife : node = <*> : <*> : ad : <*> : <*> : <*> : <*> <*> ab , port = <*> , cache-val = <*>	-	12
+kernel MOSAL(1) : file_pgoff = 0x2cfd7	-	1
+kernel MOSAL(1) : file_pgoff = 0x110aa	-	1
+postfix/cleanup 5940DAC40B1 : message-id = <20060501020243.5940DAC40B1@tbird-#2124#>	-	1
+slot106:10.100.253.133 ibstatmon Ism : MAD Send Get Port Info Failed for : Spine <*> (port <*>	-	21
+postfix/cleanup 14F20AC421C : message-id = <20060516041537.14F20AC421C@tbird-#2124#>	-	1
+kernel sam raid obsd error on setattr : local_status 0x7e9 (RPC : No response within the timeout period) , obsd_error 0x0 (Success) virtual object <*> index <*> , stor_op <*> , component device <*>	-	25
+kernel MOSAL(1) : file_pgoff = 0x19469	-	3
+postfix/cleanup 48035109D17 : message-id = <20060119110206.37CC5109D14@#1508#>	-	1
+ib_sm.working [INFO] : multicast route program elapsed time = 236037usec	-	1
+postfix/cleanup AE5B4F200A2 : message-id = <20060708180752.AE5B4F200A2@#56#.#207#>	-	1
+kernel <*> <*> <*> <*> no	-	91846
+kernel MOSAL(1) : file_pgoff = 0x2d475	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cfb0	-	16
+kernel MOSAL(1) : file_pgoff = 0x19af8	-	20
+postfix/cleanup 944C3864ABE : message-id = <20060616144601.944C3864ABE@#56#.#207#>	-	1
+CROND (root) CMD (/home/#26#/cisco/crtoolkit/bin/new/make_fabric_map > /tmp/fabric_map.`date` ; /bin/mv /tmp/fabric_map.`date` /home/#26#/cisco/data/static_info/fabric_map)	-	6
+postfix/cleanup A2414EE182 : message-id = <20060119110205.A2414EE182@#1351#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1be43	-	47
+postfix/cleanup B1D175193BD : message-id = <20051117004508.B1D175193BD@tbird-#206#>	-	1
+postfix/cleanup 4AF48780076 : message-id = <20060508100335.44BE3780092@#819#>	-	1
+kernel BIOS-e820 : 00000000fee00000 - 00000000fee10000 (reserved)	-	4549
+kernel MOSAL(1) : file_pgoff = 0xd076	-	1
+kernel MOSAL(1) : file_pgoff = 0x1c6af	-	1
+postfix/cleanup 217B3F200A7 : message-id = <20060413165605.217B3F200A7@#56#.#207#>	-	1
+ib_sm [ib_sm_multicast.c : 858] : Program switch = <*> : <*> : ad : <*> : <*> : <*> : <*> <*> ae MFT to zero OK	-	6
+kernel MOSAL(1) : file_pgoff = 0x1a17d	-	1
+kernel pan_sam : <*> : unable to report I/O error(s) to SM 0x020038da11df0002(SM) : 0x1072 (SM : object not found)	-	65
+postfix/cleanup EFEDFF2009E : message-id = <20060419080744.EFEDFF2009E@#56#.#207#>	-	1
+postfix/cleanup C5DD0F200A9 : message-id = <20060619101247.C5DD0F200A9@#56#.#207#>	-	1
+ib_sm.test [INFO] : Cold synchronize partition port table	-	1
+ib_sm [ib_sm_sweep.c : 144] : A new IB node <*> : <*> : 6a : <*> : <*> : <*> : <*> : fe was discovered and assigned LID <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x131ba	-	1
+ib_sm [ib_sm_sweep.c : 1297] : Always rediscover because slave	-	10
+SELinux Disabled at runtime.	-	2
+postfix/cleanup 40740AC4078 : message-id = <20060628220324.40740AC4078@tbird-#2124#>	-	1
+postfix/cleanup 73E79F2012E : message-id = <20060624145754.73E79F2012E@#56#.#207#>	-	1
+kernel PCI : Probing PCI hardware (bus 00)	-	4342
+distccd cc <*> on localhost completed ok	-	14
+dhcpd DHCPREQUEST for <*> <*> <*> <*> from <*> : <*> : <*> : <*> : <*> <*> <*> via eth1	-	866
+postfix/cleanup 5352EF20126 : message-id = <20060424092503.5352EF20126@#56#.#207#>	-	1
+kernel MOSAL(1) : presto_dp_opt_t[31497] : mnt_projects/sysapps/src/ib/tops12	-	2
+postfix/cleanup F327EAC407A : message-id = <20060512013117.F327EAC407A@tbird-#2124#>	-	1
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[290]failed (-253 : VAPI_EAGAIN)	-	1
+sshd debug2 : set_newkeys : mode <*>	-	3
+postfix/cleanup B8C41AC4074 : message-id = <20060420193456.B8C41AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x65cc	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d65a	-	1
+kernel MOSAL(1) : file_pgoff = 0xcdcb	-	43
+ib_sm.working [INFO] : <*> event loop terminated	-	1
+kernel MOSAL(1) : file_pgoff = 0x5534	-	1
+postfix/cleanup F32D2F20132 : message-id = <20060428134904.F32D2F20132@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x14052	-	2
+postfix/cleanup 86C3B518F63 : message-id = <20051113154711.86C3B518F63@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : bc : ec via eth1	-	5
+sshd <*> : created v5 ccache <*> for <*>	-	421
+kernel <*> <*> <*> = READ	-	1575
+postfix/cleanup 8B94AB2AD5 : message-id = <20060119110203.80FC0B2AD2@#1226#>	-	1
+postfix/cleanup 082C8AC409B : message-id = <20060430172539.082C8AC409B@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x7f9c	-	3
+spsetup.sh Package Release ID = R109030 Package Description = Dell Server System BIOS , A04 Support Log path = /var/log/#26#/updatepackage/log/support/R109030.log	-	396
+postfix/cleanup 01B16F20133 : message-id = <20060629181313.01B16F20133@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d770	-	1
+postfix/cleanup 13F83518347 : message-id = <20051111071858.13F83518347@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d289	-	2
+kernel MOSAL(1) : file_pgoff = 0x166cb	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d67a	-	1
+Dquot-cache hash table entries <*> (order <*> , <*> bytes)	-	4
+kernel mptscsih : ioc0 : attempting task abort! (sc = <*>	MPT	4805
+kernel MOSAL(1) : file_pgoff = 0x135d5	-	3
+postfix/cleanup A275CF200A7 : message-id = <20060521172926.A275CF200A7@#56#.#207#>	-	1
+postfix/cleanup 2312AAC4074 : message-id = <20060501001042.2312AAC4074@tbird-#2124#>	-	1
+kernel THH(1) : <*> : rc = <*>	-	182348
+kernel MOSAL(1) : file_pgoff = 0x1f880	-	43
+kernel MOSAL(1) : file_pgoff = 0x140d8	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d950	-	34
+kernel MOSAL(1) : file_pgoff = 0x2d071	-	1
+sshd <*> : authentication fails for <*> <*> : Authentication failure ( <*> rypt integrity check failed)	-	37
+kernel <*> <*> 00000101bf123d38 <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d6ab	-	5
+postfix/cleanup 7BB66F2012C : message-id = <20060618070601.7BB66F2012C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x96ed	-	2
+modprobe WARNING : Error inserting mdc (/lib/modules/2.6.9-34.EL_lustre. <*> smp/kernel/fs/lustre/mdc.ko) : Unknown symbol in module , or unknown parameter (see dmesg)	-	1
+fs_client <*> <*> Umounting panfs ...	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d765	-	1
+distccd (dcc_check_client) ERROR : connection denied by access list	-	1
+postfix/cleanup B6092F20134 : message-id = <20060331224505.B6092F20134@#56#.#207#>	-	1
+postfix/cleanup 5467E5181D1 : message-id = <20060120140241.5467E5181D1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d580	-	1
+ib_sm [ib_sm_util.c : 641] : Skipping programming port HOQLife : node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , port = <*> , cache-val = <*>	-	1034
+Server Administrator Instrumentation Service EventID : <*> Voltage sensor detected a failure value Sensor location : BMC ROMB Battery Chassis location : Main System Chassis Previous state was : OK (Normal) Discrete voltage state : Bad	-	75
+postfix/cleanup 48702F20097 : message-id = <20060701180255.48702F20097@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11791	-	1
+postfix/cleanup 76471F20131 : message-id = <20060427030104.76471F20131@#56#.#207#>	-	1
+postfix/cleanup B9A2BF2009C : message-id = <20060707181246.B9A2BF2009C@#56#.#207#>	-	1
+postfix/cleanup 837CC51937F : message-id = <20051116221506.837CC51937F@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1431a	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d4f4	-	11
+kernel MOSAL(1) : file_pgoff = 0x2d2c8	-	1
+postfix/cleanup 34F91F20131 : message-id = <20060610173749.34F91F20131@#56#.#207#>	-	1
+kernel fs_client : end_write_length > pannode->attribs.cached_length (349060 > 331132)	-	1
+postfix/cleanup F3C13F20126 : message-id = <20060405013402.F3C13F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x188ff	-	2
+kernel MOSAL(1) : file_pgoff = 0x112d0	-	2
+"ntpd configure : keyword "" authenticate "" unknown , line ignored"	-	2700
+kernel MOSAL(1) : file_pgoff = 0x1f29c	-	1
+postfix/cleanup 197FAF200A8 : message-id = <20060709043749.197FAF200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : alegra_3D_alegr[le_pgoff = 0x1d5cf	-	1
+RBP 00000100bffb2030 R08 : 000001000bf64000 R09 : <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0xafa0	-	381
+kernel MOSAL(1) : file_pgoff = 0x11c61	-	2
+kernel MOSAL(1) : file_pgoff = 0x1cc69	-	1
+postfix/cleanup 71EBEF20133 : message-id = <20060626131246.71EBEF20133@#56#.#207#>	-	1
+postfix/cleanup BD44BF200A8 : message-id = <20060706211248.BD44BF200A8@#56#.#207#>	-	1
+/usr/sbin/gmetad data_thread() got not answer from any [ <*> <*> datasource	-	26886
+kernel 00000101b7709d78 <*> <*> 000000000000008a	-	1
+kernel <ffffffff8015f9b3>{__kmalloc+123} <ffffffff802a45e8>{alloc_skb+65}	-	172
+postfix/cleanup F19D8518995 : message-id = <20060305113524.F19D8518995@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xb7aa	-	1
+postfix/cleanup 87A12F2012E : message-id = <20060623031758.87A12F2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10170	-	1
+kernel <ffffffff8018c471>{dput+56} <ffffffff80110056>{system_call+126}	-	2
+kernel MOSAL(1) : file_pgoff = 0x1a6c6	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d5cb	-	14
+kernel MOSAL(1) : file_pgoff = 0x2d056	-	1
+postfix/cleanup E9B79F20131 : message-id = <20060407005802.E9B79F20131@#56#.#207#>	-	1
+cli.x [CONF] : [super] : copy running-config config : startup-config	-	4367
+kernel MOSAL(1) : file_pgoff = 0xa468	-	1
+postfix/cleanup 74A30F20134 : message-id = <20060511100233.74A30F20134@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d32d	-	1
+postfix/cleanup 8F425864ABE : message-id = <20060418013102.8F425864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x111a8	-	1
+kernel ACPI wakeup devices :	-	4393
+ntpd Unable to listen for broadcasts , no broadcast interfaces available	-	1
+kernel MOSAL(1) : file_pgoff = 0x14d4e	-	1
+kernel MOSAL(1) : file_pgoff = 0xb2ba	-	1
+postfix/cleanup BA51D518A54 : message-id = <20060331224628.BA51D518A54@tbird-#206#>	-	1
+postfix/cleanup 3F479AC4080 : message-id = <20060420195950.3F479AC4080@tbird-#2124#>	-	1
+kernel netconsole : local IP <*>	-	32
+syslog-ng <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	8
+login <*> : no v5 creds for user <*> , skipping session setup	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a3af	-	1
+postfix/cleanup C47BA5181D1 : message-id = <20060120213104.C47BA5181D1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc46d	-	3
+postfix/cleanup 87F5FF200A5 : message-id = <20060421173404.87F5FF200A5@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f069	-	1
+kernel MOSAL(1) : file_pgoff = 0x13005	-	1
+postfix/cleanup 111FFAC4074 : message-id = <20060430155355.111FFAC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a891	-	1
+kernel MOSAL(1) : file_pgoff = 0x1100c	-	14
+kernel MOSAL(1) : file_pgoff = 0x2d448	-	7
+scsi0  LSI Logic MegaRAID driver	-	4
+postfix/cleanup 82E32F200A0 : message-id = <20060411082202.82E32F200A0@#56#.#207#>	-	1
+sshd Accepted publickey for <*> from <*> port <*> ssh2	-	1581
+logger Kickstart : setup soft links and NFS mounts	-	472
+kernel MOSAL(1) : file_pgoff = 0x9e0b	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a1e8	-	1
+dhcpd DHCPOFFER on <*> to <*> : <*> : <*> : <*> <*> <*> <*> <*> via eth1	-	1258
+kernel kpanfs_thpool : page allocation fa	-	1
+kernel CPU <*> (0x0000) enabledProcessor #0 Unknown CPU [15 : 4] APIC version <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d511	-	5
+kernel MOSAL(1) : file_pgoff = 0x18fed	-	1
+kernel MOSAL(1) : alegra_3D_alegr[12465] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/AB3000size = 0x27000	-	1
+kernel Call Trace : <ffffffff8015c61c>{__all low <*> , high <*> , batch <*>	-	1
+logger Kickstart : convert to static ip on boot	-	168
+postfix/cleanup EC2EF864ABE : message-id = <20060621072840.EC2EF864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d527	-	1
+kernel MOSAL(1) : file_pgoff = 0xc771	-	1
+kernel MOSAL(1) : file_pgoff = 0x15dad	-	1
+Node 0 Normal 0*4kB 13*8kB 27*16kB 0*32kB 1*64kB 4*128kB 9*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3416kB	-	2
+kernel MOSAL(1) : file_pgoff = 0xc8ff	-	1
+kernel MOSAL(1) : file_pgoff = 0xc36e	-	1
+sshd debug1 : Received some client credentials	-	1
+postfix/cleanup 4EAA8518A40 : message-id = <20060404233338.4EAA8518A40@tbird-#206#>	-	1
+kernel time.c : Lost <*> timer tick(s)! rip __do_softirq+0x4d/0xd0t <*> timer tick(s)! rip __do_softirq+0x4d/0xd0)	-	1
+ib_sm <*> : <*> port <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d2ed	-	5
+smartd <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	20
+kernel MOSAL(1) : file_pgoff = 0x16685	-	1
+kudzu Run '/usr/sbin/kudzu' from the command line to re-detect.	-	1
+kernel MOSAL(1) : file_pgoff = 0xb248	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ce3c	-	40
+kernel <*> <*> cold : low <*> , high <*> , batch <*>	-	10
+kernel MOSAL(1) : file_pgoff = 0x2cf61	-	1
+kernel MOSAL(1) : file_pgoff = 0x110b4	-	1
+kernel MOSAL(1) : file_pgoff = 0xa473	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a36c	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5e9	-	3
+postfix/cleanup 33972F20134 : message-id = <20060701043755.33972F20134@#56#.#207#>	-	1
+kernel mptscsih : ioc0 : target reset : SUCCESS (sc = <*>	-	3
+postfix/cleanup 06F49F200A2 : message-id = <20060628205252.06F49F200A2@#56#.#207#>	-	1
+kernel loop : loaded (max <*> devices)	-	1
+kernel MOSAL(1) : file_pgoff = 0xc912	-	1
+kernel MOSAL(1) : file_pgoff = 0x9dc4	-	5
+kernel MOSAL(1) : file_pgoff = 0xad34	-	2
+postfix/cleanup 50160F200A2 : message-id = <20060628193303.50160F200A2@#56#.#207#>	-	1
+postfix/cleanup BD608AC408F : message-id = <20060510153124.BD608AC408F@tbird-#2124#>	-	1
+crond (root) CMD (/projects/etc/update_eshpc.sh > eshpc.log 2>&1)	-	1
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[1226] : MOSAL_mlock_iobuf : Failed (MT_EAGAIN) priv_mosal_mlock for addrm = READ	-	1
+ # lines preceded by a '#' are comments	-	2
+postfix/cleanup 57BC0518DCE : message-id = <20051113061509.57BC0518DCE@tbird-#206#>	-	1
+postfix/cleanup B0CF4518E51 : message-id = <20051113134508.B0CF4518E51@tbird-#206#>	-	1
+chassis_mgr.x [ERROR] : Power Supply <*> Seeprom - address 0x50 (controller <*> , muxselect = <*> not responding	-	1
+mount mount.panfs : started PanFS device [panfs : <*>	-	3289
+postfix/cleanup EFB0DF2012E : message-id = <20060621054251.EFB0DF2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d1c2	-	2
+postfix/cleanup 52A7B7F417B : message-id = <20060615100203.4C0427F428F@#2116#.#207#>	-	1
+kernel Node <*> Normal : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , high <*> , batch <*>	-	2
+kernel <*> used by override.	-	12194
+postfix/cleanup 5F862518AED : message-id = <20051112154510.5F862518AED@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d61e	-	2
+kernel MOSAL(1) : file_pgoff = 0x8aba	-	1
+kernel MOSAL(1) : file_pgoff = 0xbf5f	-	1
+kernel THH(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/tptm.c[263] : reserve_mtt_segs : Cannot reserve <*> MTT segments VIPKL(1) : [MM_create_mr] : MM_mr_get_keys failed	-	1
+postfix/cleanup E8800518D39 : message-id = <20051113051505.E8800518D39@tbird-#206#>	-	1
+ib_sm.x [ib_sm_assign.c : 615] : Clean up SA resources for port forced down due to LID conflict , node - GUID = <*> , port = <*>	-	57
+postfix/cleanup 76C23AC4078 : message-id = <20060424223314.76C23AC4078@tbird-#2124#>	-	1
+postfix/cleanup 3A210F2009E : message-id = <20060501074747.3A210F2009E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d616	-	1
+kernel MOSAL(1) : file_pgoff = 0x12076	-	2
+pbs_mom No child processes (10) in is_update_stat , cannot specify protocol to tbird-admin2	-	19
+kernel MOSAL(1) : file_pgoff = 0x1cc7c	-	1
+fsck orphaned inode <*> (uid = <*> , gid = <*> , mode = <*> , size = <*>	-	5
+postfix/cleanup E668FF20126 : message-id = <20060405111902.E668FF20126@#56#.#207#>	-	1
+pam_limits reading settings from '/etc/security/limits.conf'	-	17
+ib_sm [ib_sm_bringup.c : <*> : Force neighbor port (node = <*> , port = <*> , state = <*> to DOWN because (1) 1st sweep or (2) role change.	-	3261
+kernel MOSAL(1) : file_pgoff = 0x11236	-	1
+kernel MOSAL(1) : file_pgoff = 0xa59b	-	10
+postfix/cleanup B0430AC4074 : message-id = <20060424223324.B0430AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cf1d	-	1
+kernel LustreError : <*> : <*> : (events.c : <*> : request_out_callback()) @@@ type <*> , status <*> <*> <*> <*> : <*> lens <*> ref <*> fl Complete : <*> rc <*>	-	296
+kernel MOSAL(1) : file_pgoff = 0xf51b	-	10
+kernel MOSAL(1) : file_pgoff = 0x2d190	-	1
+slot101:10.100.253.146 plugnplay Osa : MAX7311 : getPortValue failed port = <*> location = <*> ra = <*>	-	1
+postfix/cleanup 3974CF200A8 : message-id = <20060416084603.3974CF200A8@#56#.#207#>	-	1
+kernel Initializing RT netlink socket	-	1
+postfix/cleanup ABB31F20131 : message-id = <20060626230244.ABB31F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x19e83	-	18
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e7 : af : de via eth1 : unknown lease <*> .	-	8
+kernel MOSAL(1) : file_pgoff = 0x2d472	-	1
+postfix/cleanup C7424F20126 : message-id = <20060426004003.C7424F20126@#56#.#207#>	-	1
+ib_sm [INFO] : IB SM Heartbeat PID = <*>	-	2
+kernel MOSAL(1) : file_pgoff = 0x12f91	-	1
+ib_sm.x [ib_sm_assign.c : <*> : Set LID failed because NO RESPONSE	-	6
+kernel MOSAL(1) : file_pgoff = 0x155d6	-	27
+kernel <*> <*> Umounting panfs ...	-	3014
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/top8cb77780	-	1
+Warning <*> <*> <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x65be	-	1
+kernel MOSAL(1) : file_pgoff = 0x10bef	-	5
+kernel <ffffffff80110ca7>{child_rip+8} <ffffffffa010fd50>{ : mlxsys : ThreadProc+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0x14da4	-	1
+chsh <*> : ticket lifetime : <*>	-	3
+kernel time.c : Using HPET/TSC based timekeeping.	-	108
+kernel MOSAL(1) : file_pgoff = 0xb447	-	62
+sshd PAM unable to dlopen(<*unknown module path*>)	-	2
+kernel MOSAL(1) : file_pgoff = 0xed5a	-	1
+postfix/cleanup 22509AC407A : message-id = <20060512183542.22509AC407A@tbird-#2124#>	-	1
+sshd debug3 : channel <*> : #15# not send data after close	-	2
+postfix/cleanup 84864F200A0 : message-id = <20060411102503.84864F200A0@#56#.#207#>	-	1
+postfix/cleanup 068D3864ABE : message-id = <20060415044903.068D3864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x75db	-	1
+kernel MOSAL(1) : file_pgoff = 0x17d74	-	1
+postfix/cleanup 1AB61864ABE : message-id = <20060616195308.1AB61864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x9d7c	-	1
+kernel MOSAL(1) : file_pgoff = 0x19333	-	1
+kernel rpc.statd S <*> <*> <*> <*> <*> <*> (NOTLB)	-	1
+kernel MOSAL(1) : file_pgoff = 0xee11	-	1
+kernel MOSAL(1) : file_pgoff = 0x1594e	-	2
+LustreError <*> <*> <*> <*> <*> <*> <*> <*> <*> Skipped <*> previous similar messages	-	25
+kernel MOSAL(1) : file_pgoff = 0xbe11	-	1
+postfix/cleanup 438FF864ABF : message-id = <20060418135749.438FF864ABF@#56#.#207#>	-	1
+postfix/cleanup E02C151898F : message-id = <20060303122715.E02C151898F@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11b9c	-	1
+"kernel Mellanox Tavor Device Driver is creating device "" InfiniHost0 "" (domain = <*> , bus = <*> , devfn = 00)"	-	4106
+kernel MOSAL(1) : file_pgoff = 0x18a47	-	1
+ib_sm <*> : <*> : Failed to discover port - GUID = <*> , port = <*>	-	268
+kernel MOSAL(1) : file_pgoff = 0x1e252	-	2
+megaraid cmm <*> (Release Date : <*> <*> EST 2005)	-	4
+pbs_mom System error : (15010) in <*> , job_start_error from node <*> in job_start_error	-	189
+sshd connection lost : 'Connection closed.'	-	77027
+postfix/cleanup 15542AC4074 : message-id = <20060430155255.15542AC4074@tbird-#2124#>	-	1
+kernel divert : not allocating divert_blk for non-ethernet device sit0	-	4427
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16(1) : map_list = 00000101a52a58e0	-	1
+kernel MOSAL(1) : file_pgoff = 0xa0ed	-	1
+sshd debug2 : monitor_read : <*> used once , disabling now	-	3
+kernel MOSAL(1) : file_pgoff = 0xe569	-	3
+kernel MOSAL(1) : file_pgoff = 0x996d	-	1
+nfs <*> <*> <*>	-	73
+kernel MOSAL(1) : file_pgoff = 0x1d4f0	-	3
+postfix/cleanup 32264AC4073 : message-id = <20060322180236.32264AC4073@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d3a2	-	7
+kernel MOSAL(1) : file_pgoff = 0x113a3	-	2
+kernel MOSAL(1) : file_pgoff = 0x1d57a	-	65
+postfix/cleanup 9D855F2013A : message-id = <20060515215018.9D855F2013A@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f247	-	1
+kernel MOSAL(1) : file_pgoff = 0xbf18	-	1
+postfix/cleanup D2339864ABE : message-id = <20060701040326.D2339864ABE@#56#.#207#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ae : be via eth1 : unknown lease <*> .	-	6
+kernel MOSAL(1) : file_pgoff = 0x1ef2d	-	1
+kernel fs_client_llapi_io_write : Failed to get a write_hint cap for dribble mode , line : <*> , error : 0x1a30 (fs client : Interrupted system call).	-	4
+postfix/cleanup A779B518A30 : message-id = <20060331164129.A779B518A30@tbird-#206#>	-	1
+logger Kickstart Install : Dell OMSA Package	-	432
+kernel RSD PTR v0 [DELL ]	-	1
+kernel MOSAL(1) : file_pgoff = 0x74e2	-	1
+postfix/cleanup B218DAC4078 : message-id = <20060630163224.B218DAC4078@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x568	-	972
+postfix/cleanup 6FD315189F8 : message-id = <20060228000216.6FD315189F8@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16bd2	-	1
+kernel MOSAL(1) : file_pgoff = 0x14ee5	-	2
+kernel MOSAL(1) : file_pgoff = 0x1d362	-	27
+kernel MOSAL(1) : file_pgoff = 0x2cff3	-	1
+postfix/cleanup 1A75251819A : message-id = <20060111171907.1A75251819A@tbird-#206#>	-	1
+instsvcdrv dcdipm device driver loaded	-	4587
+postfix/cleanup ED28DAC408B : message-id = <20060502191927.ED28DAC408B@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29ee1	-	9
+ifup Determining IP information for eth0...	-	323
+kernel <ffffffff801762f9>{get_unused_fd+230} <ffffffff801763e8>{sys_open+57}	-	1
+ib_sm [INFO] : Cold synchronize partition key table	-	48
+kernel MOSAL(1) : file_pgoff = 0x1d564	-	30
+kernel MOSAL(1) : file_pgoff = 0x84b4	-	1
+ACPI Local APIC address 0xfee00000	-	2
+kernel MOSAL(1) : file_pgoff = 0xde74	-	2
+kernel MOSAL(1) : file_pgoff = 0x1a25c	-	2
+kernel kpanfs_thpotch <*>	-	1
+kernel Evaluate _OSC Set fails. Status = 0x0005	-	904
+kernel MOSAL(1) : file_pgoff = 0xa16e	-	2
+smokeping FPing : probing <*> targets with step <*> s and offset <*> s.	-	5
+kernel MOSAL(1) : file_pgoff = 0x17c6b	-	1
+postfix/cleanup F00A7F200A9 : message-id = <20060422194603.F00A7F200A9@#56#.#207#>	-	1
+postfix/cleanup 7682B51936E : message-id = <20051116202950.7682B51936E@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x8b31	-	1
+kernel Using ACPI (MADT) for SMP configuration information	-	4371
+kernel 30837s : pan_sock_sys_socket_create_type+164}	-	1
+sshd Failed password for illegal user #2846# from <*> port <*> ssh2	-	1
+postfix/cleanup 2748DF20126 : message-id = <20060425113705.2748DF20126@#56#.#207#>	-	1
+kernel EXT3-fs error (device <*> : ext3_journal_start_sb : Detected aborted journal	EXT_FS	187
+postfix/cleanup B59CBAC4089 : message-id = <20060501020242.B59CBAC4089@tbird-#2124#>	-	1
+kernel <*> 00000101b27a7030 <*> 000001000725d940	-	1
+kernel MOSAL(1) : file_pgoff = 0x29ec1	-	8
+postfix/cleanup 3EA2BAC40DB : message-id = <20060510153123.3EA2BAC40DB@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xa1f0	-	6
+crontab <*> END EDIT <*>	-	14
+kernel sam raid obsd error on read : local_status 0x0 (Success) , obsd_error 0x63b (OBSD : Capability has expired) virtual object <*> index <*> , stor_op <*> , component device <*>	-	72
+kernel MOSAL(1) : file_pgoff = 0x1ef37	-	1
+kernel MOSAL(1) : file_pgoff = 0x15de6	-	4
+smokeping Calling RRDs : : create(/home/#26#/smokeping-2.0.7/etc/var/tbirdasection/an1024.rrd --step <*> DS : uptime : GAUGE : <*> : <*> : U DS : loss : GAUGE : <*> : <*> : <*> DS : median : GAUGE : <*> : <*> : <*> DS : ping1 : GAUGE : <*> : <*> : <*> DS : ping2 : GAUGE : <*> : <*> : <*> DS : ping3 : GAUGE : <*> : <*> : <*> DS : ping4 : GAUGE : <*> : <*> : <*> DS : ping5 : GAUGE : <*> : <*> : <*> DS : ping6 : GAUGE : <*> : <*> : <*> DS : ping7 : GAUGE : <*> : <*> : <*> DS : ping8 : GAUGE : <*> : <*> : <*> DS : ping9 : GAUGE : <*> : <*> : <*> DS : ping10 : GAUGE : <*> : <*> : <*> DS : ping11 : GAUGE : <*> : <*> : <*> DS : ping12 : GAUGE : <*> : <*> : <*> DS : ping13 : GAUGE : <*> : <*> : <*> DS : ping14 : GAUGE : <*> : <*> : <*> DS : ping15 : GAUGE : <*> : <*> : <*> DS : ping16 : GAUGE : <*> : <*> : <*> DS : ping17 : GAUGE : <*> : <*> : <*> DS : ping18 : GAUGE : <*> : <*> : <*> DS : ping19 : GAUGE : <*> : <*> : <*> DS : ping20 : GAUGE : <*> : <*> : <*> RRA : AVERAGE : 0.5 : <*> : <*> RRA : AVERAGE : 0.5 : <*> : <*> RRA : MIN : 0.5 : <*> : <*> RRA : MAX : 0.5 : <*> : <*> RRA : AVERAGE : 0.5 : <*> : <*> RRA : MAX : 0.5 : <*> : <*> RRA : MIN : 0.5 : <*> : 720)	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d685	-	3
+postfix/cleanup C113DF2012E : message-id = <20060616071244.C113DF2012E@#56#.#207#>	-	1
+moab INFO : executing scheduler from '/var/spool/moab/' under UID <*> GID <*>	-	1
+dhcpd Sending on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>	-	687
+ib_sm [ib_sm_sweep.c : <*> : No topology change	-	38017
+sshd Kerberos password accepted for user <*> <*>	-	206
+kernel nfs_proc_symlink : acoustics/sally already exists??	-	1
+ib_sm.x [ib_sm_sweep.c : <*> : async events require sweep	-	493
+sysstat Calling the system activity data collector (sadc) :	-	2
+kernel MOSAL(1) : file_pgoff = 0x1f078	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d1cc	-	2
+kernel MOSAL(1) : file_pgoff = 0x1ab60	-	1
+Node 0 Normal 228*4kB 265*8kB 25*16kB 2*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3496kB	-	1
+postfix/cleanup 01292AC4074 : message-id = <20060430170654.01292AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f183	-	2
+kernel Linux version 2.6.9-34.EL_lustre. <*> smp (#2413#@b9) (gcc version 3.3.4 <*> (Red Hat Linux 3.3.4-1)) #1 SMP <*> <*> EST <*>	-	104
+postfix/cleanup EBD7DF200A2 : message-id = <20060628211753.EBD7DF200A2@#56#.#207#>	-	1
+PBS_Server Connection refused (111) in contact_sched , Could not contact Scheduler - port <*>	-	29
+kernel MOSAL(1) : file_pgoff = 0xa568	-	3
+kernel MOSAL(1) : file_pgoff = 0xc8e4	-	1
+postfix/cleanup 1C9A2518C0E : message-id = <20060531151253.1C9A2518C0E@tbird-#206#>	-	1
+ntpdate step time server <*> offset <*> sec	-	5289
+kernel MOSAL(1) : file_pgoff = 0x2d820	-	1
+ib_sm [INFO] : Standby SM DB has begun synchronization with Master SM Guid <*> : <*> : ad : <*> : <*> : <*> : <*> : <*>	-	46
+kernel MOSAL(1) : file_pgoff = 0x1f9b7	-	1
+kernel MOSAL(1) : file_pgoff = 0x14f68	-	1
+postfix/cleanup 6232B519351 : message-id = <20051116181505.6232B519351@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xe579	-	9
+nfsd nfssvc_versbits : +2 +3 +4	-	2
+ib_mgr.x [INFO] : IB MGR finished configuring SM (0xfe80000000000000)	-	64
+kernel MOSAL(1) : file_pgoff = 0x1286c	-	32
+kernel MOSAL(1) : file_pgoff = 0x2d4d5	-	1
+postfix/cleanup BB52C518B6D : message-id = <20060331065415.BB52C518B6D@tbird-#206#>	-	1
+killall Stopping syslog-ng :	-	1
+sshd debug2 : Network child is on pid <*>	-	1
+dhcpd Internet Systems Consortium DHCP Server V3.0.1	-	508
+kernel netconsole : remote port <*>	-	37
+kernel MOSAL(1) : file_pgoff = 0x10fae	-	1
+postfix/cleanup EE971F2012E : message-id = <20060620232256.EE971F2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10711	-	4
+kernel MOSAL(1) : file_pgoff = 0x2ceb7	-	4
+kernel <ffffffff802a4951>{sock_common_recvmsg+48} <ffffffff802a1474>{sock_recvmsg+284}	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5da	-	4
+ib_sm [INFO] : Session initialization failed with Standby SM guid <*> : <*> : ad : <*> : <*> : <*> : <*> : 2d	-	1
+postfix/cleanup D513FF200A5 : message-id = <20060422003403.D513FF200A5@#56#.#207#>	-	1
+postfix/cleanup DBA35F20126 : message-id = <20060406051302.DBA35F20126@#56#.#207#>	-	1
+kernel ext3_abort called.	-	7
+kernel <ffffffff8030383b>{__down_failed+53} <ffffffff801347ee>{autoremove_wake_function+0}	-	1
+postfix/cleanup 4059C518130 : message-id = <20051222062557.4059C518130@tbird-#206#>	-	1
+"init cannot execute "" /sbin/shutdown """	-	1
+postfix/cleanup 2C674518106 : message-id = <20051214151316.2C674518106@tbird-#206#>	-	1
+kernel BIOS-e820 : <*> - 00000001c0000000 (usable)	-	4554
+kernel MOSAL(1) : file_pgoff = 0x1135f	-	1
+postfix/cleanup DB372F2009E : message-id = <20060419154904.DB372F2009E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f16c	-	1
+kernel panfs : <*> total uses of size <*> blocks	-	59
+postfix/cleanup 26DEDF200E0 : message-id = <20060622074832.26DEDF200E0@#56#.#207#>	-	1
+kernel Buffer I/O error on device <*> , logical block <*>	-	82
+ib_sm.x [ib_sm_sweep.c : <*> : Switch reported state change	-	23
+kernel MOSAL(1) : file_pgoff = 0x13ae5	-	52
+su <*> : got result -1765328353 ( <*> rypt integrity check failed)	-	1
+postfix/cleanup 4CE2A519484 : message-id = <20051118051508.4CE2A519484@tbird-#206#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : bf : ea via eth1	-	3
+kernel MOSAL(1) : file_pgoff = 0x1e22e	-	1
+kernel <ffffffffa0480d04>{ : p <*> , batch <*>	-	1
+rc.sysinit Remounting root filesystem in read-write mode : succeeded	-	3625
+kernel MOSAL(1) : file_pgoff = 0x1f6b2	-	41
+postfix/cleanup 4B9455189B0 : message-id = <20060310215558.4B9455189B0@tbird-#206#>	-	1
+postfix/cleanup B1995518B95 : message-id = <20060521220651.B1995518B95@tbird-#206#>	-	1
+postfix/cleanup E45B1F20126 : message-id = <20060426213702.E45B1F20126@#56#.#207#>	-	1
+postfix/cleanup 75E28518962 : message-id = <20060222232843.75E28518962@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10253	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f7b2	-	1
+su <*> : error removing ccache file <*>	-	1
+postfix/cleanup A3FADF20126 : message-id = <20060425154507.A3FADF20126@#56#.#207#>	-	1
+ACPI <*> <*> <*>	-	2
+sshd error : no more sessions	-	1
+kernel <ffffffff802e8153>{inet_create+280} <ffffffff802a16f3>{__sock_create+352} nactive : <*> dirty : <*> writeback : <*> unstable : <*> free : <*> slab : <*> mapped : <*> pagetables : <*>	-	1
+postfix/cleanup EC436518A97 : message-id = <20060419030759.EC436518A97@tbird-#206#>	-	1
+sshd <*> : flag : warn	-	6515
+kernel MOSAL(1) : file_pgoff = 0x1f207	-	1
+postfix/cleanup 2FD91864ABF : message-id = <20060415021747.2FD91864ABF@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x19486	-	1
+kernel <*> <*> <*> <*> avc : denied { read write } for pid = <*> comm = ntpdate path = socket : <*> dev = sockfs ino = <*> scontext = user_u : system_r : ntpd_t tcontext = user_u : system_r : unconfined_t tclass = udp_socket	-	427
+ib_sm [INFO] : Invalid startup config command file /usr/local/topspin/sbin/sm_config/sm1.conf	-	1
+kernel Lustre : Lustre Lite Client File System ; #10#@#11#	-	789
+kernel 00000101bf20e030 <*> <*> 0000000088865df0	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d6fd	-	1
+kernel Brought up <*> CPUs	-	4393
+postfix/cleanup 1D85F3B8003 : message-id = <20060425141500.1D85F3B8003@tbird-#2652#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a148	-	1
+postfix/cleanup 6FB5A518B5D : message-id = <20060331065412.6FB5A518B5D@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x15d6b	-	3
+xinetd Swapping defaults	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d298	-	1
+postfix/cleanup 69496864ABE : message-id = <20060415004003.69496864ABE@#56#.#207#>	-	1
+pbs_mom System error : (15010) in <*> , abort attempted <*> times in job_start_error. ignoring abort request from node <*>	-	148
+kernel using mwait in idle threads.	-	4430
+kernel <*> <*> <*>	-	26204
+kernel MOSAL(1) : file_pgoff = 0x188cd	-	1
+kernel MOSAL(1) : file_pgoff = 0x10501	-	2
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e5 : bc : cf via eth1	-	1
+kernel THH(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/hob_comm.c[2250] : XHH_hob_halt_hca : HALT HCA returned 0x103	-	15
+slot101:10.100.253.141 ibstatmon Ism : MAD Send Get PMA Stats Failed for : Leaf <*> (port <*>	-	1
+ib_sm [ib_sm_discovery.c : 984] : no routing required for port guid <*> : <*> : ad : <*> : <*> : <*> : <*> <*> cd , lid <*>	-	108
+kernel MOSAL(1) : file_pgoff = 0x12752	-	1
+postfix/cleanup 91C0F518700 : message-id = <20051112011506.91C0F518700@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x8b87	-	2
+postfix/cleanup B8B39518BF1 : message-id = <20060228000324.B8B39518BF1@tbird-#206#>	-	1
+kernel rip <*>	-	137
+kernel LustreError : <*> : <*> : (file.c : <*> : ll_pgcache_remove_extent()) writepage of page <*> failed : -5	-	39
+postfix/cleanup 632E5F20131 : message-id = <20060427095802.632E5F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5d0	-	2
+kernel MOSAL(1) : file_pgoff = 0x1da7a	-	1
+postfix/cleanup 5AF45F200A5 : message-id = <20060420212748.5AF45F200A5@#56#.#207#>	-	1
+postfix/cleanup A9A465181F1 : message-id = <20060124210850.A9A465181F1@tbird-#206#>	-	1
+kernel panfs exception : at <*> : <*> , 0x1069 (SM : unspecified internal error) , rollback : <*>	-	22
+postfix/cleanup B8CE7AC4074 : message-id = <20060408001642.B8CE7AC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d49f	-	7
+postfix/cleanup 0E50EF200A9 : message-id = <20060619075245.0E50EF200A9@#56#.#207#>	-	1
+kernel R10 : 00000100bff4b400 R11 : 00000100bff4b400 R12 : <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a7c9	-	1
+postfix/cleanup 758A0AC4178 : message-id = <20060408000149.758A0AC4178@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x12fc4	-	1
+postfix/cleanup CCDFCF20096 : message-id = <20060620161259.CCDFCF20096@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x14e0f	-	1
+kernel MOSAL(1) : file_pgoff = 0xbf61	-	1
+syslog klogd shutdown failed	-	450
+kernel MOSAL(1) : file_pgoff = 0x30b4f	-	49
+kernel 0000010037d48030 <*> ffffffff80455c40 <*>	-	1
+postfix/cleanup 37B3CAC4086 : message-id = <20060419163353.37B3CAC4086@tbird-#2124#>	-	1
+pbs_mom Connection reset by peer (104) in tm_request , comm failed No error	-	3
+postfix/cleanup E5C04F200A9 : message-id = <20060422083703.E5C04F200A9@#56#.#207#>	-	1
+kernel 00000101b958b030 000000000000017e	-	1
+kernel MOSAL(1) : file_pgoff = 0x1da8c	-	1
+kernel MOSAL(1) : file_pgoff = 0xf0d6	-	1
+kernel MOSAL(1) : file_pgoff = 0xe153	-	1
+kernel MOSAL(1) : file_pgoff = 0x195b4	-	9
+kernel MOSAL(1) : file_pgoff = 0x15dd6	-	1
+postfix/cleanup 7EF30F20126 : message-id = <20060425073703.7EF30F20126@#56#.#207#>	-	1
+postfix/cleanup B1882F2009E : message-id = <20060420213747.B1882F2009E@#56#.#207#>	-	1
+postfix/cleanup 04290518A64 : message-id = <20051112121509.04290518A64@tbird-#206#>	-	1
+kernel 00000101b9b89e88 <*> 000000351a0bcdb3 ffffff0000000073	-	1
+kernel MOSAL(1) : file_pgoff = 0xabc2	-	1
+kernel MOSAL(1) : file_pgoff = 0x112c7	-	1
+postfix/cleanup 4F169F20126 : message-id = <20060405182212.4F169F20126@#56#.#207#>	-	1
+postfix/cleanup D7BEA5181D1 : message-id = <20060120111629.D7BEA5181D1@tbird-#206#>	-	1
+postfix/cleanup A6376AC4073 : message-id = <20060228004718.A6376AC4073@tbird-#2124#>	-	1
+Server Administrator Instrumentation Service EventID : <*> Chassis intrusion detected Sensor location : Intrusion Chassis location : Main System Chassis Previous state was : Unknown Chassis intrusion state : Open	-	1
+kernel sda1 sda2 sda3 sda4 < sda5 sda6 >	-	11
+"gconfd (#2690#-2444) Resolved address "" xml : readonly : <*> "" to a read-only configuration source at position <*>"	-	1
+kernel MOSAL(1) : file_pgoff = 0xdd9e	-	4
+sendmail NOQUEUE : SYSERR(root) : can not chdir(/var/spool/clientmqueue/) : Permission denied	-	3
+kernel 00000101bdcb9e68 <*> 00000101bdcb9de8 ffffffff80134f5c	-	1
+postfix/cleanup C30465189D1 : message-id = <20060228000209.C30465189D1@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xde0b	-	3
+hw_random <*> <*> <*>	-	3
+postfix/cleanup B0905F200A2 : message-id = <20060709044249.B0905F200A2@#56#.#207#>	-	1
+ib_sm [ib_sm_discovery.c : 1392] : skipping discovery of node <*> : <*> : ad : <*> : <*> : <*> : <*> <*> <*> , port <*> , because neighbor already verified	-	17464
+RT Warning! Custom Field does not exist for asset <*> : # CPUs (RAS.pm : 447)	-	231
+postfix/cleanup EA66AF2012E : message-id = <20060622094745.EA66AF2012E@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29ee8	-	1
+CPU <*> <*> <*>	-	8
+postfix/local <*> : to = <#26#@#56#.#207#> , orig_to = <#26#> , relay = local , delay = <*> , status = bounced (cannot access mailbox /var/mail/#26# for user #26#. error writing message : File too large)	-	493
+postfix/cleanup A3437F200A3 : message-id = <20060413121302.A3437F200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x19829	-	1
+kernel <ffffffff80302f80>{thread_return+42} <ffffffff801347ee>{autoremove_wake_function+0}	-	1
+kernel <ffffffff80189c1e>{dput+55} <ffffffff801814da>{__link_path_walk+3862}	-	1
+ib_sm [ib_sm_bringup.c : 581] : Force port (node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : ab , port = <*> , state = 4) to DOWN because (1) 1st sweep or (2) role change.	-	10
+postfix/cleanup D88DA518A97 : message-id = <20060419030815.D88DA518A97@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x9858	-	2
+mount : server is down.	-	51
+kernel MOSAL(1) : file_pgoff = 0x11aba	-	1
+"postfix/local <*> : to = <#213#-#2098#@tbird-#206#> , orig_to = <#213#-#2098#> , relay = local , delay = <*> , status = bounced (unknown user : "" tbird-#2098# "" )"	-	5
+kernel MOSAL(1) : file_pgoff = 0x2d819	-	11
+kernel MOSAL(1) : file_pgoff = 0x11298	-	1
+RT Use of uninitialized value in concatenation (.) or string at /opt/rt3/lib/RT/Principal_Overlay.pm line <*> , <STDIN> line 1. (/opt/rt3/lib/RT/Principal_Overlay.pm : <*>	-	4
+postfix/cleanup 1A381AC40C8 : message-id = <20060408000134.1A381AC40C8@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xea5a	-	4
+postfix/cleanup B9224864ABE : message-id = <20060415120250.B9224864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a3ac	-	2
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : ab : fe via eth1	-	1
+ib_sm [ib_sm_discovery.c : 1536] : ---- node <*> : <*> : ad : <*> : <*> : <*> : <*> : <*> is a switch <*> <*>	-	2149
+kernel MOSAL(1) : file_pgoff = 0x1a1a7	-	1
+kernel MOSAL(1) : file_pgoff = 0x14dc2	-	2
+kernel MOSAL(1) : file_pgoff = 0x1a9a6	-	33
+sshd <*> : flag : validate	-	6260
+slot106:10.100.253.133 tIouMonSw Ism : MAD Send getNodeInfo Failed for : Spine <*> (port 0)	-	5
+postfix/cleanup 544A5F200A8 : message-id = <20060709234247.544A5F200A8@#56#.#207#>	-	1
+sshd debug1 : PAM : cleanup	-	1
+postfix/cleanup DDAD2F20126 : message-id = <20060426154505.DDAD2F20126@#56#.#207#>	-	1
+postfix/cleanup 37EB9518F0A : message-id = <20051113151522.37EB9518F0A@tbird-#206#>	-	1
+postfix/cleanup 5D1C4F200A8 : message-id = <20060709091905.5D1C4F200A8@#56#.#207#>	-	1
+sshd debug2 : channel <*> : is dead	-	2
+crond (root) CMD (run-parts /etc/cron.hourly)	-	229641
+kernel MOSAL(1) : file_pgoff = 0x2cfe6	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d492	-	3
+postfix/cleanup E37D4131866 : message-id = <20060121110208.E37D4131866@#73#>	-	1
+login FATAL : bad tty	-	2
+kernel panfs exception : at l_file.c : <*> , 0x1a3a (fs client : Bad address) , unknown error : (14) , rollback : <*>	-	6
+postfix/cleanup E6358F20133 : message-id = <20060628151304.E6358F20133@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xdf1d	-	1
+sshd debug2 : channel <*> : sent ext data <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11b8d	-	1
+kernel MOSAL(1) : phys_MOSAL(1) : file_p = <*>	-	1
+crond <*> : flag : no <*>	-	6648
+kernel MOSAL(1) : file_pgoff = 0xdf49	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d7bb	-	4
+kernel MOSAL(1) : file_pgoff = 0xd107	-	29
+kernel [KERNEL_IB][a2_handle_eqe][anafa2_eq.c : 107]Anafa2 : EQ overflowed.	-	1
+kernel MOSAL(1) : file_pgoff = 0x15eb5	-	35
+logger Kickstart Install : SNL COE Legal Banner	-	438
+ntpd ntpd #2#@1.1190-r <*> <*> MDT <*> (1)	-	4
+ib_port_agent.x [INFO] : Change AdminStatus on <*> - new value = <*>	-	1456
+ib_sm.x [ib_sm_multicast.c : 840] : Failed to set SwitchInfo : DefaultMulticastPort to switch = 5ad0000027924	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e25d	-	3
+chsh <*> : flag : warn	-	1
+crond (root) CMD (/apps/contrib/down_not_offline.sh 2>&1 > /dev/null)	-	30
+kernel MOSAL(1) : file_pgoff = 0x88c6	-	1
+kernel MOSAL(1) : file_pgoff = 0xb823	-	1
+postfix/cleanup 42D57F200E0 : message-id = <20060423111903.42D57F200E0@#56#.#207#>	-	1
+pbs_server stream_eof , connection to <*> dropped (Premature end of message). setting node state to down	-	4
+postfix/cleanup EE021F200A6 : message-id = <20060706052746.EE021F200A6@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x166c6	-	1
+postfix/cleanup 3682DF200A2 : message-id = <20060629014745.3682DF200A2@#56#.#207#>	-	1
+xinetd START : tftp pid = <*> from = <*>	-	421
+kernel ts_poll S 0000000000522d10 <*> <*> <*> <*> <*> (L-TLB)	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5bc	-	1
+kernel Call Trace : <ffffffffa03ffe4f>{ : panfs : _pan_freelist_put+159} <ffffffffa057fb0d>{ : panfs : pan_sock_sys_thpool_wait+109}	-	3
+kernel MOSAL(1) : file_pgoff = 0x1d725	-	1
+kernel MOSAL(1) : file_pgoff = 0x1d536	-	2
+postfix/cleanup A4B56F200A2 : message-id = <20060629022249.A4B56F200A2@#56#.#207#>	-	1
+Server Administrator Instrumentation Service EventID : <*> Memory device status is non-critical Memory device location : <*> Possible memory module event cause : Single bit warning error rate exceeded	-	3
+kernel <1(1) : file_p = <*>	-	1
+postfix/cleanup 50583864ABE : message-id = <20060521101529.50583864ABE@#56#.#207#>	-	1
+postfix/cleanup 2B0F8864ABE : message-id = <20060624165753.2B0F8864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16d8e	-	2
+kernel MOSAL(1) : file_pgoff = 0xf617	-	19
+sendmail My unqualified host name <*> unknown ; sleeping for retry	-	11022
+kernel VIPKL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/vip/obj_host_amd64_custom1_rhel4/mod_vip/mmu.c[243] : make_iobuf : MOSAL_iobuf_regist(1) : file_pgoff = 0xfea3	-	1
+logger Kickstart : setup firstboot	-	437
+kernel MOSAL(1) : file_pgoff = 0x1d5cf	-	2650
+postfix/cleanup 2EB34F2009F : message-id = <20060702141315.2EB34F2009F@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x16689	-	16
+kernel MOSAL(1) : file_pgoff = 0x714f	-	13
+kernel MOSAL(1) : file_pgoff = 0x1e22b	-	1
+kernel pan_common : init complete	-	4977
+kernel MOSAL(1) : file_pgoff = 0x2d5ec	-	1
+postfix/cleanup 300DCAC4074 : message-id = <20060430202427.300DCAC4074@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x62e7	-	1
+crond <*> : krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 ( <*> rypt integrity check failed)	-	36
+kernel pan_ips : error -- worker read common , 0x1d51 (IPS : command not handled) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_worker.c : <*>	-	13
+kernel MOSAL(1) : file_pgoff = 0x2d456	-	2
+kernel MOSAL(1) : file_pgoff = 0x2cfbf	-	1
+kernel <ffffffff80110ca7>{child_rip+8} <ffffffffa00ed990>{ : ts_ib_core : ib_fmr_cleanup_thread+0}	-	1
+postfix/cleanup 04B4C864ABF : message-id = <20060419021244.04B4C864ABF@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xc426	-	13
+kernel <ffffffff802e8153>{inet_create+280} <ffffffff802a16f3>{__sock_create+ctive : 12328kB inactive : 3996kB present : 7323648kB pages_scanned : <*> all_unreclaimable? no	-	1
+device-mapper <*> <*> <*> <*> initialised : <*>	-	3
+kernel MOSAL(1) : file_pgoff = 0xe592	-	4
+postfix/cleanup A7435AC407A : message-id = <20060421081134.A7435AC407A@tbird-#2124#>	-	1
+kernel CPU0<T0 : <*> , T1 : <*> , D : <*> , S : <*> , C : 1995270>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d67e	-	2
+dhcpd /etc/dhcpd.conf line <*> : subnet declarations not allowed here.	-	1
+kernel MOSAL(1) : file_pgoff = 0x19244	-	1
+smokeping Restarting due to HUP signal.	-	3
+postfix/cleanup 6E647518223 : message-id = <20060201011538.6E647518223@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10b6d	-	1
+kernel ldlm_cb_23 S <*> <*> <*> <*> <*> <*> (L-TLB)	-	1
+ib_sm [ib_sm_core_config.c : 382] : Current coreFile limits rlimit_cur : 0x0 , rlimit_max : 0xffffffff	-	2
+kernel MOSAL(1) : file_pgoff = 0x2cf64	-	1
+postfix/cleanup 07CD4518A30 : message-id = <20060331164108.07CD4518A30@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x78a0	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d61a	-	4
+kernel MOSAL(1) : file_pgoff = 0x138c8	-	6
+crond <*> <*> <*> a <*> <*>	-	1233
+kernel MOSAL(1) : file_pgoff = 0x2d725	-	30
+postfix/cleanup 9A684F20099 : message-id = <20060420044252.9A684F20099@#56#.#207#>	-	1
+crond <*> : flags : forwardable not proxiable	-	3482
+kernel <h <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1056d	-	1
+kernel MOSAL(1) : file_pgoff = 0xc644	-	1
+kernel MOSAL(1) : file_pgoff = 0x1c4c9	-	2
+kernel MOSAL(1) : file_pgoff = 0x108a0	-	1
+kernel mptbase : ioc0 : IOCStatus(0x0043) : SCSI Device Not There	-	44
+crond crond shutdown succeeded	-	2554
+kernel MOSAL(1) : file_pgoff = 0x1f794	-	1
+kernel MOSAL(1) : file_pgoff = 0x1ef1e	-	2
+postfix/cleanup 1516651898B : message-id = <20060303121836.1516651898B@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xca82	-	1
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/ker> MOSAL(1) : ref_iobuf = <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x4dea	-	58
+kernel MOSAL(1) : file_pgoff = 0x2d5ca	-	14
+postfix/cleanup 38464F200A3 : message-id = <20060415142747.38464F200A3@#56#.#207#>	-	1
+slot101:10.100.253.148 ibstatmon Mad Util Send Timeout : LID : <*> QP : <*> timeout = <*>	-	3
+kernel MOSAL(1) : file_pgoff = 0x138e9	-	1
+postfix/cleanup 7AC49518A70 : message-id = <20060412190516.7AC49518A70@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10f7a	-	1
+kernel MOSAL(4) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_mlock.c[1226] : MOSAL_mlock_o	-	1
+kernel THH(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxhh/thh/obj_host_amd64_custom1_rhel4/mod_thh/cmdif_comm.c[1417] : print_track_arr : idx = <*> , token = <*> , counter = <*>	-	574
+postfix/cleanup 6DEC9F200A6 : message-id = <20060706154249.6DEC9F200A6@#56#.#207#>	-	1
+sshd Public key authentication for user <*> accepted.	-	216
+kernel 00000101bfe0bdf8 <*> 00000100bff2c800 <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0xfe0b	-	6
+kernel MOSAL(1) : pref : MOSAL_iobuf_register failed : va = 0x182C8000size = 0x4000	-	1
+kernel pan_ips : error -- cmd scsi , 0x23a1 (pan_sock : timeout) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_cmd.c : <*>	-	448
+postfix/cleanup 89B11F20132 : message-id = <20060408123702.89B11F20132@#56#.#207#>	-	1
+postfix/cleanup 3AC04280B8 : message-id = <20060119110207.298EC280B5@#1580#>	-	1
+postfix/cleanup 70871F200A5 : message-id = <20060420111603.70871F200A5@#56#.#207#>	-	1
+kernel <ffffffff803038e9>{__up_wakeup+53} <ffffffff801347ee>{autoremove_wake_function+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d486	-	7
+kernel MOSAL(1) : file_pgoff = 0x1f1da	-	3
+kernel MOSAL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux = 0xCC0B000size = 0x35000	-	1
+kernel <ffffffff8016a9dc>{sys_munmap+94} <ffffffff80124f8b>{sysenter_do_call+27}	-	1
+postfix/cleanup 6C0F5864ABF : message-id = <20060616162356.6333A864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29df1	-	1
+kernel Type : Processor ANSI SCSI revision : <*>	-	4309
+gconfd (#2202#-18802) starting (version 2.8.1) , pid <*> user <*>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29d69	-	3
+kernel MOSAL(1) : file_pgoff = 0x1f165	-	1
+kernel MOSAL(1) : file_pgoff = 0x14ace	-	19
+postfix/cleanup 680E8F20131 : message-id = <20060427170403.680E8F20131@#56#.#207#>	-	1
+postfix/cleanup 93E5EF200A7 : message-id = <20060710021750.93E5EF200A7@#56#.#207#>	-	1
+postfix/cleanup 84701F2009D : message-id = <20060701221251.84701F2009D@#56#.#207#>	-	1
+postfix/cleanup AF016F200A7 : message-id = <20060416022503.AF016F200A7@#56#.#207#>	-	1
+pbs_mom node_bailout , node_bailout : received KILL/ABORT request for job <*> from node <*>	-	635
+slot106:10.100.253.131 ibstatmon Ism : MAD Send Get PMA Stats Failed for : Leaf <*> (port <*>	-	1
+postfix/cleanup CB755F200A3 : message-id = <20060425110249.CB755F200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2cf40	-	6
+kernel <ffffffff80182212>{pipe_poll+47} <ffffffff80188c9b>{do_select+939}	-	1
+kernel MOSAL(1) : file_pgoff = 0x19435	-	1
+kernel cpu <*> cold : low <*> , ffa04dde88>{ : panfs : pan_rm_bindcache_bind_engine+136}	-	1
+kernel <*> <*> Intel(R) Xeon(TM) CPU 3.60GHz stepping <*>	-	8629
+sudo #57# : TTY = pts/6 ; PWD = /home/#57# ; USER = root ; COMMAND = /usr/bin/ssh aadmin1 pwr an72 cycle	-	1
+ib_sm [ib_sm_routing.c : 3672] : Failed to set LFT to switch = <*> : <*> : ad : <*> : <*> : <*> : <*> <*> <*>	-	970
+fsck [/sbin/fsck.ext3 (1) -- /var]	-	161
+kernel MOSAL(1) : file_pgoff = 0x153f6	-	1
+kernel Intel(R) PRO/1000 Network Driver - version <*>	-	4282
+kernel pan_ips : error -- tx sched send , 0x23a8 (pan_sock : broken pipe) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_tx_sched.c : <*>	-	34
+postfix <*>	-	5730
+kernel MOSAL(1) : file_pgoff = 0x2d5ee	-	4
+postfix/cleanup 7A837F20126 : message-id = <20060424112203.7A837F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xa3eb	-	2
+postfix/cleanup 86E0AF20134 : message-id = <20060701005255.86E0AF20134@#56#.#207#>	-	1
+kernel <ffffffff80142dc2>{do_sigaction+490} <ffffffff80188151>{sys_ioctl+853}	-	1
+ib_sm [ib_sm_bringup.c : 629] : Force neighbor port (node = <*> : <*> : 6a : <*> : <*> : <*> : <*> : fe , port = <*> , state = 4) to DOWN because (1) 1st sweep or (2) role change.	-	11
+kernel MOSAL(1) : file_pgoff = 0x7d49	-	1
+kernel MOSAL(1) : file_pgoff = 0x1f0c9	-	1
+postfix/cleanup D4DC5AC409D : message-id = <20060516173812.D4DC5AC409D@tbird-#2124#>	-	1
+postfix/cleanup DC10DF200A2 : message-id = <20060617123818.DC10DF200A2@#56#.#207#>	-	1
+postfix/cleanup 49F865187FD : message-id = <20051112014507.49F865187FD@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x819c	-	2
+kernel LustreError : <*> : <*> : (llite_lib.c : <*> : lustre_process_log()) <*> failed : rc = -5	-	2
+postfix/cleanup C37A7864ABE : message-id = <20060414034603.C37A7864ABE@#56#.#207#>	-	1
+postfix/cleanup 7B258F2012C : message-id = <20060605072244.7B258F2012C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10f34	-	1
+postfix/cleanup 88866F2012C : message-id = <20060616003751.88866F2012C@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x11b11	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e4 : cd : ec via eth1	-	2
+kernel <ffffffff801395e7>{do_exit+3191} <ffffffff80132aac>{default_wake_function+0}	-	2
+kernel Node <*> Normal free : 152304kB min : 2696kB low : 5392kB high : 8088kB active : 15448kB inactive : 3780kB present : 7323648kB pages_scanned : <*> al <*>	-	1
+crond (root) CMD (/u1/metrics/bin/collect_scheduler)	-	485
+postfix/cleanup CC42C5193E2 : message-id = <20051117152459.CC42C5193E2@tbird-#206#>	-	1
+usermod change user <*> shell from `/sbin/nologin' to `/sbin/nologin'	-	4
+sudo <*> : called to authenticate <*>	-	2
+kernel VIPKL(1) : [create_1) : map_list = 00000101084d92c0	-	1
+kernel MOSAL(1) : file_pgoff = 0x749d	-	2
+postfix/cleanup 664BEF200A3 : message-id = <20060704095245.664BEF200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1e243	-	1
+-- root <*> : flag : validate	-	1
+postfix/cleanup B5B50AC4233 : message-id = <20060516041538.B5B50AC4233@tbird-#2124#>	-	1
+kernel MOSAL(1) : alegra_3D_alegr[11989] : mnt_projects/sysapps/src/i<1> MOSAL(1) : file_pgoff = 0x1d5cf	-	1
+postfix/cleanup 20589F200A3 : message-id = <20060414123248.20589F200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x112eb	-	1
+pbs_mom Bad UID for job execution (15023) in <*> , abort attempted <*> times in job_start_error. ignoring abort request from node <*>	-	9132
+LustreError <*> : <*> : (client.c : <*> : ptlrpc_expire_one_request()) @@@ timeout (sent at <*> , <*> ago) <*> <*> <*> : <*> lens <*> ref <*> fl Rpc : <*> rc 0/0	-	14
+kernel MOSAL(1) : file_pgoff = 0x1a1eb	-	44
+kernel MOSAL(1) : file_pgoff = 0xd71a	-	43
+kernel MOSAL(1) : file_pgoff = 0x1141d	-	1
+kernel THH(2) : [XHH_qpm_process_local_mad] : ERROR on port <*> : <*>	-	30
+kernel MOSAL(1) : file_pgoff = 0xe0e6	-	1
+postfix/cleanup 468AAF2009D : message-id = <20060701102748.468AAF2009D@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x193fe	-	1
+postfix/cleanup 755D6F20126 : message-id = <20060427193143.7120FF20131@#56#.#207#>	-	1
+Server Administrator Instrumentation Service EventID : <*> Voltage sensor returned to a normal value Sensor location : BMC CMOS Battery Chassis location : Main System Chassis Previous state was : Critical (Failed) Voltage sensor value (in Volts) : 2.644	-	4
+ib_sm [INFO] : Invalid parameter list - missing device number	-	1
+sda sda1 sda2 sda3 sda4 < sda5 sda6 >	-	2
+postfix/cleanup 44611518BB8 : message-id = <20060331065432.44611518BB8@tbird-#206#>	-	1
+postfix/cleanup 6887D519008 : message-id = <20060228000408.6887D519008@tbird-#206#>	-	1
+kernel pan_mem : memory subsystem has <*> bytes outstanding	-	140
+kernel MOSAL(1) : file_pgoff = 0x29f71	-	5
+kernel MOSAL(1) : file_pgoff = 0x1a229	-	66
+kernel VIPKL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/vip/obj_host_amd64_custom1_rhel4/mod_vip/mmu.c[243] : make_iobuf : MOSAL_iobuf_register fa_EAGAIN	-	1
+postfix/cleanup 94BD1F20131 : message-id = <20060407013102.94BD1F20131@#56#.#207#>	-	1
+postfix/cleanup 7AEEE518A40 : message-id = <20060404195212.7AEEE518A40@tbird-#206#>	-	1
+kernel Linux version 2.6.9-11.ELsmp (#600#@#601#) (gcc version 3.4.3 <*> (Red Hat 3.4.3-22)) #1 SMP <*> <*> EDT <*>	-	2
+postfix/cleanup 7CFBD5189A5 : message-id = <20051112101508.7CFBD5189A5@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d3e9	-	1
+kernel 00000101bb37fe18 <*> <*> <*>	-	1
+postfix/cleanup D749A864ABE : message-id = <20060703155323.D749A864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1be52	-	2
+postfix/cleanup 90D3EAC409E : message-id = <20060505215805.90D3EAC409E@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x180d6	-	20
+postfix/cleanup 6458DAC4147 : message-id = <20060516041525.6458DAC4147@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x29ed6	-	1
+moab 12/06 <*> : <*> : <*> INFO : pathname returned '/var/spool/moab/moab-private.cfg'	-	1
+pbs_mom scan_for_exiting , system epilog failed - interactive job	-	1
+sshd debug2 : channel <*> : ibuf empty	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5aa	-	3
+postfix/cleanup 937B0518971 : message-id = <20060227235959.937B0518971@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d5d4	-	16
+postfix/cleanup 6CDAFF200A3 : message-id = <20060413130245.6CDAFF200A3@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d3e3	-	4
+kernel MOSAL(1) : file_pgoff = 0x622f	-	2
+kernel Probing IDE interface <*>	-	23463
+kernel MOSAL(1) : file_pgoff = 0x16298	-	14
+kernel MOSAL(1) : file_pgoff = 0x2d0e1	-	3
+netfs Mounting NFS filesystems : failed	-	98
+postfix/cleanup 7D812AC4074 : message-id = <20060516041514.7D812AC4074@tbird-#2124#>	-	1
+postfix/cleanup 9150DAC407A : message-id = <20060504194931.9150DAC407A@tbird-#2124#>	-	1
+postfix/cleanup 75E9FF200A9 : message-id = <20060405134603.74FF4F20126@#56#.#207#>	-	1
+postfix/cleanup B425EAC407F : message-id = <20060424202724.B425EAC407F@tbird-#2124#>	-	1
+sudo <*> : validating credentials	-	2
+postfix/cleanup 3CD64864ABE : message-id = <20060418011604.3CD64864ABE@#56#.#207#>	-	1
+mount mount : RPC : Timed out	-	1
+postfix/cleanup 7BF35F200A9 : message-id = <20060422094329.7BF35F200A9@#56#.#207#>	-	1
+postfix/cleanup 12897518A44 : message-id = <20060228000230.12897518A44@tbird-#206#>	-	1
+postfix/cleanup D5899F200A9 : message-id = <20060417151303.D5899F200A9@#56#.#207#>	-	1
+ib_sm [ib_sm_assign.c : 667] : cleaning DB for guid <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , lid <*>	-	14
+pbs_mom Bad file descriptor (9) in tm_request , job <*> not running	PBS_BFD	29
+kernel MOSAL(1) : file_pgoff = 0x29ea9	-	3
+postfix/cleanup 97E11F200A3 : message-id = <20060403184521.94410F20126@#56#.#207#>	-	1
+postfix/cleanup 3229FAC4074 : message-id = <20060501000112.3229FAC4074@tbird-#2124#>	-	1
+postfix/cleanup 70BD8518A76 : message-id = <20060414022251.70BD8518A76@tbird-#206#>	-	1
+RT RT : : Handle = <*> couldn't execute the query 'INSERT INTO ACL (PrincipalId , DelegatedFrom , RightName , ObjectId , PrincipalType , DelegatedBy , ObjectType) VALUES (? , ? , ? , ? , ? , ? , ?)' at /usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Handle.pm line <*> DBIx : : SearchBuilder : : Handle : : SimpleQuery('RT : : Handle = <*> , 'INSERT INTO ACL (PrincipalId , DelegatedFrom , RightName , Objec...' , <*> , <*> , 'undef' , <*> , 'Group' , <*> , 'RTx : : AssetTracker : : Type' , ...) called at /usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Handle.pm line <*> DBIx : : SearchBuilder : : Handle : : Insert('RT : : Handle = <*> , 'ACL' , 'PrincipalId' , <*> , 'DelegatedFrom' , <*> , 'RightName' , 'undef' , 'ObjectId' , ...) called at /usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Handle/mysql.pm line <*> DBIx : : SearchBuilder : : Handle : : mysql : : Insert('RT : : Handle = <*> , 'ACL' , 'PrincipalId' , <*> , 'DelegatedFrom' , <*> , 'RightName' , 'undef' , 'ObjectId' , ...) called at /usr/lib/perl5/site_perl/5.8.5/DBIx/SearchBuilder/Record.pm line <*>	-	19
+kernel MOSAL(1) : file_pgoff = 0xfe35	-	1
+postfix/cleanup 06631F20133 : message-id = <20060629100745.06631F20133@#56#.#207#>	-	1
+kernel pan_sam : <*> : unable to report I/O error(s) to SM 0x020038da11df0002(SM) : 0x107c (SM : object cache entry is locked for a long period)	-	8
+kernel MOSAL(1) : file_pgoff = 0x2d3cd	-	6
+postfix/cleanup 51FD8518964 : message-id = <20051112094507.51FD8518964@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1cccb	-	2
+postfix/cleanup 46B8DF20096 : message-id = <20060620202751.46B8DF20096@#56#.#207#>	-	1
+logger Kickstart : setup firstboot for tbird panasas env	-	428
+kernel MOSAL(1) : file_pgoff = 0x11c88	-	2
+slot101:10.100.253.143 ibstatmon Ism : MAD Send Get PMA Stats Failed for : Leaf <*> (port <*>	-	4
+kernel MOSAL(1) : file_pgoff = 0x1eff9	-	2
+kernel MOSAL(1) : file_pgoff = 0x1134b	-	1
+kernel MOSAL(1) : file_pgoff = 0xfea9	-	1
+kernel MOSAL(1) : file_pgoff = 0x1fa32	-	1
+Node 0 Normal 308*4kB 216*8kB 25*16kB 2*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3424kB	-	1
+postfix/cleanup 3E8E43B8006 : message-id = <20060525100000.3B6183B8003@tbird-#2837#>	-	1
+postfix/cleanup 0F246518A75 : message-id = <20051112121511.0F246518A75@tbird-#206#>	-	1
+postfix/cleanup DF4E3F2012E : message-id = <20060619223249.DF4E3F2012E@#56#.#207#>	-	1
+postfix/cleanup 751DCF2009E : message-id = <20060430102602.751DCF2009E@#56#.#207#>	-	1
+kernel <*> <*> <*> min : 4kB low : 8kB high : 12kB active : 0kB inactive : 0kB present : 16384kB pages_scanned : <*> all_unreclaimable? yes	-	2
+postfix/cleanup 93CFEF200A6 : message-id = <20060705105246.93CFEF200A6@#56#.#207#>	-	1
+kernel LustreError : <*> : <*> : (ldlm_request.c : <*> : ldlm_cli_cancel_unused_resource()) ldlm_cli_cancel : <*>	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d08a	-	2
+kernel MOSAL(1) : file_pgoff = 0xffe4	-	1
+fsck [/sbin/fsck.ext3 (1) -- /boot] fsck.ext3 -a /dev/sda1	-	3619
+postfix [ OK ]	-	8
+kernel <ffffffff802cb7a8>{tcp_recvmsg+1798} <ffffffff80131d2d>{finish_task_switch+55}	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d490	-	5
+postfix/cleanup C044E864ABE : message-id = <20060627071247.C044E864ABE@#56#.#207#>	-	1
+postfix/cleanup 7AEBEF20133 : message-id = <20060628135809.7AEBEF20133@#56#.#207#>	-	1
+postfix/cleanup AF93C518DAF : message-id = <20060331065616.AF93C518DAF@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d366	-	1
+moab MFSLoadDataFile(/var/spool/moab/stats/FS.1131580800 , 27)	-	1
+kernel MOSAL(1) : file_pgoff = 0x7573	-	1
+su <*> : flag : user_check	-	767
+kernel MOSAL(1) : file_pgoff = 0xba53	-	1
+slot106:10.100.253.133 ibstatmon Ism : MAD Send Get Port Info Failed for : Leaf <*> (port <*>	-	1
+kernel LustreError : <*> : <*> : (llite_lib.c : <*> : lustre_fill_super()) Unable to process log : client	-	2
+kernel MOSAL(1) : file_pgoff = 0x6dea	-	2
+kernel MOSAL(1) : file_pgoff = 0x9af0	-	1
+kernel Node <*> HighMem free : 0kB min : 128kB low : 256kB high : 384kB active : 0kB inactiveffffffa031f794>{ : panfs : pan_sys_thread_launch+228}	-	1
+kernel VIPKL(1) : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/vip/obj_host_amd64_custom1_rhel4/mod_vip/mmu.c[243] : make_iobuf : MOSAL_i0010166282d80	-	1
+postfix/cleanup DBE04F20126 : message-id = <20060424072504.DBE04F20126@#56#.#207#>	-	1
+postfix/cleanup 7751DF200A5 : message-id = <20060421012803.7751DF200A5@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x4066a	-	1
+postfix/cleanup 1BFD5AC407A : message-id = <20060224203727.1BFD5AC407A@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d67f	-	1
+kernel MOSAL(1) : file_pgoff = 0x15503	-	1
+postfix/cleanup 7C971F200A7 : message-id = <20060414015248.7C971F200A7@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a829	-	1
+sshd debug2 : mac_init : found <*>	-	4
+postfix/cleanup 8049DF200A7 : message-id = <20060709132246.8049DF200A7@#56#.#207#>	-	1
+kernel <*> : obdclass : <*>	-	3
+kernel <ffffffff80132ffc>{__wake_up+54} <ffffffff801347ee>{autoremove_wake_function+0}	-	1
+kernel MOSAL(1) : file_pgoff = 0x152b6	-	5
+kernel MOSAL(1) : file_pgoff = 0x6d4c	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d44e	-	7
+kernel MOSAL(1) : file_pgoff = 0x2d2d7	-	1
+postfix/cleanup 6EF51AC4080 : message-id = <20060516173923.6EF51AC4080@tbird-#2124#>	-	1
+postfix/cleanup 2048B864ABE : message-id = <20060418022503.2048B864ABE@#56#.#207#>	-	1
+kernel <ffffffffa04de5c6>{ : panfs : pan_rm_bindcache_start_fetch_realmem per-cpu : empty	-	1
+postfix/cleanup 1770D864ABE : message-id = <20060415074247.1770D864ABE@#56#.#207#>	-	1
+kernel Raid operation did not complete in <*> minutes : status of the dag is as follows :	-	1
+postfix/cleanup DA1F4F200A8 : message-id = <20060710095743.DA1F4F200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x15763	-	6
+kernel MOSAL(1) : file_pgoff = 0x11576	-	4
+postfix/cleanup C1740AC4074 : message-id = <20060425224302.C1740AC4074@tbird-#2124#>	-	1
+dhcpd DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e5 : bc : ba via eth1	-	2
+sudo <*> : krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 ( <*> rypt integrity check failed)	-	1
+kernel MOSAL(1) : file_pgoff = 0x11a90	-	1
+kernel MOSAL(1) : file_pgoff = 0xd35c	-	1
+postfix/cleanup 2FE7D51866C : message-id = <20051111214505.2FE7D51866C@tbird-#206#>	-	1
+crond (#1940#) CMD (csh -c /projects/cth/tbird/builder_scripts/build.votd.tbird > /projects/cth/tbird/builder_scripts/tbird.cronmake 2>&1)	-	2
+postfix/cleanup DE950AC4078 : message-id = <20060623033204.DE950AC4078@tbird-#2124#>	-	1
+kernel pan_ips : error -- tx sched dequeue and send mod , 0x23a1 (pan_sock : timeout) , err_loc = <*> , rhel_4_amd64/release/build/panfs/ips/pan_ips_tx_sched.c : <*>	-	657
+kernel MOSAL(1) : file_pgoff = 0x9cea	-	4
+postfix/cleanup B33F8F200A9 : message-id = <20060422170827.B33F8F200A9@#56#.#207#>	-	1
+kernel rpc : request timed out , request <*> , <*> <*> , to <*> : <*>	-	9111
+kernel MOSAL(1) : file_pgoff = 0x2d2aa	-	1
+postfix/cleanup C00F2F200A8 : message-id = <20060417044748.C00F2F200A8@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1a7f6	-	1
+kernel MOSAL(1) : file_pgoff = 0xd4bc	-	1
+postfix/cleanup ACF53F200A9 : message-id = <20060423014602.ACF53F200A9@#56#.#207#>	-	1
+postfix/cleanup 05DD7F200A6 : message-id = <20060625032803.05DD7F200A6@#56#.#207#>	-	1
+login(pam_unix) <*> <*> <*>	-	6
+snmpd Cannot rename /var/net-snmp/snmpd.conf to /var/net-snmp/snmpd.0.conf	-	1
+postfix/cleanup 5B4A2518976 : message-id = <20060227174313.5B4A2518976@tbird-#206#>	-	1
+moab INFO : child process in background	-	1
+postfix/cleanup BD759F200A6 : message-id = <20060705164327.BD759F200A6@#56#.#207#>	-	1
+kernel <ffffffff8018d1c8>{sys_poll+346} <ffffffff8018c580>{__pollwait+0}	-	1
+postfix/cleanup DACAFF200E0 : message-id = <20060423133402.DACAFF200E0@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1179a	-	32
+kernel MOSAL(1) : file_pgoff = 0xdd33	-	3
+kernel MOSAL(1) : file_pgoff = 0x2d498	-	2
+kernel MOSAL(1) : file_pgoff = 0xe124	-	21
+kernel MOSAL(1) : file_pgoff = 0x16f98	-	50
+kernel MOSAL(1) : file_pgoff = 0x147c5	-	1
+postfix/cleanup 55176AC4073 : message-id = <20060322153542.55176AC4073@tbird-#2124#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd654	-	1
+kernel MOSAL(1) : file_pgoff = 0x6a6a	-	5
+postfix/cleanup 5FBE7864ABE : message-id = <20060415020704.5FBE7864ABE@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x1015b	-	2
+kernel MOSAL(1) : file_pgoff = 0x2cf46	-	3
+kernel <ffffffff8015fce5>{cache_alloc_refill+609} <ffffffff8015f9b3>{__kmalloc+123}	-	5
+kernel MOSAL(1) : file_pgoff = 0x9b24	-	4
+nfslock lockd shutdown failed	-	1889
+postfix/cleanup DFB86F200A2 : message-id = <20060617204251.DFB86F200A2@#56#.#207#>	-	1
+postfix/cleanup D924F518BC9 : message-id = <20060228000319.D924F518BC9@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d1bd	-	3
+ib_sm [INFO] : chassis-guid = <*> : <*> : 6a : <*> : <*> : <*> : <*> : <*> , slot = <*> , external-port = <*>	-	161
+kernel MOSAL(1) : b_eff[4531] : mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/third_party/thca4_linux/kernel/mlxsys/obj_host_amd64_custom1_rhel4/mlxsys/mosal_iobuf.c : <*> : MOSAL_mlo000000000	-	1
+kernel MOSAL(1) : file_pgoff = 0xeaab	-	2
+kernel MOSAL(1) : file_pgoff = 0xd620	-	9
+kernel MOSAL(1) : file_pgoff = 0x2d323	-	1
+postfix/cleanup 6E86C518989 : message-id = <20060303122750.6E86C518989@tbird-#206#>	-	1
+kernel <ffffffffa0147016>{ : mod_vip : VIPKL_create_mr_stat+774}	-	2
+kernel MOSAL(1) : file_pgoff = 0x18650	-	3
+slot101:10.100.253.145 plugnplay Osa : MAX7311 : getPortValue failed port = <*> location = <*> ra = <*>	-	2
+sshd <*> : krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 ( <*> rypt integrity check failed)	-	722
+postfix/cleanup 7B58FAC4078 : message-id = <20060331001543.7B58FAC4078@tbird-#2124#>	-	1
+moab SUFileLoad(/var/spool/moab/moab.cfg , <*> , BlockCount , READ , Buffer , SC)	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d699	-	81
+kernel MOSAL(1) : file_pgoff = 0x1e239	-	3
+kernel IRQ38 -> <*> : <*>	-	1
+postfix/cleanup 16F17519191 : message-id = <20051114091511.16F17519191@tbird-#206#>	-	1
+netfs Mounting NFS filesystems : succeeded	-	4353
+postfix/cleanup B5713AC4074 : message-id = <20060430174344.B5713AC4074@tbird-#2124#>	-	1
+kernel pan_ips : error -- destroying partially read data_cmd <*>	-	143
+kernel MOSAL(1) : file_pgoff = 0xcb09	-	13
+postfix/cleanup 40634F2012E : message-id = <20060618222313.40634F2012E@#56#.#207#>	-	1
+kernel panfs exception : at l_supe.c : <*> , 0x2b43 (rmm : Rejecting mount request from client with badly unsynced clock.) , unknown error : (5) , rollback : <*>	-	6
+kernel MOSAL(1) : file_pgoff = 0x2d4ef	-	9
+kernel MOSAL(1) : file_pgoff = 0x19b01	-	12
+ib_sm [ib_sm_sweep.c : 256] : An existing IB node GUID <*> : <*> : 6a : <*> : <*> : <*> : <*> : fa LID <*> was removed	-	1
+postfix/cleanup 03E1CF20131 : message-id = <20060608154748.03E1CF20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d426	-	3
+kernel fs_client : async cb_cancel_multi (target_mgr 0x040038da11df0002(FM)) failed : 0x3aad (fm_client : rpc/network failure (translated))	-	9
+kernel <ffffffff8014641f>{worker_thread+0} <ffffffff8014a264>{keventd_create_kthread+0}	-	1
+crond <*> : flag : user_check	-	3324
+ib_mgr.x [INFO] : IB MGR sent save config command to SM (0xfe80000000000000)	-	67
+RT RT : : <*> wiped out (/opt/rt3/local/lib/RTx/Shredder/Record.pm : 188)	-	23
+kernel RAMDISK : Compressed image found at block <*>	-	701
+kernel MOSAL(1) : file_pgoff = 0x88a0	-	3
+kernel mptbase : ioc0 : IOCStatus(0x004a) : SCSI Task Management Failed	-	1
+dhcpd DHCPREQUEST for <*> <*> <*> <*> from <*> : <*> : <*> : <*> <*> <*> : <*> via eth1	-	287
+postfix/cleanup D0193F20126 : message-id = <20060405203102.D0193F20126@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0xd311	-	2
+kernel MOSAL(1) : file_pgoff = 0x2d80b	-	1
+kernel MOSAL(1) : file_pgoff = 0xe11a	-	1
+slot101:10.100.253.148 ibstatmon Ism : MAD Send Get PMA Stats Failed for : Spine <*> (port <*>	-	1
+kernel Node <*> HighMem free : 0kB min : 128kB low : 256kB high : 384kB active : 0kB inactpper+407}	-	1
+kernel MOSAL(1) : file_pgoff = 0x2d543	-	3
+chassis_mgr.x [INFO] : power-supply <*> is down	-	13
+crond <*> : <*> returning <*> <*>	-	5097
+kernel MOSAL(1) : file_pgoff = 0xf76c	-	1
+RT RTx : : EventTracker : : Event : : my_column_name Unimplemented in main. (./test.pl line 24) (/opt/rt3/lib/RT.pm : 317)	-	1
+kernel TCP : drop open request from <*> <*>	-	6
+kernel MOSAL(1) : file_pgoff = 0x1d66e	-	4
+postfix/cleanup 7F00851818A : message-id = <20051110224431.7F00851818A@tbird-#206#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x10dea	-	7
+postfix/cleanup AC607F20131 : message-id = <20060427152503.AC607F20131@#56#.#207#>	-	1
+kernel MOSAL(1) : file_pgoff = 0x18fdb	-	1
+ib_sm [ib_sm_routing.c : 3672] : Failed to set LFT to switch = <*> : <*> : 6a : <*> : <*> : <*> : <*> : ea	-	5
+kernel MOSAL(1) : file_pgoff = 0xffed	-	20
+postfix/cleanup 0CA30F200A5 : message-id = <20060421180748.0CA30F200A5@#56#.#207#>	-	1
+kernel BIOS-e820 : 00000000bffc0000 - 00000000bffcfc00 (ACPI data)	-	4545
+postfix/cleanup D53D5864ABE : message-id = <20060622054756.D53D5864ABE@#56#.#207#>	-	1
+postfix/cleanup BF984F200A9 : message-id = <20060406043102.BBF86F20126@#56#.#207#>	-	1
+postfix/cleanup A69DCF20131 : message-id = <20060407054607.A69DCF20131@#56#.#207#>	-	1

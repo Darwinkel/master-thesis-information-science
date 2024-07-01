@@ -1,0 +1,959 @@
+ComponentEventTemplate	Label	Count
+KERNEL dbcr0 = 0x00000000 dbsr = 0x00000000 ccr0 = <*>	-	68
+KERNEL fpr10 = 0x2ce686d5 3fe99e42 92636fd5 bfb270e7	-	1
+DISCOVERY Node card is not fully functional	-	17364
+KERNEL r04 = 0x003eaf40 r05 = 0x00000010 r06 = 0x0027792c r07 = 0x00000000	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e796000d60e91869) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr22 = 0xbfaeb521 bff940d7 632f9637 4007c039	-	1
+KERNEL fpr7 = 0x0191b842 bfe5f5c1 8ee86893 3fe7d594	-	1
+KERNEL r08 = 0x0ffe9f58 r09 = 0x0050bf58 r10 = 0x0ffe8e18 r11 = 0x0ffe9b30	-	1
+DISCOVERY BglIdoChip table has <*> IDOs with the same IP address <*>	-	9
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e8bf000d60e91740) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr8 = 0xd891a6b5 bff4781b eca2b489 3fc2b54d	-	1
+KERNEL fpr0 = 0x66f90991 c037cc19 <*> 40cb7680	-	1
+KERNEL external input interrupt (unit = 0x03 bit = 0x01) : tree header with no target waiting	KERNEXT	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e842000d60e917bd) IpAddress(10.0.0.237) Status(A)	-	2
+KERNEL r12 = 0x00000005 r13 = 0x1eeeeeee r14 = 0x00774a8c r15 = 0x00774a10	-	1
+KERNEL r00 = 0x00003000 r01 = 0x00088850 r02 = 0x1eeeeeee r03 = 0x0000ef18	-	3
+KERNEL <*> L3 directory error(s) (dcr 0x0152) detected and corrected	-	444
+KERNEL fpr19 = 0x2884bf88 bff19563 18fb6c17 3ff8ddaf	-	1
+KERNEL L3 correctable errors exceeds threshold (iar <*> lr <*>	-	20
+MMCS idoproxydb hit ASSERT condition : ASSERT expression = <*> Source file = idotransportmgr.cpp Source line = <*> Function = int IdoTransportMgr : : SendPacket(IdoUdpMgr* , BglCtlPavTrace*)	-	84168
+KERNEL fpr13 = 0xfcffd0ad 40238ba4 <*> c01df19c	-	1
+KERNEL divide-by-zero exception.................1	-	13
+KERNEL memory manager address error.....................0	-	47
+KERNEL fpr4 = 0x9999999a 3fe99999 a0000000 40037e17	-	1
+KERNEL fpr6 = 0xfd58f880 bf52895d df8d76aa 3f928227	-	1
+KERNEL r08 = 0x16df1400 r09 = 0x00011400 r10 = 0x04f3a500 r11 = 0x00002280	-	1
+KERNEL fpr24 = 0x3ce58ec9 4012c016 8c8da6e4 4019dcc5	-	1
+KERNEL fpr28 = 0x88881f52 <*> <*> 3ff00000	-	1
+KERNEL r08 = 0x022177e8 r09 = 0x02217468 r10 = 0x02217628 r11 = 0x00237ed8	-	1
+KERNEL fpr12 = 0xa577c879 3f766531 0ea28f87 bf8303c4	-	1
+KERNEL fpr3 = 0x7ffff5f0 7ffff680 3000b4f8 0ff66adc	-	1
+KERNEL r16 = 0x00001c28 r17 = 0x00003850 r18 = 0x00000002 r19 = 0x00000001	-	1
+KERNEL fpr5 = 0x9d0483d0 <*> 8b053787 3fc2ea5c	-	1
+KERNEL r20 = 0x01bf250c r21 = 0x01c11e10 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL Target = ido : //FF : F2 : 9F : <*> : E6 : <*> : <*> : 0D : <*> : E9 : <*> : FB/JTAG/0 Message = JtagId All all zeros , power good may be low	-	4
+APP ciod : Error loading <*> : program image too big , <*> > <*>	-	1512
+APP ciod : Error creating node map from file <*> : Permission denied	-	1272
+KERNEL <*> torus receiver sram ecc error(s) (dcr 0x02f3) detected and corrected over <*> seconds	-	1
+KERNEL fpr11 = 0x04304bdd 3fb09c91 19cd9b6c bfb870b9	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e732000d60e918cd) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r12 = 0xffff0608 r13 = 0x1eeeeeee r14 = 0x08a93da0 r15 = 0x0000000c	-	1
+KERNEL r04 = 0x000c5fc8 r05 = 0x000c5fcc r06 = 0x0025c370 r07 = 0xb1140000	-	1
+APP DCR 0x2DE : 0x00000000	-	10
+KERNEL r00 = 0x00000080 r01 = 0x0ffe41b0 r02 = 0x1eeeeeee r03 = 0x0ffe8cf0	-	1
+KERNEL fpr31 = 0x00000000 <*> 28f5c28f 40128f5c	-	1
+KERNEL r20 = 0x003702e0 r21 = 0x003220e0 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL fpr6 = 0x60f54b16 c0270fba 667a10b9 bfb879ba	-	1
+KERNEL r08 = 0x0000f048 r09 = 0x00070000 r10 = 0x000000e0 r11 = 0x0008885c	-	2
+KERNEL qw trapped............0	-	47
+KERNEL r28 = 0x003b6368 r29 = 0x0033a570 r30 = 0x0047eba0 r31 = 0x0a86c380	-	1
+KERNEL fpr11 = 0x8f11a495 bc3c7f18 88881ecc <*>	-	1
+KERNEL r20 = 0x022951b8 r21 = 0x000004a8 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL fpr11 = 0x7111213b c02aba4c b6976eae bfdc2100	-	1
+KERNEL turn on hidden refreshes.................1	-	48
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bb90000d60e9446f) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL max = <*>	-	246
+KERNEL fpr15 = 0x66f0f9db bef438e3 cee686d4 3f0a805e	-	1
+KERNEL store <*>	-	9824
+SERV_NET <*> lareServiceNetworkCharacteristics has been run with the force option but the DB is not empty	-	1
+KERNEL special purpose registers :	-	2316
+KERNEL interrupt threshold...0	-	94
+KERNEL r16 = 0x00000063 r17 = 0x000000bb r18 = 0x00000018 r19 = 0x00ed4920	-	1
+KERNEL <*> ddr errors(s) detected and corrected on rank <*> , symbol <*> , bit <*>	-	33939
+MONITOR monitor caught java.lang.IllegalStateException : while executing I2C Operation caught java.net.SocketException : Broken pipe and is stopping	-	117
+KERNEL fpr7 = 0x00000011 <*> 585fa747 3fe6dba1	-	1
+MONITOR Temperature Over Limit on link card	-	972
+KERNEL r08 = 0x48422224 r09 = 0x086bee00 r10 = 0x00000000 r11 = 0x00016800	-	1
+DISCOVERY Error getting detailed hw info for node , caught java.io.IOException : Problems with the chip , could not enable clock domains	-	5
+DISCOVERY Error getting detailed hw info for node , caught java.io.IOException : Problems with the chip , could not pull all resets	-	30
+KERNEL r00 = 0x00000000 r01 = 0x0fea0490 r02 = 0x1eeeeeee r03 = 0x001fe4c0	-	1
+KERNEL 0x78253038 0x78202825	-	1
+APP DCR 0x2E4 : 0x00080800	-	1
+KERNEL fpr15 = 0x65ca935a 4017ab30 de2b215b 402defe6	-	1
+MMCS L3 major internal error	MMCS	3
+KERNEL ciod : Error opening node map file <*> , No such file or directory	-	1936
+KERNEL fpr10 = 0x34552f91 3fc0d3a3 <*> 401c0000	-	1
+KERNEL instruction cache parity error corrected	-	105924
+KERNEL r24 = 0x00d913d0 r25 = 0x0002a000 r26 = 0x00000000 r27 = 0x00001500	-	1
+KERNEL fpr8 = 0x02a6a7af <*> 720a8300 fdbdf4a6	-	1
+KERNEL total of <*> ddr error(s) detected and corrected over <*> seconds	-	10415
+KERNEL fpr9 = 0x2ce686d5 3fe99e42 8fb815f2 400afc39	-	1
+KERNEL r16 = 0x84004042 r17 = 0x00350000 r18 = 0x00350000 r19 = 0x00340000	-	1
+KERNEL fpr2 = 0x98ad50cc 3ff0fbd9 4c14decd bfeb7b2e	-	1
+KERNEL fpr30 = 0x37b68ba1 403d017a 847b4c03 c02aa133	-	1
+KERNEL round nearest............................0	-	68
+KERNEL fpr26 = 0xc2a38b6b bc549ecf <*> <*>	-	1
+KERNEL fpr9 = 0x7ffff5b0 0ffcb46c <*> 7ffff720	-	1
+KERNEL MACHINE CHECK PLB write IRQ (mc = 1b08x iar 0x00000000 lr 0xc00f837c)	-	1
+KERNEL r12 = 0x48242488 r13 = 0x1eeeeeee r14 = 0x0088da60 r15 = 0x0088da68	-	1
+KERNEL <*> torus processor sram reception error(s) (dcr 0x02fc) detected and corrected	-	66
+KERNEL fpr10 = 0x10045620 7ffff940 <*> <*>	-	10
+APP DCR 0x2DD : 0x00000000	-	10
+APP DCR 0x2E1 : 0x00000000	-	10
+KERNEL ciod : pollControlDescriptors : Detected the debugger died.	-	6443
+KERNEL r20 = 0x00000017 r21 = 0x00000010 r22 = 0x00000180 r23 = 0x00000000	-	1
+KERNEL fpr12 = 0x00000000 <*> <*> <*>	-	16
+KERNEL fpr9 = 0x263a3565 bdecab74 fd2656c6 3df3ddff	-	1
+KERNEL 0x93e1004c 0x3be00000	-	1
+KERNEL r04 = 0x00443a38 r05 = 0x00000012 r06 = 0x0077e728 r07 = 0x00000000	-	1
+APP ciod : Error creating node map from file <*> : Block device required	-	1016
+LINKCARD MidplaneSwitchController : : clearPort() bll_clear_port failed : R63-M0-L0-U19-A	LINKBLL	2
+KERNEL external input interrupt (unit = 0x01 bit = 0x09) : number of corrected SRAM errors has exceeded threshold , suppressing further interrupts of same type	-	57
+KERNEL r00 = 0x00000000 r01 = 0x0ffea7e0 r02 = 0x1eeeeeee r03 = 0x00e26260	-	1
+KERNEL r28 = 0x01086250 r29 = 0x00392ed0 r30 = 0x003aa450 r31 = 0x010959f0	-	1
+KERNEL fpr5 = 0x341e3d42 c041d767 98ccf536 3fd1ec70	-	1
+KERNEL fpr12 = 0x09f3a000 727ebf3e 00010c81 aaecab24	-	1
+KERNEL fpr9 = 0xf3d13f6c c0456c7d <*> c01c0000	-	1
+KERNEL fpr21 = 0x000000c1 3f500000 48ae126b 3d0ad4cc	-	1
+KERNEL r20 = 0x0b5c7c30 r21 = 0x086d7610 r22 = 0x080db700 r23 = 0x080db6d0	-	1
+KERNEL fpr1 = 0x85345237 3fd4fef8 8e61c0de bfeb7ad4	-	1
+KERNEL Error : unable to mount filesystem	KERNMNT	720
+KERNEL ax = <*>	-	13
+APP ciod : Error creating node map from file <*> : Bad address	-	1056
+KERNEL ddr : Unable to steer rank = <*> , symbol = <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable error threshold , consider replacing the card	-	197
+KERNEL fpr3 = 0x00000000 <*> <*> <*>	-	36
+APP ciod : LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed : Input/output error	APPOUT	816
+KERNEL critical input interrupt (unit = 0x0b bit = <*> : warning for tree <*> wire	-	2245
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bbd1000d60e9442e) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL prefetch depth for PLB slave.............1	-	48
+BGLMASTER idoproxy exited normally with exit code <*>	-	1
+KERNEL fpr2 = 0x100cd1f8 7ffff640 0ff66adc 7ffff620	-	1
+KERNEL 0x80010024 0x38210020	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16daf1000d60e9250e) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r16 = 0x0ffe6b60 r17 = 0x0ffe4490 r18 = 0xffffffe8 r19 = 0xfffff770	-	1
+KERNEL r24 = 0x000c87b0 r25 = 0x000c8450 r26 = 0x00010000 r27 = 0x00055960	-	1
+KERNEL r28 = 0xffffffff r29 = 0xffffffff r30 = 0x000007d0 r31 = 0x00350000	-	2
+DISCOVERY Missing reverse cable : Cable <*> <*> <*> <*> --> <*> <*> <*> <*> is present BUT the reverse cable <*> <*> <*> <*> --> <*> <*> <*> <*> is missing	-	522
+KERNEL round toward <*>	-	204
+KERNEL guaranteed instruction cache block touch.0	-	2390
+KERNEL fpr8 = 0xad4de1a7 4024fd26 de5ba6e6 400b1ea2	-	1
+KERNEL fpr25 = 0x00000000 3ff00000 696d6573 6c652074	-	1
+KERNEL r08 = 0x0000001c r09 = 0x0a247050 r10 = 0x00008000 r11 = 0x0ffa0520	-	1
+KERNEL memory manager uncorrectable <*>	-	47
+KERNEL fpr24 = 0x37f58140 bc2dd525 <*> <*>	-	1
+KERNEL fpr25 = 0xd6165529 402907c2 99bd0882 c0354a91	-	1
+KERNEL fpr10 = 0xe6721ace 3fe8a2f4 8568391d 3fbbf1b7	-	1
+KERNEL r16 = 0x1f16d030 r17 = 0x1f71f030 r18 = 0x00000018 r19 = 0x1f811290	-	1
+KERNEL data cache flush parity error detected. attempting to correct	-	65
+KERNEL r08 = 0x1fe00000 r09 = 0x00000001 r10 = 0x00090000 r11 = 0x03166a2e	-	1
+KERNEL critical input interrupt (unit = 0x0b bit = <*> : warning for torus <*> wire	-	5437
+KERNEL program interrupt : illegal <*>	-	13920
+KERNEL r00 = 0x00000008 r01 = 0x0ffe9ef0 r02 = 0x1eeeeeee r03 = 0xa0000000	-	1
+KERNEL fpr2 = 0xdb90f4c7 3ff2872e f626568a 3fd6cb5c	-	1
+KERNEL r00 = 0x00003000 r01 = 0x00088850 r02 = 0x1eeeeeee r03 = 0x0000ef48	-	14
+KERNEL fpr8 = 0xaade85b7 3f550919 000004dc 3fe00000	-	1
+KERNEL r08 = 0x0000ef18 r09 = 0x00070000 r10 = 0x000000e0 r11 = 0x0008885c	-	3
+CMCS Running as background command	-	70
+KERNEL fpr9 = 0x281fd917 40076db7 a7349330 3ce586f1	-	1
+DISCOVERY Problem reading the ethernet arl entries fro the service card : java.lang.IllegalStateException : while executing I2C Operation caught java.lang.RuntimeException : Communication error : (DirectIDo for com.ibm.ido.DirectIDo object [FF : F2 : 9F : <*> : 1F : <*> : <*> : 0D : <*> : EA : E0 : <*> <*> with image version <*> and card type 2] is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = <*> , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = <*> , Expected Sync Command = <*> , Actual Sync Reply = <*>	-	4
+KERNEL r04 = 0x00000240 r05 = 0x1f407d34 r06 = 0x00000048 r07 = 0x0000a200	-	1
+KERNEL fpr4 = 0xbb6bd241 bfd7147c 6f2832ff 3fe1a8bc	-	1
+KERNEL divide-by-zero exception.................0	-	55
+KERNEL r12 = 0x00001cf3 r13 = 0x1eeeeeee r14 = 0x004eff08 r15 = 0x004eff10	-	1
+KERNEL NFS Mount failed on <*> , slept <*> seconds , retrying <*>	-	2670
+KERNEL fpr10 = 0xac584f3a bffac6de <*> 401c0000	-	1
+KERNEL r28 = 0xffffc0c8 r29 = 0x000001bf r30 = 0x000001bf r31 = 0x0008db74	-	2
+KERNEL exception syndrome register : <*>	-	18013
+KERNEL fpr10 = 0xc9a4c09d c01cdf54 343c21a0 bfcefc09	-	1
+KERNEL fpr7 = 0x6aa4f635 400c9dd0 c245a32f c070b279	-	1
+KERNEL fpr2 = 0x8935e020 3ca19d8b d3d85973 4007df0e	-	1
+KERNEL fpr13 = 0x08eb9f90 004c8328 5a2c1ba2 bf62a945	-	1
+KERNEL r28 = 0x0000a200 r29 = 0x1ff401c8 r30 = 0x00000288 r31 = 0x03186110	-	1
+HARDWARE PrepareForService is being done on this rack <*> by root	-	26
+KERNEL r28 = 0x00000b60 r29 = 0x000003f0 r30 = 0x003eab90 r31 = 0x00752020	-	1
+KERNEL fpr11 = 0x54e63dec 3e02751d e8e91307 3e035909	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16cedb000d60e93124) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL force load/store alignment...............0	-	2389
+KERNEL <*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected	-	10487
+KERNEL fpr8 = 0x7ffff8c0 100cfaf0 <*> <*>	-	10
+KERNEL fpr5 = 0x68d637f6 befb1101 ff902ae7 3f439972	-	1
+KERNEL fpr3 = 0xc96afe50 3fc86af6 d9d7bdbb 3ddb7cdf	-	1
+KERNEL fpr13 = 0xe8efc5b0 bf003602 e8ef3019 bf003602	-	1
+KERNEL fpr8 = 0x3e575215 bf67d3cb 007f850f 3d05f9cf	-	1
+KERNEL Floating Point Registers :	-	68
+KERNEL fpr13 = 0x1004179c 7ffff570 <*> <*>	-	1
+KERNEL fpr6 = 0x3e5753a1 c007d3cb 3e5753a1 c007d3cb	-	1
+KERNEL ddr : excessive soft failures , consider replacing the card	-	41
+KERNEL fpr6 = 0xfe1a782a 3fbdc5fe 6b99523a 3fe93231	-	1
+KERNEL fpr24 = 0x00000000 bff00000 5b487c24 3f827da8	-	1
+KERNEL fpr12 = 0x2c4463e5 40286de8 5fbb49ec 3fee65b1	-	1
+HARDWARE PrepareForService shutting down <*> , <*> , mLp(FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : <*> : <*> : <*> , <*> , <*> as part of Service Action <*>	-	2316
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e769000d60e91896) IpAddress(0.0.0.0) Status(A)	-	1
+LINKCARD MidplaneSwitchController : : receiveTrain() iap failed : R72-M1-L1-U18-A , status = beeaabff ec000000	LINKIAP	6
+KERNEL fpr8 = 0x7f03a717 3fc8b161 b605c900 bf718d1a	-	1
+KERNEL fpr29 = 0xdcef816f 3fdf36fa 659f7cfe <*>	-	1
+DISCOVERY Node card status : no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.	-	16896
+KERNEL machine check interrupt (bit = <*> : <*> <*> read error	KERNMC	5
+KERNEL overflow exception.......................0	-	68
+KERNEL kernel panic	KERNPAN	18
+APP ciod : Error creating node map from file <*> : No child processes	APPCHILD	320
+KERNEL fpr22 = 0x63721200 3e3ddd71 e70b65ae 3e460d37	-	1
+HARDWARE EndServiceAction is restarting the Node cards in Midplane <*> as part of Service Action <*>	-	44
+KERNEL <*> tree receiver <*> in re-synch state event(s) (dcr <*> detected over <*> seconds	-	3148
+KERNEL ciod : duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map	-	512
+KERNEL fpr11 = 0xc8cdfbab c031a8d1 61672fb5 c0322a53	-	1
+KERNEL disable flagging of DDR UE's as major internal error.0	-	47
+KERNEL ddr : Unable to steer rank = <*> , symbol = <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable	-	23
+KERNEL Target = ido : //FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> Message = Invalid JtagId = ffffffff	-	63
+KERNEL r12 = 0x00a1c2a0 r13 = 0x1eeeeeee r14 = 0x00e60000 r15 = 0x00000006	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bb40000d60e944bf) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr12 = 0xb53af569 4035edde <*> <*>	-	1
+KERNEL r20 = 0x00443940 r21 = 0x0044397c r22 = 0x0034f650 r23 = 0x00000010	-	1
+KERNEL r08 = 0x008b5208 r09 = 0xffff91d4 r10 = 0x00350000 r11 = 0x00350000	-	1
+KERNEL instruction address <*> <*>	-	57733
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x000000f3	-	1
+KERNEL fpr4 = 0x3e57521c bf67d3cb fffffe51 3f4fffff	-	1
+KERNEL r00 = 0x00000001 r01 = 0x1ffa9410 r02 = 0x1eeeeeee r03 = 0x000006f8	-	1
+KERNEL instruction plb <*>	-	298
+KERNEL fpr7 = 0xc06a9c27 4006d1dc 4159854d c07033f7	-	1
+DISCOVERY Error getting detailed hw info for node , caught java.io.IOException : Problems with the chip , clear all resets	-	1
+KERNEL r04 = 0x00088430 r05 = 0x00200000 r06 = 0x20000000 r07 = 0x00040000	-	1
+KERNEL generating <*>	-	1706751
+KERNEL fpr26 = 0xf0664e56 400e19be 30f2742d 4025d58f	-	1
+KERNEL r24 = 0x1ffaa670 r25 = 0x00000008 r26 = 0x000865b0 r27 = 0x0008e5c8	-	10
+KERNEL r28 = 0x0030e270 r29 = 0x00000000 r30 = 0x00000310 r31 = 0x00759a50	-	1
+KERNEL ciod : Message code <*> is not <*> or <*>	-	2278
+KERNEL DDR failing info register : DDR Fail Info Register : <*>	-	29
+KERNEL r12 = 0x44844480 r13 = 0x1eeeeeee r14 = 0x00000010 r15 = 0x08adcc70	-	1
+KERNEL r28 = 0x00a1bed0 r29 = 0x007f9c08 r30 = 0x00000380 r31 = 0x00d945b8	-	1
+KERNEL ciod : sendMsgToDebugger : error sending PROGRAM_EXITED message to debugger.	-	3
+KERNEL fpr2 = 0xfffffe51 3f4fffff fffffe7a 3f4fffff	-	1
+KERNEL <*> = 0xffffffff ffffffff ffffffff ffffffff	-	835
+KERNEL fpr1 = 0x00000000 <*> <*> <*>	-	25
+KERNEL <*> torus non-crc error(s) (dcr 0x02fd) detected and corrected over <*> seconds	-	1
+KERNEL quiet NaN................................0	-	68
+KERNEL fpr13 = 0x9041e5fe 3924ec31 88881e97 <*>	-	1
+KERNEL fpr8 = 0x9c76db36 3ff36523 e0000000 3fba0da6	-	1
+KERNEL ciod : Unexpected eof at line <*> of node map file <*>	-	328
+KERNEL r28 = 0xa00011c0 r29 = 0xa0001160 r30 = 0x000c5fc8 r31 = 0x00000001	-	1
+KERNEL r28 = 0x00000058 r29 = 0x00000000 r30 = 0x00352640 r31 = 0x00000000	-	1
+KERNEL machine state register : machine state register : machine state register : machine state register : machine state register : machine	-	5
+KERNEL r08 = 0x060024a8 r09 = 0x060024b0 r10 = 0x0ffe8924 r11 = 0x0ffe422c	-	1
+KERNEL shutdown complete	-	99
+KERNEL CE sym <*> , at <*> , mask <*>	-	201206
+KERNEL r00 = 0xffffffff r01 = 0x0ffa0690 r02 = 0x1eeeeeee r03 = 0x010959f0	-	1
+KERNEL fpr3 = 0xe81b7f34 bfd4d41e 0882e006 bfd4d50f	-	1
+DISCOVERY Ido chip status changed : FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : <*> : <*> : <*> ip = <*> v = <*> t = <*> status = M <*> <*> PST <*>	-	598
+DISCOVERY SerialNumber(000000000000000000000000fff29f157ef6000d60ea8109) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr22 = 0xfa73c1f0 3c414312 <*> <*>	-	1
+APP ciod : Error creating node map from file my_map.txt : No such file or directory	-	24
+KERNEL r04 = 0x00009c34 r05 = 0x00000000 r06 = 0x0000a3e0 r07 = 0x00055960	-	1
+KERNEL fpr29 = 0x37c91ba9 3a127157 72505e30 bcd08103	-	1
+KERNEL fpr11 = 0xda1a727b 4095618c 58ed155e 3e2f742a	-	1
+KERNEL fpr11 = 0xab4c8d38 bffcf2e2 0ffaa000 bfd98f2f	-	1
+KERNEL Error sending packet on tree network , packet at address <*> is not aligned	-	5
+KERNEL 0x400617d0 0xe413abe8	-	1
+KERNEL fpr27 = 0xbf656dd3 3ff960a9 5da4ea47 4020b0c6	-	1
+KERNEL r16 = 0x0048eb9c r17 = 0x0048eba0 r18 = 0x0048eb6c r19 = 0x0048eb64	-	1
+KERNEL fpr3 = 0x0000000f <*> 564e8f93 bff74167	-	1
+KERNEL external input interrupt <*>	-	6556
+KERNEL r00 = 0x00000000 r01 = 0x00085fa0 r02 = 0x1eeeeeee r03 = 0x000865b0	-	1
+DISCOVERY Node card status : ALERT <*> , ALERT <*> , ALERT <*> , ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. TEMPERATURE MASK IS ACTIVE. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.	-	1
+DISCOVERY Node card status : no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.	-	227
+KERNEL fpr21 = 0x248a7549 3e0fde1c 660fee85 be494bcf	-	1
+DISCOVERY Node card status : no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE 2.5 VOLT RAIL IS NOT OK. THE 1.5 VOLT RAIL IS NOT OK.	-	49
+KERNEL fpr12 = 0x1c8919e6 c08f58dd b022b757 3fc7afbd	-	1
+KERNEL rts tree/torus link training failed : wanted : <*> C X+ X- Y+ Y- Z+ Z- got : <*> C <*> <*> <*> <*> <*>	-	605
+KERNEL fpr4 = 0x5bd1be23 bfd9119c 92636fd5 bfb270e7	-	1
+KERNEL program interrupt : privileged instruction...0	-	9824
+KERNEL r24 = 0x083e0e68 r25 = 0x0ffe891c r26 = 0x0ffe4230 r27 = 0x0ffe8914	-	1
+KERNEL fpr9 = 0xde679f24 c01f68b9 <*> c01c0000	-	1
+KERNEL fpr11 = 0x76e7d7e9 bff675e4 4a3f4c02 4010e161	-	1
+KERNEL fpr24 = 0x833634c9 3e164570 9b11c7cc be48368d	-	1
+KERNEL r24 = 0x0ffea290 r25 = 0x003d94e8 r26 = 0x0034f730 r27 = 0x00000000	-	1
+KERNEL r24 = 0x005fade0 r25 = 0x00000008 r26 = 0x000c65b0 r27 = 0x000ce5c8	-	1
+KERNEL disable write lines <*> : 4..................0	-	48
+KERNEL 0x3235364d 0x00000000	-	1
+KERNEL fpr12 = 0xa3205913 c08fbc1d <*> 3fd219f0	-	1
+KERNEL fpr3 = 0x33333337 3fe33333 <*> 3fe33333	-	1
+APP DCR 0x2E0 : 0x00000000	-	10
+KERNEL ciod : generated <*> core files for program <*>	-	62484
+KERNEL fpr6 = 0xc65ab5cd c028c3ec 7787f21a bf687c08	-	1
+KERNEL fpr10 = 0x00000006 <*> 0003111b 0fdc0000	-	1
+KERNEL r20 = 0x022951b8 r21 = 0x00000378 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL r20 = 0x022951b8 r21 = 0x000001c0 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL r24 = 0x00000000 r25 = 0x00000424 r26 = 0x00000428 r27 = 0x00000000	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bba9000d60e94456) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr21 = 0x0412cb3b 4004d51e 9c5139cd c0261f66	-	1
+KERNEL fpr31 = 0x5fe164e7 c04702ec <*> <*>	-	1
+DISCOVERY Bad cable going into LinkCard <*> Jtag <*> Port <*> - <*> bad wires	-	232
+KERNEL Power Good signal deactivated : <*> A service action may be required.	KERNSERV	94
+KERNEL r24 = 0x00000000 r25 = 0x00000003 r26 = 0x000047e0 r27 = 0x00000010	-	1
+KERNEL <*> torus processor sram reception error(s) (dcr 0x02fc) detected and corrected over <*> seconds	-	13
+KERNEL <*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected over <*> seconds	-	1327
+DISCOVERY SerialNumber(000000000000000000000000fff29f16eb54000d60e914ab) IpAddress(10.0.0.237) Status(A)	-	2
+KERNEL regctl scancom interface.........................0	-	47
+KERNEL fpr0 = 0x10055620 <*> 00094fa5 7ffff980	-	3
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d89a000d60e92765) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x00000063	-	1
+KERNEL Core Configuration Register <*> : <*>	-	69
+MMCS ciodb has been restarted.	-	129
+APP DCR 0x2E4 : 0x00000000	-	6
+KERNEL fpr11 = 0xe7501094 3fb91744 c1d36c4c 3f627cf5	-	1
+KERNEL r16 = 0x08499870 r17 = 0xffffff60 r18 = 0x0839b228 r19 = 0x00000064	-	1
+KERNEL fpr1 = 0x00000001 <*> <*> <*>	-	1
+KERNEL r12 = 0x48242488 r13 = 0x1eeeeeee r14 = 0x00000e48 r15 = 0x01d9533c	-	1
+KERNEL fpr12 = 0x66666666 3ff66666 <*> <*>	-	2
+KERNEL r28 = 0x0302e660 r29 = 0x1ff9e2a0 r30 = 0x00085fc8 r31 = 0x00000001	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e9c0000d60e9163f) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr16 = 0xef07ae9f c0339d46 f4d3334d c0336cf0	-	1
+KERNEL r28 = 0x0ffe41b0 r29 = 0x00000000 r30 = 0x0ffe9290 r31 = 0x0ffe89f0	-	1
+KERNEL fpr21 = 0xa82612b6 4034f4b3 0b0773fd c0243fac	-	1
+HARDWARE PrepareForService is being done on this part <*> , <*> , mLp(FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : <*> : <*> : <*> , <*> , <*> by pjmccart	-	14
+LINKCARD MidplaneSwitchController : : parityAlignment() pap failed : <*> , status = <*> <*>	LINKPAP	14
+KERNEL r20 = 0x0ffe4260 r21 = 0x083de348 r22 = 0x083df8c8 r23 = 0x08325930	-	1
+KERNEL fpr29 = 0xffffffff ffffffff cccccccd 3ff4cccc	-	1
+MONITOR power module status fault detected on node card. status registers are : <*>	MONPOW	4
+APP DCR 0x2E2 : 0x00000000	-	10
+KERNEL fpr28 = 0x19d46239 c0102368 f342ccd5 c020dfcf	-	1
+LINKCARD MidplaneSwitchController performing bit sparing on <*> bit <*>	-	964
+KERNEL error threshold , consider replacing the card	-	23
+KERNEL data store interrupt caused by <*>	-	19646
+KERNEL fpr8 = 0x69a6bc29 bff1b01d 399b8aa9 3f961734	-	1
+KERNEL r00 = 0x00010800 r01 = 0x1ffa9d80 r02 = 0x1eeeeeee r03 = 0x16de0000	-	1
+KERNEL Error receiving packet on tree network , packet index <*> greater than max <*> (softheader = <*> <*> 0008882c 00040000) PSR0 = 00006f06 PSR1 = <*> PRXF = <*> PIXF = <*>	KERNREC	1
+KERNEL r08 = 0x00000001 r09 = 0x00000000 r10 = 0x00000000 r11 = 0x00280000	-	1
+KERNEL memory manager / command manager address parity..0	-	47
+KERNEL machine check status register : <*>	-	246
+KERNEL r00 = 0x00000008 r01 = 0x0ffea520 r02 = 0x1eeeeeee r03 = 0x00000009	-	1
+KERNEL fpr2 = 0x77ce1048 bfe675e5 b65c522f 40052e40	-	1
+KERNEL r00 = 0x00000000 r01 = 0x000c0000 r02 = 0x1eeeeeee r03 = 0x00000002	-	1
+KERNEL fpr9 = 0x9c35f139 40a4e7cf 800e99b1 3fefcf0c	-	1
+KERNEL r08 = 0x00774a8c r09 = 0x0077e710 r10 = 0x00f3af08 r11 = 0x00000000	-	1
+KERNEL size of scratchpad portion of L3.........0 (0M)	-	48
+KERNEL fpr11 = 0x8e34592b 3ff9f5b7 ed86f0f0 <*>	-	1
+KERNEL fpr20 = 0x5ae889cf be43c53c 9b194704 be3beda6	-	1
+MMCS idoproxydb hit ASSERT condition : ASSERT expression = !(nMsgLen > 0x10000) Source file = idomarshalerio.cpp Source line = <*> Function = int Ido <*> shalerRecvBuffer : : ReadBlock(IdoMsg : : IdoMsgHdr*&)	-	2
+KERNEL <*> double-hummer alignment exceptions	-	295764
+KERNEL r24 = 0x1fcc6750 r25 = 0x1f9ed750 r26 = 0x0000a200 r27 = 0xfffffdc0	-	1
+KERNEL 0x78253038 0x782e2e30	-	1
+DISCOVERY Node card status : no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE 2.5 VOLT RAIL IS NOT OK. THE 1.5 VOLT RAIL IS NOT OK.	-	116
+DISCOVERY SerialNumber(000000000000000000000000fff29f16ebdb000d60e91424) IpAddress(10.0.1.8) Status(A)	-	2
+KERNEL fpr3 = 0x89b8f327 bfa0c49c 9991a9e0 3fc5695e	-	1
+KERNEL fpr8 = 0x7ffff550 0ffcb46c <*> 7ffff720	-	1
+KERNEL fpr3 = 0x3e575151 c007d3cb <*> <*>	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e71e000d60e918e1) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL memory manager refresh counter timeout...........0	-	47
+KERNEL fpr10 = 0x2895e900 fdd2470d <*> 30f18240	-	1
+KERNEL r12 = 0x48404424 r13 = 0x1eeeeeee r14 = 0x00334778 r15 = 0x00fa6df0	-	1
+KERNEL fpr17 = 0xffffffff ffffffff 0668b470 bffebcbe	-	1
+KERNEL r04 = 0x09600ff0 r05 = 0x06900ff0 r06 = 0x0a069000 r07 = 0x05096000	-	1
+KERNEL fpr17 = 0xaed82c26 c03f1ed2 b368f5a1 4030cbea	-	1
+KERNEL fpr8 = 0xe72ef64a bf93c286 e063712e 3fc004d2	-	1
+KERNEL disable speculative access...............0	-	48
+KERNEL fpr0 = 0xf7b9a788 0001827f 3f6a8c91 3ec756aa	-	1
+0 max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts , <*> microseconds max time in a critical input interrupt.	-	4
+KERNEL external input interrupt (unit = 0x01 bit = 0x09) : number of corrected SRAM errors has exceeded threshold	-	39
+KERNEL rts assertion failed : `personality->version = = BGLPERSONALITY_VERSION' in `void start()' at start.cc : <*>	KERNRTSA	2
+KERNEL fpr13 = 0x02ddca24 <*> 7eb7ee0c bfab96a5	-	1
+KERNEL write buffer commit threshold............2	-	48
+KERNEL inexact <*>	-	68
+HARDWARE NodeCard power module <*> is not accessible	-	230
+KERNEL fpr11 = 0xf2250423 3fd2b2fb f2250422 3fd2b2fb	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e026000d60e91fd9) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r16 = 0x16df1610 r17 = 0x166333d0 r18 = 0x04f3a5f0 r19 = 0x04f3a4f0	-	1
+KERNEL fpr20 = 0x0fc9ed91 c00c51ea 1a28d8a0 c01b7a04	-	1
+DISCOVERY Problem communicating with service card , ido chip : <*> : <*> : <*> : FFF29F15 : <*> : <*> java.lang.IllegalStateException : IDo is not in functional state -- currently in state COMMUNICATION_ERROR	-	6
+LINKCARD MidplaneSwitchController : : sendTrain() port disconnected : R07-M1-L1-U19-E	LINKDISC	24
+HARDWARE PrepareForService is being done on this rack <*> by pjmccart	-	3
+KERNEL r20 = 0x00000003 r21 = 0x00001454 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL r16 = 0x002c9f80 r17 = 0x003491e0 r18 = 0x00335960 r19 = 0x002d3bbc	-	1
+KERNEL DDR failing address register : <*> <*>	-	47
+DISCOVERY Found invalid node ecid in processor card slot <*> , ecid <*>	-	5558
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e70f000d60e918f0) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL ciod : In packet from node <*> <*> : <*> , message code <*> is not <*> or <*> (softheader = <*> <*> <*> 00000000)	-	176
+KERNEL number of lines with parity errors written to L3 <*>	-	47
+KERNEL data cache search parity error detected. attempting to correct	-	13941
+KERNEL r28 = 0x0ffe54c0 r29 = 0x0ffe890c r30 = 0x0000006c r31 = 0x0ffe8920	-	1
+KERNEL fpr16 = 0x732e7918 3ffd3453 71e8d5cb c021177e	-	1
+KERNEL fpr6 = 0xf8561d3d c006dde7 84dc4fe1 3fce019c	-	1
+KERNEL r08 = 0x0a069000 r09 = 0x05096000 r10 = 0x078e6d40 r11 = 0x0b4d9e80	-	1
+KERNEL fpr15 = 0x86c1fcaf bc4f7014 000000bc 3ff00000	-	1
+KERNEL ddr : activating redundant bit steering for next allocation : rank = <*> symbol = <*>	-	492
+KERNEL r12 = 0x48242488 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x00000001	-	1
+HARDWARE EndServiceAction is restarting the LinkCards in midplane <*> as part of Service Action <*>	-	199
+APP ciod : Error creating node map from file <*> : Cannot allocate memory	APPALLOC	144
+KERNEL fpr19 = 0x62dffacb 3fe99f11 2c01fb9a c036f393	-	1
+KERNEL 0x20202020 0x20202030	-	1
+KERNEL r16 = 0x01edfc00 r17 = 0x01e0b150 r18 = 0x02089160 r19 = 0x01fb46b0	-	1
+HARDWARE NodeCard VPD chip is not accessible	-	1
+KERNEL r28 = 0x004c9870 r29 = 0xd0001080 r30 = 0x00000078 r31 = 0x00000000	-	8
+HARDWARE NodeCard temperature sensor chip <*> is not accessible	-	5
+KERNEL fpr19 = 0xe1a261f5 3e3e02f8 4e0ebb83 3e468e58	-	1
+KERNEL r08 = 0x0aae6ad0 r09 = 0x08000000 r10 = 0xfff2ba7c r11 = 0x00000000	-	1
+KERNEL fpr8 = 0x400f56b3 c0009a39 002233d1 3f5c7ae7	-	1
+KERNEL fpr14 = 0xbfa8b580 3f0a7e2e 8cd6e69b bef44493	-	1
+DISCOVERY New ido chip inserted into the database : FF : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> ip = <*> v = <*> t = <*>	-	3455
+KERNEL r16 = 0x00000011 r17 = 0x0066fa50 r18 = 0x00657450 r19 = 0x0352b8d0	-	1
+KERNEL fpr3 = 0x13885582 3ff34da9 191b32e7 400c7b99	-	1
+KERNEL <*> torus non-crc error(s) (dcr 0x02fd) detected and corrected	-	62
+KERNEL 0x93c10028 0x7c7e1b78	-	1
+KERNEL r12 = 0x00482ae0 r13 = 0x1eeeeeee r14 = 0x08626be8 r15 = 0x08626bf0	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e714000d60e918eb) IpAddress(0.0.0.0) Status(A)	-	1
+MMCS idoproxydb has been started : $Name : <*> $ Input parameters : -enableflush -loguserinfo db.properties BlueGene1	-	114
+KERNEL fpr9 = 0xabb59cc8 40153e7d <*> c01c0000	-	1
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x00000058	-	1
+HARDWARE PrepareForService shutting down Node <*> , <*> , mLp(FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> , <*> , mType(4)) as part of Service Action <*>	-	687
+APP ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> : Connection reset by peer	APPRES	114
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bbdb000d60e94424) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r04 = 0x00000000 r05 = 0x24404244 r06 = 0x0029fcac r07 = 0x0000a960	-	1
+KERNEL fpr27 = 0x72f97924 c04a0154 84c3abc2 403e4042	-	1
+KERNEL fpr6 = 0x4331eec8 bfe662a7 1129f091 <*>	-	1
+KERNEL r16 = 0x0033492c r17 = 0x09c4b2b0 r18 = 0x0988ce80 r19 = 0x099b7dc0	-	1
+KERNEL wait state enable.................0	-	6745
+KERNEL fpr13 = 0xaf37302b 40250b22 9c0f76af 40218bdb	-	1
+KERNEL fpr12 = 0xc7a5252a c02cf64e <*> c032cd62	-	1
+APP ciod : Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map : Device or resource busy	APPBUSY	512
+KERNEL fpr6 = 0xb874ed42 b8cac5bd <*> <*>	-	1
+KERNEL fpr7 = 0x7193139e bfb74002 3710328b bfcb7ed6	-	1
+KERNEL r20 = 0x000022a0 r21 = 0x000015a0 r22 = 0x07b62090 r23 = 0x07b62098	-	1
+KERNEL r16 = 0x0000071a r17 = 0x00000009 r18 = 0x00000000 r19 = 0x00000719	-	1
+KERNEL floating point <*>	-	9824
+KERNEL r00 = 0x0000f000 r01 = 0x0000f000 r02 = 0x1eeeeeee r03 = 0x2ddddddd	-	1
+KERNEL r20 = 0x40000000 r21 = 0x40000000 r22 = 0x0ffe9b20 r23 = 0x00000000	-	1
+KERNEL fpr0 = 0xaa997f63 bfb0a518 a9aa63ac bfc740f6	-	1
+KERNEL fpr12 = 0x10055974 7ffff950 <*> 1000d0e4	-	10
+KERNEL Kernel detected <*> integer alignment exceptions <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*> <*> iar <*> , dear <*>	-	22175
+KERNEL invalid operation exception <*>	-	272
+KERNEL r16 = 0x00000001 r17 = 0x00e12310 r18 = 0x0ffea010 r19 = 0x00000008	-	1
+KERNEL fpr11 = 0x9d20b7c5 408bead8 b363781c 405246f3	-	1
+KERNEL fpr1 = 0x3571892b bf216810 e50a1cb9 3f34ce3d	-	1
+KERNEL fraction <*>	-	136
+HARDWARE PrepareForService is being done on this Midplane <*> , mCardSernum( <*> by <*>	-	77
+APP DCR 0x2E6 : 0x00000000	-	10
+KERNEL r12 = 0x00848044 r13 = 0x1eeeeeee r14 = 0x00340000 r15 = 0x0035224c	-	1
+KERNEL r00 = 0x00000000 r01 = 0x000c5fa0 r02 = 0x1eeeeeee r03 = 0x000c65b0	-	1
+KERNEL fpr30 = 0x155b0551 3ec11f84 d6dbe0ae bed64319	-	1
+CMCS Starting SystemController	-	71
+KERNEL MACHINE CHECK DCR read timeout (mc = e08x iar 0x00000000 lr 0xc00045a4)	-	14481
+MONITOR monitor caught java.lang.IllegalStateException : while executing CONTROL Operation caught java.io.EOFException and is stopping	MONILL	1
+KERNEL Mailbox <*> itor : : serviceMailboxes() lib_ido_error : -1114 unexpected socket error : Broken pipe	-	1
+KERNEL r00 = 0x1ff3a108 r01 = 0x1f407c60 r02 = 0x1eeeeeee r03 = 0x0000000b	-	1
+KERNEL floating point unavailable interrupt	KERNFLOAT	3
+KERNEL r04 = 0xffff3474 r05 = 0x33303300 r06 = 0x0002e9cc r07 = 0x00030000	-	2
+KERNEL r00 = 0xbf8ae0f0 r01 = 0x0ffea660 r02 = 0x1eeeeeee r03 = 0x007523cc	-	1
+KERNEL r04 = 0x000006f0 r05 = 0x0194adb8 r06 = 0x0194adb0 r07 = 0x056a2a20	-	1
+KERNEL fpr9 = 0x1fb1ca10 3f883a09 <*> c01c0000	-	1
+KERNEL max number of outstanding prefetches.....7	-	48
+KERNEL fpr23 = 0x2dac6a53 c0061a9c c2f8a41a c008d371	-	1
+KERNEL r12 = 0x080db530 r13 = 0x1eeeeeee r14 = 0x0000000a r15 = 0x0000000c	-	1
+KERNEL underflow <*>	-	68
+KERNEL fpr12 = 0x16743d95 bdf69e9c bd76be8c 3dff5972	-	1
+KERNEL fpr1 = 0x10055620 <*> <*> 0800081d	-	3
+KERNEL fpr7 = 0x281fd914 40076db7 <*> bce00000	-	1
+KERNEL r08 = 0x00808080 r09 = 0x0ffea9c8 r10 = 0x80808080 r11 = 0x00000042	-	1
+KERNEL r20 = 0x00000000 r21 = 0x00000007 r22 = 0x00000000 r23 = 0x0000000c	-	1
+KERNEL fpr0 = 0x5bd1be25 bfd9119c 0c643dc2 400c7cc8	-	1
+KERNEL fpr10 = 0x5e20961c 3f578708 <*> 401c0000	-	1
+DISCOVERY Node card VPD check : <*> node in processor card slot <*> do not match. VPD ecid <*> , found <*>	-	21356
+KERNEL rror threshold , consider replacing the card	-	22
+KERNEL r20 = 0x1f427348 r21 = 0x1f714748 r22 = 0x1f9f7948 r23 = 0x00000000	-	1
+KERNEL fpr16 = 0x75d6e2d6 4021f361 4a4cf3ec 4016ad57	-	1
+KERNEL problem state (0 = sup , <*> = <*>	-	6546
+KERNEL fpr4 = 0x90e9623b bfe3cfc7 9b8fa1d0 bfe3cf99	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d55b000d60e92aa4) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr10 = 0x86515229 3c4bb730 3e575172 c007d3cb	-	1
+KERNEL fpr30 = 0xfa73c196 3ce14312 25eab70e 3cd0a179	-	1
+KERNEL fpr31 = 0x3f18f565 3fc86306 <*> 3fe00000	-	1
+DISCOVERY Problem communicating with service card , ido chip : <*> : <*> : <*> : FFF29F15 : <*> : <*> java.io.IOException : Could not find EthernetSwitch on port : address <*> : <*>	-	166
+KERNEL tlb error.........................1	-	1
+KERNEL fpr16 = 0x6faa41b3 3f0a8231 3d4cc357 3f0a8020	-	1
+KERNEL r04 = 0x095c5188 r05 = 0x00000010 r06 = 0x095c4e78 r07 = 0x0ffe66e8	-	1
+KERNEL r16 = 0x01edd5c8 r17 = 0x01e08b18 r18 = 0x02086b28 r19 = 0x01fb2078	-	1
+KERNEL r08 = 0x002b9c5c r09 = 0xa0000048 r10 = 0xb1150000 r11 = 0xb1150000	-	1
+APP DCR 0x2E4 : 0x00080000	-	1
+KERNEL fpr1 = 0x6d9f302d 00759b38 c5b18dbd 3fdd0fef	-	1
+KERNEL instruction TLB error interrupt	KERNTLBE	1
+KERNEL fpr24 = 0xa2e3fa84 c01b330e ff88bf26 4019e2c6	-	1
+APP ciod : Error reading message prefix on CioStream socket to <*> , Connection reset by peer	APPRES	2256
+HARDWARE LinkCard is not fully functional	-	248
+KERNEL fpr10 = 0x7d8e9fc3 3fe76761 <*> 401c0000	-	1
+KERNEL fpr28 = 0xe857a307 3edb905e 1a50628e 3edb81bd	-	1
+KERNEL L3 ecc control register : <*>	-	48
+MONITOR While setting fan speed caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	3
+KERNEL fpr11 = 0x00000000 <*> <*> <*>	-	22
+KERNEL fpr7 = 0xe76073a2 3f62ea8c 1cc24a7c c0706e16	-	1
+KERNEL fpr22 = 0xe77c4d52 4031c448 0930136e bfa9e110	-	1
+KERNEL rts : bad message header : cpu <*> invalid (softheader = <*> <*> <*> <*> PSR0 = <*> PSR1 = <*> PRXF = <*> PIXF = <*>	-	619
+KERNEL fpr7 = 0x1eec0496 bfe0bbc0 6fc1328a c0255f17	-	1
+KERNEL fpr7 = 0xe508d3f8 bfe0ae17 d4864bce c073268b	-	1
+KERNEL r24 = 0x00000000 r25 = 0x00000000 r26 = 0x00000000 r27 = 0x000ce5c8	-	1
+MONITOR No power module U58 found found on link card	MONPOW	6
+KERNEL r16 = 0x00000024 r17 = 0x00443a3c r18 = 0x00360000 r19 = 0x004438d0	-	1
+KERNEL r04 = 0xb1150000 r05 = 0x0352f5e0 r06 = 0x002ba3d4 r07 = 0x00000000	-	1
+KERNEL Error receiving packet on tree network , expecting type <*> instead of type <*> (softheader = <*> <*> <*> 00000000) PSR0 = <*> PSR1 = <*> PRXF = <*> PIXF = <*>	KERNREC	6144
+KERNEL ddr : Unable to steer rank = <*> , symbol = <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable e	-	22
+APP DCR 0x2E5 : 0x00000800	-	1
+KERNEL r08 = 0x0000ef48 r09 = 0x00070000 r10 = 0x000000e0 r11 = 0x0008885c	-	14
+KERNEL data address <*>	-	21002
+KERNEL fpr31 = 0xbbe17a1f 40266e6f <*> <*>	-	1
+KERNEL r24 = 0x00000003 r25 = 0x16de0000 r26 = 0x16630000 r27 = 0x00000200	-	1
+KERNEL number of correctable errors detected in L3 <*>	-	94
+KERNEL <*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected	-	4534
+HARDWARE PrepareForService is being done on this part <*> , <*> , mLp(FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> , <*> , mType(4)) by <*>	-	41
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bb81000d60e9447e) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr2 = 0x0f5b9b03 3e458839 d9d7bdbb 3ddb7cdf	-	1
+APP DCR 0x2E8 : 0x20000000	-	1
+KERNEL enabled exception summary................0	-	68
+KERNEL fpr9 = 0xbe9ca759 4000efff 3b301df2 bff30219	-	1
+KERNEL r12 = 0x48242484 r13 = 0x1eeeeeee r14 = 0x0088da60 r15 = 0x0088da68	-	1
+KERNEL r28 = 0xa003e820 r29 = 0x00000000 r30 = 0x84004444 r31 = 0x0aab54f0	-	1
+KERNEL fpr4 = 0x10055620 <*> <*> <*>	-	10
+KERNEL r16 = 0x09b9cca0 r17 = 0x01899740 r18 = 0x09bfd410 r19 = 0x09c0d550	-	1
+KERNEL ddr : redundant bit steering failed , sequencer timeout	KERNBIT	1
+KERNEL fpr11 = 0x4dad5304 bfb5b613 <*> bc8bfd32	-	1
+KERNEL memory manager store buffer parity...............0	-	47
+KERNEL 0xbff02716 0x68ec8538	-	1
+KERNEL 0x3ff66666 0x66666666	-	2
+KERNEL r08 = 0x00088880 r09 = 0x00000400 r10 = 0xc0006da0 r11 = 0xc0010000	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f157d08000d60ea82f7) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r24 = 0x00007530 r25 = 0x00340000 r26 = 0x00343454 r27 = 0x003523c8	-	1
+DISCOVERY Expected <*> active FanModules , but found <*> ( Found J300 J301 J302 J303 J304 J306 J307 J308 <*> ).	-	11
+KERNEL r08 = 0x0000029e r09 = 0x00000000 r10 = 0x00000004 r11 = 0x0ffe9c9d	-	1
+KERNEL Special Purpose Registers :	-	68
+KERNEL fpr8 = 0x2636a402 bffe7d56 d3a1c84c 3fbd6d43	-	1
+DISCOVERY Node card status : no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD is OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.	-	1
+KERNEL fpr11 = 0x695c6701 3e4363aa 77478fd9 3fe0d90f	-	1
+KERNEL r28 = 0x00000004 r29 = 0x00000005 r30 = 0x00000001 r31 = 0x0000000b	-	1
+DISCOVERY While initializing node card , ido with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> caught java.lang.IllegalStateException : while executing CONTROL Operation caught java.lang.RuntimeException : Communication error : (DirectIDo for com.ibm.ido.DirectIDo object [FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> <*> with image version <*> and card type 4] is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = -1 , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = -1 , Expected Sync Command = <*> , Actual Sync Reply = -1)	-	7
+DISCOVERY Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot <*>	-	887
+KERNEL r20 = 0x01d55ff0 r21 = 0x00000bb7 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL fpr29 = 0x4566cf50 403eb4f0 f6b83afa 400a310e	-	1
+KERNEL fpr11 = 0xb57c92bf <*> 4fcf28c8 406162a6	-	1
+KERNEL fpr8 = 0x631610da c0262820 2caf34ac c01b0573	-	1
+KERNEL 0x00000000 0x00000004	-	1
+KERNEL Lustre mount FAILED : <*> : point /p/gb1	KERNMNTF	26426
+KERNEL <*> torus processor sram injection error(s) (dcr 0x02fb) detected and corrected over <*> seconds	-	1
+KERNEL fpr14 = 0x101a5a39 bff6fdf9 665dcd85 bffc2f3a	-	1
+LINKCARD MidplaneSwitchController : : receiveTrain() iap failed : R63-M0-L2-U21-A , status = ffbffbff ec000000	LINKIAP	160
+KERNEL fpr25 = 0x7007a404 bed648f8 b8089fb0 3edb8e89	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d890000d60e9276f) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr5 = 0xb050813b c0400eed 5069bc5b 3fd16986	-	1
+KERNEL r24 = 0x0988ce80 r25 = 0x099b7dc0 r26 = 0x099bbca0 r27 = 0x00001449	-	1
+KERNEL idoproxy communication failure : socket closed	KERNSOCK	41
+KERNEL fpr18 = 0xc24c0e36 c0243a30 534e39ab c012546c	-	1
+KERNEL fpr5 = 0x9983cc65 3faf2d97 e4f577ad 3fdcc0ca	-	1
+KERNEL r04 = 0x00000008 r05 = 0x00458b50 r06 = 0x1aa3ad28 r07 = 0x00000068	-	1
+KERNEL r16 = 0x022972e0 r17 = 0x022981e0 r18 = 0x022990e0 r19 = 0x01c05d88	-	1
+KERNEL r04 = 0x00000000 r05 = 0x24404844 r06 = 0x0029fcac r07 = 0x000161c0	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e030000d60e91fcf) IpAddress(0.0.0.0) Status(A)	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d6b6000d60e92949) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr13 = 0x0000008c 00006a83 29ee437c 3feb932c	-	1
+KERNEL fpr9 = 0xfffffef0 408fffff b4e362e2 3cf17e94	-	1
+KERNEL r16 = 0x000004c6 r17 = 0x80000a4e r18 = 0xfffffe6c r19 = 0x0000065c	-	1
+BGLMASTER mmcs_server exited abnormally due to signal : Segmentation fault	MASABNORM	3
+KERNEL fpr31 = 0x3f18f565 3fc86306 78d4fdf3 4043a6e9	-	1
+KERNEL r12 = 0x80808080 r13 = 0x1eeeeeee r14 = 0x40000000 r15 = 0x40000000	-	1
+KERNEL fpr6 = 0x7f9cc4ba 402e4ca6 d06a9c52 bfb51f5e	-	1
+KERNEL r08 = 0x0000ef58 r09 = 0x00070000 r10 = 0x000000e0 r11 = 0x0008885c	-	3
+KERNEL r12 = 0x48242488 r13 = 0x1eeeeeee r14 = 0x01c19800 r15 = 0x00000001	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bbc7000d60e94438) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr5 = 0xa7b6e52a 4025a18f a1482c21 3f6ce353	-	1
+KERNEL floating pt ex mode <*> <*>	-	13044
+KERNEL L3 ecc status register : <*>	-	47
+KERNEL fpr6 = 0x7465cb32 401eddf7 ae4ee1be bfaf15cf	-	1
+APP ciod : LOGIN <*> failed : Permission denied	-	472
+KERNEL disable trace broadcast..................0	-	2393
+KERNEL memory and bus summary...........................0	-	47
+KERNEL 0x3038780a 0x00000000	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bb9f000d60e94460) IpAddress(0.0.0.0) Status(A)	-	1
+APP DCR 0x2DF : 0x00000000	-	10
+KERNEL fpr4 = 0xfc4b6390 <*> 84450a5a 3f2d7422	-	1
+KERNEL r16 = 0x000001c9 r17 = 0x01d25330 r18 = 0xffffff6b r19 = 0x01d25818	-	1
+BGLMASTER ciodb exited abnormally due to signal : Aborted	MASABNORM	23
+KERNEL General Purpose Registers :	-	69
+KERNEL r28 = 0x00002012 r29 = 0x00000001 r30 = 0x09feab50 r31 = 0x02217470	-	1
+KERNEL fpr11 = 0x9042fc36 bf114ab6 bfec5137 bee2ba98	-	1
+KERNEL r12 = 0xa0006470 r13 = 0x1eeeeeee r14 = 0x00000004 r15 = 0x0048eb90	-	1
+KERNEL memory manager strobe gate.......................0	-	47
+KERNEL r04 = 0x00000000 r05 = 0x24404244 r06 = 0x0029fcac r07 = 0x00000120	-	1
+KERNEL fpr7 = 0xf02151f7 3c62cb15 <*> <*>	-	1
+KERNEL ciod : Received signal <*> , code = <*> , errno = <*> , address = <*>	-	39457
+KERNEL ddrSize = = 256*1024*1024 || ddrSize = = 512*1024*1024	-	1
+KERNEL r04 = 0x0030e278 r05 = 0x00000000 r06 = 0xfefefeff r07 = 0x7f7f7f7f	-	1
+KERNEL close EDRAM pages as soon as possible....0	-	48
+DISCOVERY SerialNumber(000000000000000000000000fff29f16eceb000d60e91314) IpAddress(0.0.0.0) Status(A)	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16dfed000d60e92012) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r24 = 0x00000001 r25 = 0x00000370 r26 = 0x00000374 r27 = 0x00000000	-	1
+KERNEL fpr28 = 0x3f7283fc c028dd73 9c2f1236 bff963ea	-	1
+KERNEL fpr8 = 0x2a9a4417 3df764ed 3dc40043 3df885ce	-	1
+KERNEL fpr6 = 0xf68ae2d6 c048e028 7ad46c19 bfc0e6fa	-	1
+BGLMASTER BGLMaster has been started : ./BGLMaster --consoleip 127.0.0.1 --consoleport <*> --configfile bglmaster.init	-	6
+KERNEL fpr9 = 0x4ff0f498 4011f6fa bc21a47f bfec1331	-	1
+KERNEL program interrupt : fp cr field .............0	-	8102
+KERNEL e error threshold , consider replacing the card	-	1
+KERNEL uncorrectable error detected in external <*>	-	47
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e8c9000d60e91736) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr12 = 0xd3901919 408c4060 a69e902e 3fcb38fd	-	1
+KERNEL fpr6 = 0x5de6be3a 404f5793 594d4931 bf8ea01b	-	1
+KERNEL fpr1 = 0xf2250423 3fd2b2fb 5573f0e0 bcd2d127	-	1
+KERNEL r12 = 0x00088500 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	1
+KERNEL r12 = 0x1ff40220 r13 = 0x1eeeeeee r14 = 0x1fcd0248 r15 = 0x1f9ed508	-	1
+KERNEL critical input interrupt <*>	-	6559
+APP DCR 0x2E7 : 0x00000000	-	10
+KERNEL fpr7 = 0x9a9eac35 bfe2e13e 6723211a c025f045	-	1
+APP ciod : Error loading /p/gb1/light3/sppm_chkpt/sppm : not a CNK program image	-	1024
+KERNEL r00 = 0x00000003 r01 = 0x0ffe9ed0 r02 = 0x1eeeeeee r03 = 0x00000002	-	1
+KERNEL fpr17 = 0xb1d0411a bc57872f d1030d25 3fbca20d	-	1
+KERNEL r00 = 0x0000001c r01 = 0x0ffe40e0 r02 = 0x1eeeeeee r03 = 0x00000064	-	1
+KERNEL r24 = 0x005e1ec8 r25 = 0xe22bbe98 r26 = 0x085a5718 r27 = 0x0858dd18	-	1
+KERNEL fpr10 = 0x1e79b384 bde0e370 1f19656a 3e014040	-	1
+KERNEL r00 = 0x00000000 r01 = 0x0ffea660 r02 = 0x00000000 r03 = 0x00b5aa10	-	1
+KERNEL fpr21 = 0x17910f57 4000c7d7 49d67fe2 c0055ebf	-	1
+KERNEL invalid <*>	-	408
+KERNEL r24 = 0x00350000 r25 = 0x00350000 r26 = 0x00340000 r27 = 0x00350000	-	1
+KERNEL r08 = 0x00000020 r09 = 0x1fcd1030 r10 = 0x1f9f8030 r11 = 0x00000060	-	1
+APP ciod : Error loading <*> : invalid or missing program image , Permission denied	-	43040
+HARDWARE PrepareForService is being done on this Midplane <*> , <*> <*> by root	-	172
+KERNEL <*> torus sender sram ecc error(s) (dcr 0x02f2) detected and corrected	-	1
+KERNEL r00 = 0x00000000 r01 = 0x00088470 r02 = 0x1eeeeeee r03 = 0x0000002f	-	1
+MONITOR Local PGOOD error latched on link card	-	4
+KERNEL r28 = 0x000047d8 r29 = 0xffffb7e8 r30 = 0x00000000 r31 = 0x00004800	-	1
+KERNEL minus <*>	-	136
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.net.SocketException : Broken pipe	-	8
+KERNEL fpr14 = 0x3e57524b bf67d3cb <*> <*>	-	1
+DISCOVERY While initializing node card , ido with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.RuntimeException : Communication error : (DirectIDo for com.ibm.ido.DirectIDo object [FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> <*> with image version <*> and card type 4] is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = -1 , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = -1 , Expected Sync Command = <*> , Actual Sync Reply = -1)	-	3
+KERNEL fpr5 = 0xba8551a2 3fe13b82 93c3f2c1 3fbcbeb6	-	1
+KERNEL fpr6 = 0xdb0d1713 40623f66 <*> 3fd80000	-	1
+KERNEL r04 = 0x00000010 r05 = 0x00000010 r06 = 0x000865b0 r07 = 0x00007d41	-	10
+KERNEL Target = ido : //FF : F2 : 9F : <*> : D5 : <*> : <*> : 0D : <*> : E9 : 2A : FE/JTAG/0 Message = Invalid JtagId = ffffffff Run environmental monitor to diagnose possible hardware failure.	-	2
+KERNEL fpr5 = 0x1d510b54 c0252d92 dc69a17b 3fa38ba0	-	1
+KERNEL rts : kernel terminated for reason 1001rts : bad message header : invalid cpu , type = <*> , cpu = <*> , index = <*> , total = <*>	KERNTERM	3334
+KERNEL fpr7 = 0xa4cdf4d7 3fe38584 9bbab824 c0713f53	-	1
+KERNEL r28 = 0x00000005 r29 = 0xa0000020 r30 = 0xa00000c0 r31 = 0x00000028	-	1
+KERNEL fpr27 = 0x79406475 bccac03e <*> <*>	-	1
+KERNEL state machine....................................0	-	47
+KERNEL fpr9 = 0xbf8ec1ee c03ed1c3 <*> c01c0000	-	1
+KERNEL parity error in read queue <*>	-	141
+APP DCR 0x2E5 : 0x08080000	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e214000d60e91deb) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL d-cache search parity <*>	-	294
+KERNEL DDR machine check register : 0x00000000 <*>	KERNMC	47
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x00000088	-	1
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	3
+KERNEL 0x00000000 0xb9fa0000	-	2
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d5c9000d60e92a36) IpAddress(0.0.0.0) Status(A)	-	1
+MONITOR Hardware monitor caught java.net.SocketException : Broken pipe and is stopping	-	77
+KERNEL r04 = 0xffff3474 r05 = 0x33333300 r06 = 0x0002e9cc r07 = 0x00030000	-	4
+KERNEL fpr31 = 0x6e587795 3955442f <*> <*>	-	1
+HARDWARE PrepareForService is being done on this rack (R25) by orbeck1	-	1
+KERNEL ciod : In packet from node <*> <*> : <*> , message still ready for node <*> (softheader = <*> <*> <*> 00000000)	-	2
+KERNEL fpr15 = 0xc9b11547 bff434ab 02c6bc5e c00d254b	-	1
+KERNEL disable store gathering..................0	-	6495
+KERNEL r20 = 0x004438fc r21 = 0x00443964 r22 = 0x0034f5a4 r23 = 0x00000003	-	1
+KERNEL r16 = 0x00000038 r17 = 0x000000de r18 = 0x00000044 r19 = 0x00ed4920	-	1
+KERNEL gister : machine state register : machine state register : machine state register : machine state register : machine state register :	-	5
+KERNEL r12 = 0x42000044 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	2
+KERNEL fpr19 = 0xae6eed33 4013a210 dfa708d6 c032176d	-	1
+KERNEL fpr0 = 0x03b304c3 40459fb2 <*> 408b7000	-	1
+APP ciod : LOGIN <*> failed : No such file or directory	-	43647
+KERNEL fpr13 = 0x08ea8b50 08ea4ee8 1174aee6 3f5a3b49	-	1
+DISCOVERY While initializing service card iDo with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> caught java.io.IOException : Could not contact iDo with LP = FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> and IP = <*> because java.lang.RuntimeException : Communication error : (DirectIDo for Uninitialized DirectIDo for FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> <*> is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = -1 , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = -1 , Expected Sync Command = <*> , Actual Sync Reply = -1)	-	197
+SERV_NET <*> lareServiceNetworkCharacteristics has been run but the DB is not empty	-	1
+HARDWARE NodeCard is not fully functional	-	60
+APP DCR 0x2E5 : 0x00080000	-	2
+KERNEL fpr18 = 0xa7b9b409 c01bc613 ee00caaa 3ff73af6	-	1
+APP ciod : failed to read message prefix on control stream (CioStream socket to <*>	APPREAD	5983
+KERNEL 0x0000040c 0x00000000	-	1
+KERNEL fpr23 = 0x04972653 <*> fe877a91 c026b8ec	-	1
+KERNEL fpr19 = 0x36fe4f63 bc5955b8 fa73c196 3ce14312	-	1
+MONITOR Hardware monitor caught java.lang.IllegalStateException : while executing I2C Operation caught java.net.SocketException : Broken pipe and is stopping	-	4
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x00000008	-	1
+KERNEL r00 = 0x00000030 r01 = 0x0ffe9d50 r02 = 0x00000000 r03 = 0x0b592b40	-	1
+KERNEL r20 = 0x0036fef8 r21 = 0x00321cf8 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL fpr13 = 0x4bcd5d38 4000c8d0 128cfca0 3fa0a96f	-	1
+iar dear <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8 , dear <*> <*> iar 0x00544eb8 , dear <*> <*> iar 0x00544ea8 , dear <*> <*> iar 0x00544eb8 , dear <*> <*> iar 0x00544ee0 , dear <*> <*> iar 0x00544ef0 , dear <*> <*> iar 0x00544ee0 , dear <*> <*> iar 0x00544ef0 , dear <*>	-	2
+KERNEL SRAM correctable errors exceeds threshold (iar 0xc0005064 lr 0xc0005070)	-	6
+KERNEL r20 = 0x000004e8 r21 = 0x00000bb7 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL prefetch depth for core <*>	-	96
+KERNEL r12 = 0x00398958 r13 = 0x1eeeeeee r14 = 0x00000000 r15 = 0x0000000f	-	1
+KERNEL <*> L3 directory error(s) (dcr 0x0152) detected and corrected over <*> seconds	-	187
+APP ciod : Error creating node map from file <*> : Bad file descriptor	-	1936
+KERNEL Power deactivated : <*>	KERNPOW	192
+KERNEL total of <*> ddr error(s) detected and corrected	-	28485
+KERNEL fpr11 = 0x7c740ad7 bff9d122 48b0e5c1 bfd7fac0	-	1
+MMCS idoproxydb hit ASSERT condition : ASSERT expression = !(RecvMsgHdr.ulLen > 0x10000) Source file = idomarshalerio.cpp Source line = <*> Function = virtual int Ido <*> shalerIo : : RunRecv()	-	1
+KERNEL external input interrupt (unit = 0x05 bit = 0x06) : 1M tree receiver <*> in resynch mode	-	1
+KERNEL <*> error detected in EDRAM bank <*>	-	188
+APP ciod : Error loading <*> : invalid or missing program image , No such file or directory	-	47504
+KERNEL fpr7 = 0x00000000 <*> <*> <*>	-	23
+KERNEL idoproxy communication failure : BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card	KERNCON	2
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	5
+KERNEL fpr0 = 0x10055620 <*> 00094fc2 7ffff980	-	7
+KERNEL fpr12 = 0xcb9bdb1b c09099f7 f4afcb3f 3fc48629	-	1
+KERNEL r04 = 0xffff3470 r05 = 0x33333300 r06 = 0x0002ea00 r07 = 0x00030000	-	3
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	7
+KERNEL fpr7 = 0xbd0715ef 3fbdb8a5 9885abca beb8e10b	-	1
+APP ciod : Error creating node map from file my_map.txt : Argument list too long	-	8
+KERNEL r16 = 0x0b94ef60 r17 = 0x0aa74e90 r18 = 0x042d4070 r19 = 0x042d3f70	-	1
+KERNEL r20 = 0x0048eb74 r21 = 0x0048eb70 r22 = 0x0048eb68 r23 = 0x1ff9e1c0	-	1
+KERNEL 0x281f003f 0x3d200002	-	1
+KERNEL r28 = 0x086d23c0 r29 = 0x00482ad0 r30 = 0x0033a570 r31 = 0x0047eba0	-	1
+KERNEL r28 = 0xffffc0c8 r29 = 0x0000017f r30 = 0x0000017f r31 = 0x0008db74	-	8
+KERNEL r12 = 0x08848042 r13 = 0x1eeeeeee r14 = 0x00340000 r15 = 0x00000000	-	1
+KERNEL fpr17 = 0xa0e1b0de c00f074c 767c4303 402b07a4	-	1
+KERNEL r08 = 0x089d85a0 r09 = 0x028fb5c0 r10 = 0x00a25be0 r11 = 0x00000004	-	1
+KERNEL r16 = 0x00000000 r17 = 0x00000000 r18 = 0x00000000 r19 = 0x00000007	-	1
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	8
+KERNEL r28 = 0x00000010 r29 = 0x00007d41 r30 = 0x00000000 r31 = 0x000865b0	-	10
+KERNEL program interrupt : fp cr update.............0	-	8102
+KERNEL fpr29 = 0x3b246bd5 40148be6 1ac3b737 402538d8	-	1
+HARDWARE EndServiceAction <*> performed upon <*> by <*>	-	233
+KERNEL fpr7 = 0x798fced5 40113b1d 88d927d4 3fc8881c	-	1
+KERNEL rts : kernel terminated for reason 1002rts : bad message header : too many packets , type = <*> , cpu = <*> , index = <*> , total = <*> <*>	KERNTERM	250
+HARDWARE EndServiceAction <*> was performed upon R63-M0-L2 by pjmccart	-	1
+KERNEL r00 = 0x00000000 r01 = 0x1ffa7370 r02 = 0x1eeeeeee r03 = 0x080db708	-	1
+KERNEL fpr8 = 0x718f59ca 401ed07d 000004dc 3fe00000	-	1
+KERNEL r16 = 0x08626bf8 r17 = 0x005cf7b0 r18 = 0x0858dd18 r19 = 0x00482b30	-	1
+KERNEL r04 = 0x0fea04b8 r05 = 0x00000000 r06 = 0x02217468 r07 = 0x02217628	-	1
+KERNEL r08 = 0x00009c34 r09 = 0x00000000 r10 = 0x00088520 r11 = 0x00088510	-	1
+KERNEL r08 = 0x02ea6ff8 r09 = 0x00000048 r10 = 0x0000001d r11 = 0x02ead0b8	-	1
+a instance of a correctable ddr. RAS KERNEL INFO <*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.	-	4
+DISCOVERY While initializing node card , ido with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> caught java.lang.IllegalStateException : IDo is not in functional state -- currently in state COMMUNICATION_ERROR	-	9
+KERNEL r16 = 0x00000001 r17 = 0x00000000 r18 = 0x00000000 r19 = 0x00000000	-	1
+KERNEL r16 = 0x005cb3f8 r17 = 0x005cb358 r18 = 0x005ca830 r19 = 0x005ca830	-	1
+KERNEL fpr18 = 0x5986d427 bef4396c d5790b0e bf106097	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d501000d60e92afe) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL <*> ddr error(s) detected and corrected on rank <*> , symbol <*> over <*> seconds	-	10436
+KERNEL r16 = 0x00000058 r17 = 0x00000042 r18 = 0x0000001a r19 = 0x00ed4920	-	1
+KERNEL r04 = 0x00000000 r05 = 0x24404844 r06 = 0x0029fcac r07 = 0x000545f0	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bba4000d60e9445b) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr10 = 0xc3709326 4088e6d8 <*> 3ff00000	-	1
+KERNEL fpr10 = 0x95da9e49 3fc8c65b <*> 401c0000	-	1
+KERNEL fpr5 = 0x10010000 <*> <*> 7ffff9c0	-	10
+KERNEL fpr3 = 0x041628f0 c011219b 299ec4c5 bff81ed8	-	1
+KERNEL r24 = 0x00000000 r25 = 0xffffc000 r26 = 0x00000000 r27 = 0x00000000	-	22
+KERNEL r08 = 0x0ffea280 r09 = 0xedcb9683 r10 = 0x000003f0 r11 = 0x00000010	-	1
+KERNEL fpr7 = 0x0000004e 42c80000 1dea4cc8 3c5e9184	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16da88000d60e92577) IpAddress(0.0.0.0) Status(A)	-	1
+BGLMASTER ciodb exited normally with exit code <*>	-	1
+DISCOVERY While initializing link card iDo machine with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> caught java.io.IOException : Could not contact iDo with LP = FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> and IP = <*> because java.lang.RuntimeException : Communication error : (DirectIDo for Uninitialized DirectIDo for FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : EA : <*> : <*> <*> is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = -1 , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = -1 , Expected Sync Command = <*> , Actual Sync Reply = -1)	-	30
+KERNEL fpr10 = 0x00000004 <*> 000011a1 0fdc0000	-	1
+MONITOR While setting fan speed caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	8
+KERNEL 0x48000dd1 0x83a10014	-	1
+KERNEL rts assertion failed : `vaddr % PAGE_SIZE_1M = = 0' in `int initializeAppMemory(int , TLBEntry& , unsigned int , unsigned int)' at mmu.cc : <*>	KERNRTSA	1
+KERNEL fpr6 = 0x9c990d1b 40021c6f a8f77056 3ff733af	-	1
+KERNEL r28 = 0x00022b8e r29 = 0x0086f8b0 r30 = 0x00000002 r31 = 0x00008000	-	1
+KERNEL <*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.	-	135092
+APP DCR 0x2E3 : 0x00000000	-	10
+FATAL job <*> timed out. Block freed.	-	306
+APP ciod : Error loading <*> : invalid or missing program image , Exec format error	-	22032
+KERNEL fpr12 = 0x00000001 <*> 8c6eda20 3fea245a	-	1
+KERNEL fpr6 = 0x4c6769f9 402953b1 b72f6516 3f946f0b	-	1
+KERNEL DDR failing info register : <*>	-	18
+KERNEL ciod : Missing or invalid fields on line <*> of node map file <*>	-	2048
+KERNEL r08 = 0x00009c34 r09 = 0x00000000 r10 = 0x000c8540 r11 = 0x000c8530	-	1
+KERNEL r20 = 0x0b3a49ff r21 = 0x0b3a2a04 r22 = 0x0035e908 r23 = 0x80000003	-	1
+KERNEL r04 = 0xa0040000 r05 = 0x00360000 r06 = 0x00000010 r07 = 0x00000000	-	1
+KERNEL fpr27 = 0xb54328aa 3ff925d0 5f32e549 c000af8c	-	1
+KERNEL fpr5 = 0x06baa278 c01fbab1 72ffae7b 3f6276d1	-	1
+KERNEL r20 = 0x00000000 r21 = 0x00001454 r22 = 0x1ff8a678 r23 = 0x1ffaa670	-	1
+KERNEL r28 = 0x00000060 r29 = 0x000000c0 r30 = 0x04f29300 r31 = 0x00000002	-	1
+KERNEL r20 = 0x00000002 r21 = 0x0000000c r22 = 0x00000085 r23 = 0x005cf7c8	-	1
+KERNEL Floating Point Status and Control Register : <*>	-	68
+KERNEL fpr4 = 0x0000000c <*> <*> <*>	-	1
+KERNEL chip select...........0	-	47
+KERNEL r16 = 0x0000046d r17 = 0x00a35a08 r18 = 0x0292b038 r19 = 0x089f79a0	-	1
+KERNEL fpr10 = 0x66666666 3ff66666 <*> <*>	-	2
+DISCOVERY SerialNumber(000000000000000000000000fff29f16edb0000d60e9124f) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r12 = 0x0050bb30 r13 = 0x1eeeeeee r14 = 0x0ffe89d0 r15 = 0x0ffe6fb0	-	1
+KERNEL fpr13 = 0x00000000 <*> <*> <*>	-	29
+KERNEL r12 = 0x42000024 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	3
+KERNEL r16 = 0x000000cc r17 = 0x0000002b r18 = 0x00000065 r19 = 0x00ed4920	-	1
+KERNEL memory manager address parity error..............0	-	47
+KERNEL fpr5 = 0xc63ddf17 3fefabb7 84dc4fe1 3f0e019c	-	1
+MONITOR While setting fan speed caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	8
+KERNEL rts : kernel terminated for reason 1002rts : bad message header : too many packets , type = <*> , cpu = <*> , index = <*> , total = <*> , max = <*>	KERNTERM	6
+KERNEL fpr23 = 0xec2830fa bc54056f <*> <*>	-	1
+KERNEL fpr5 = 0xbc3685a2 <*> <*> bfd40000	-	1
+KERNEL r12 = 0x00348fa8 r13 = 0x1eeeeeee r14 = 0x00350000 r15 = 0x00006a83	-	1
+KERNEL r12 = 0x0000005b r13 = 0x1eeeeeee r14 = 0x00b5ae00 r15 = 0x00b5b280	-	1
+KERNEL fpr14 = 0x28152d55 <*> f206dd8f c032ba03	-	1
+KERNEL r00 = 0x00000000 r01 = 0x0ffea6b0 r02 = 0x1eeeeeee r03 = 0x008b5210	-	1
+KERNEL fpr8 = 0x91190b3b bfcbd0a0 117324af 3fe184d6	-	1
+KERNEL r24 = 0x0ffea4c8 r25 = 0x00000003 r26 = 0x0000000f r27 = 0xffffd000	-	8
+DISCOVERY SerialNumber(000000000000000000000000fff29f16ebb3000d60e9144c) IpAddress(10.0.1.12) Status(A)	-	2
+DISCOVERY SerialNumber(000000000000000000000000fff29f16eb68000d60e91497) IpAddress(10.0.1.8) Status(A)	-	2
+MONITOR Link PGOOD error latched on link card	-	349
+KERNEL r12 = 0x48242488 r13 = 0x1eeeeeee r14 = 0x00000003 r15 = 0x00000002	-	1
+KERNEL disable apu instruction broadcast........0	-	2396
+KERNEL fpr10 = 0x00000000 <*> <*> <*>	-	13
+KERNEL r12 = 0x00002280 r13 = 0x1eeeeeee r14 = 0x00000018 r15 = 0x00000016	-	1
+KERNEL r12 = 0x44000024 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	8
+KERNEL rts : bad message header : index <*> greater than total <*> (softheader = <*> <*> <*> 00000000) PSR0 = <*> PSR1 = <*> PRXF = <*> PIXF = <*>	-	238
+KERNEL fpr6 = 0x9fde29b5 3ff006ec 1e52ceb1 bff006d9	-	1
+KERNEL fpr12 = 0x8e7d21fb 3ffb6183 8e7d21fd 3ffb6183	-	1
+HARDWARE com.ibm.bgldevices.BulkPowerModule with VPD of com.ibm.bgldevices.BulkPowerModule$VpdReply : IBM Part Number : 53P5763 , Vendor : Cherokee International , Vendor Serial Number : <*> , Assembly Revision : 	-	4
+KERNEL fpr31 = 0xc5bef4b8 c008806c e06ca8f9 c02f96a0	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e8fb000d60e91704) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL imprecise machine <*>	-	289
+KERNEL r16 = 0x00000047 r17 = 0x00000085 r18 = 0x000000f9 r19 = 0x00ed4920	-	1
+KERNEL 0x32470000 0x31470000	-	1
+KERNEL r04 = 0xffff3470 r05 = 0x33333300 r06 = 0x0002eaf0 r07 = 0x00030000	-	2
+KERNEL Microloader Assertion	KERNMICRO	1503
+KERNEL capture <*>	-	47
+KERNEL r28 = 0xffffc0c8 r29 = 0x000001ff r30 = 0x000001ff r31 = 0x0008db74	-	9
+KERNEL fpr1 = 0xfffffe51 3f4fffff fffffe7a 3f4fffff	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16dfbb000d60e92044) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL 0x3fe3f579 0xc15c9073	-	1
+KERNEL r00 = 0x00003000 r01 = 0x00088850 r02 = 0x1eeeeeee r03 = 0x0000ef58	-	3
+KERNEL <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts , <*> microseconds max time in a critical input interrupt.	-	135092
+KERNEL size of DDR we are caching...............1 (512M)	-	48
+KERNEL fpr0 = 0xf119ef02 bff38ab0 <*> 408c1800	-	1
+KERNEL r04 = 0x00000090 r05 = 0x00000000 r06 = 0x00340000 r07 = 0x00000000	-	1
+KERNEL <*>	-	1863
+KERNEL fpr5 = 0xd08e4982 3fe3cf2b 4c96bfaa 3f06e1a5	-	1
+APP DCR 0x2DC : 0x00000000	-	10
+DISCOVERY SerialNumber(000000000000000000000000fff29f16d551000d60e92aae) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL fpr8 = 0x3883a497 bfe016b5 8da3311e 3f06d5a7	-	1
+KERNEL r12 = 0x22000024 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	1
+KERNEL rts : kernel terminated for reason 1002rts : bad message header : too many packets , type = <*> , cpu = <*> , index = <*> , total = <*> , m	KERNTERM	20
+KERNEL fpr11 = 0x8e449978 3e45652e <*> 3ff00000	-	1
+KERNEL fpr6 = 0xe8863bb6 3f503043 58a9662d 3f2dfdac	-	1
+KERNEL r28 = 0x0000a3e0 r29 = 0x000c8450 r30 = 0xda813f70 r31 = 0x00055964	-	1
+KERNEL critical input interrupt (unit = 0x0b bit = <*> : warning for torus <*> wire , suppressing further interrupts of same type	-	2314
+KERNEL fpr6 = 0x3145c070 <*> <*> 3fe6c3eb	-	1
+KERNEL fpr8 = 0x8e7d21fb 3ffb6183 c4ac2530 bcda6879	-	1
+KERNEL r12 = 0xffffcb62 r13 = 0x1eeeeeee r14 = 0x01855c80 r15 = 0x01054a30	-	1
+KERNEL fpr5 = 0x25eab79b 3c30a179 <*> <*>	-	1
+KERNEL fpr5 = 0x902606e3 3fe7e35a 243d0164 c0152a1b	-	1
+MMCS mmcs_db_server has been started : <*> --useDatabase BGL --dbproperties <*> --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all	-	155
+KERNEL suppressing further interrupts of same type	-	7694
+KERNEL plus <*> <*>	-	136
+KERNEL fpr6 = 0x00000027 100cd1f8 0ff66a94 7ffff5f0	-	1
+KERNEL r16 = 0x1fcd0708 r17 = 0x1f700108 r18 = 0x1ffa9708 r19 = 0x1fcd0948	-	1
+KERNEL fpr24 = 0xe1fd22a4 4031fc2a 5c507b46 c047a376	-	1
+KERNEL fpr7 = 0x799e790a 40b11ceb <*> 3fe04888	-	1
+KERNEL fpr28 = 0xfa1099a0 402752a9 4879f9cc 4013ec5c	-	1
+KERNEL fpr2 = 0x736f2419 bfdab5ea f57d3fc0 bff983e7	-	1
+KERNEL r24 = 0x00000000 r25 = 0xffffc000 r26 = 0x00090000 r27 = 0x0008e5c8	-	1
+KERNEL fpr22 = 0x00000000 bff00000 <*> bff00000	-	1
+KERNEL icache prefetch <*>	-	4777
+KERNEL r28 = 0x1cb2f538 r29 = 0x000f2268 r30 = 0x00000006 r31 = 0x1aa3a8d0	-	1
+KERNEL fpr13 = 0xe17c77f3 bf106090 49cff16a 3f0a8264	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f157ef7000d60ea8108) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r20 = 0x00000000 r21 = 0x00350000 r22 = 0x00340000 r23 = 0x00340000	-	2
+KERNEL fpr26 = 0x3280142a c016ecfe 225d3696 402e6ee0	-	1
+KERNEL general purpose registers :	-	2318
+KERNEL r04 = 0x002e3610 r05 = 0x00350000 r06 = 0x0000000e r07 = 0x0000000e	-	1
+KERNEL r08 = 0x000000e7 r09 = 0x00000000 r10 = 0x00000001 r11 = 0x00280000	-	1
+KERNEL r20 = 0x014067a8 r21 = 0x00000028 r22 = 0x01406738 r23 = 0x1f25f290	-	1
+KERNEL 0x40615575 0x91d60988	-	2
+KERNEL fpr1 = 0x10055620 0000003e <*> <*>	-	7
+KERNEL plus <*>	-	136
+KERNEL r04 = 0x01086250 r05 = 0x00000289 r06 = 0x01086250 r07 = 0x00000012	-	1
+KERNEL fpr1 = 0x7b467ada bfbaf6fe b59cf788 bfc09d6c	-	1
+KERNEL machine check interrupt (bit = 0x1d) : L2 dcache unit write data parity error	KERNMC	15
+KERNEL r28 = 0x0034f6c0 r29 = 0x002f2300 r30 = 0x0070a290 r31 = 0x003d94c0	-	1
+KERNEL r20 = 0x00000f99 r21 = 0x000681c0 r22 = 0x0000ba8c r23 = 0x0a1a5b2c	-	1
+KERNEL fpr5 = 0xef67cb49 c02c2f8c 1c22e9ce bf732a29	-	1
+KERNEL fpr4 = 0x1ae25d53 bfed0fde 9d1bbc14 3fe7397f	-	1
+KERNEL r12 = 0x48242484 r13 = 0x1eeeeeee r14 = 0x01cd5330 r15 = 0x000001ca	-	1
+KERNEL fpr9 = 0x3571892b bf216810 e50a1cb9 3f34ce3d	-	1
+KERNEL fpr7 = 0x8fbf7dad c010cb2d 4a8d6dd5 c0032aec	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16bb5e000d60e944a1) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL program interrupt : trap <*>	-	9824
+KERNEL fpr10 = 0x100cd204 0ffb3160 0ff67564 7ffff590	-	1
+KERNEL fpr17 = 0x69972dc1 c014873d 8aef55ff c027ac72	-	1
+KERNEL r24 = 0x007914b8 r25 = 0x00000004 r26 = 0x00000000 r27 = 0x00000001	-	1
+KERNEL r24 = 0x00000000 r25 = 0x006487c0 r26 = 0x0045c9c0 r27 = 0x00000310	-	1
+KERNEL r12 = 0x00000b21 r13 = 0x1eeeeeee r14 = 0x006f02dc r15 = 0x006f02b8	-	1
+KERNEL memory manager refresh contention................0	-	47
+KERNEL 0x3f7af84f 0x70bc91d9	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e728000d60e918d7) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r20 = 0x40000000 r21 = 0x40000000 r22 = 0xffffd000 r23 = 0x0ffea5c8	-	8
+APP ciod : Error reading message prefix after <*> on CioStream socket to <*> : Link has been severed	APPSEV	23105
+KERNEL r20 = 0x00000000 r21 = 0x00000001 r22 = 0x00000000 r23 = 0x00000004	-	1
+KERNEL <*> error detected in directory <*>	-	188
+KERNEL fpr0 = 0x86969d4b 40141f81 <*> 40cb5480	-	1
+KERNEL Target = ido : //FF : F2 : 9F : <*> : E6 : <*> : <*> : 0D : <*> : E9 : <*> : <*> Message = Pll failed to lock	-	3
+KERNEL fpr10 = 0x8e7d21fb 3ffb6183 cc44c335 bce5611e	-	1
+KERNEL fpr1 = 0x01077800 8ff2ff96 d0e7aef3 3eca2702	-	1
+KERNEL fpr3 = 0x8e7d21fd 3ffb6183 d3d8596f 4007df0e	-	1
+KERNEL r28 = 0x00000049 r29 = 0x00000000 r30 = 0x00352140 r31 = 0x00000001	-	1
+KERNEL fpr6 = 0x281fd912 40076db7 457d611f 3d01021d	-	1
+KERNEL fpr2 = 0x00017ba6 <*> a858080e 3f9e315a	-	1
+DISCOVERY Can not get assembly information for node card	-	17305
+APP DCR 0x2E5 : 0x00000000	-	6
+KERNEL r24 = 0x00088790 r25 = 0x00088430 r26 = 0x00010000 r27 = 0x00000000	-	1
+KERNEL fpr15 = 0x42b8bd2f c039e57f 49a050a3 c0472313	-	1
+KERNEL fpr0 = 0x8d63692c c02280f9 <*> 40cb7f00	-	1
+KERNEL 0x00000000 0x00000000	-	105
+KERNEL machine check interrupt (bit = 0x06) : L3 major internal error	KERNMC	57
+KERNEL 0xbf070f8c 0xf7a4ac9f	-	1
+KERNEL parity error in bank <*>	-	94
+KERNEL r24 = 0x0ffe9f48 r25 = 0x00000020 r26 = 0x00000040 r27 = 0x0ffe5040	-	1
+KERNEL r04 = 0x16632ff0 r05 = 0x04f29100 r06 = 0x16df0800 r07 = 0x00002100	-	1
+KERNEL ddr : activating redundant bit steering : rank = <*> symbol = <*>	-	1314
+KERNEL fpr9 = 0x00000000 <*> <*> <*>	-	25
+KERNEL capture first EDRAM <*> error address..0	-	141
+KERNEL r20 = 0x00000000 r21 = 0x00000000 r22 = 0x00000000 r23 = 0x00000000	-	25
+KERNEL fpr12 = 0x131b8806 bfe64237 ef5ae7a2 bffee1ae	-	1
+KERNEL r00 = 0x00000000 r01 = 0x0ffe82b0 r02 = 0x1eeeeeee r03 = 0x0ffea4c8	-	8
+KERNEL L3 global control register : 0x001249f0	-	48
+KERNEL r16 = 0x00004610 r17 = 0x00008c20 r18 = 0x00000000 r19 = 0x00000003	-	1
+KERNEL 0x3f7afa52 0x07a0dee5	-	1
+HARDWARE EndServiceAction <*> was performed upon <*> by root	-	3
+KERNEL fpr9 = 0x7c98c7a9 <*> 3c10b7f0 3ffe6634	-	1
+KERNEL fpr1 = 0xffffffff 7ffff640 0002d000 7ffff620	-	1
+KERNEL fpr8 = 0x4f497a3c bff1ab84 43957dee 3fbbe027	-	1
+KERNEL rts : kernel terminated for reason 1004rts : bad message header : expecting type <*> , type = <*> , cpu = <*> , index = <*> , total = <*>	KERNTERM	1139
+KERNEL fpr26 = 0xa546862f 3ec10355 044a0507 bed64e42	-	1
+KERNEL r20 = 0x00000000 r21 = 0x00350000 r22 = 0x00350000 r23 = 0x00350000	-	1
+KERNEL r20 = 0x0000000e r21 = 0x00000010 r22 = 0x00000180 r23 = 0x0020c5e8	-	1
+KERNEL r28 = 0x0b592b40 r29 = 0x0000000c r30 = 0x0b3a420c r31 = 0x0b592b4c	-	1
+KERNEL 0x405ace5f 0x155e0196	-	2
+APP ciod : Error loading /g/g11/draeger/testqbox_devel/qb_devel_bgl : invalid or missing program image , No such device	-	8
+KERNEL memory manager <*>	-	94
+KERNEL fpr18 = 0x00000000 3ff00000 <*> 3ff00000	-	1
+MONITOR While reading FanModule caught java.lang.IllegalStateException : while executing I2C Operation caught java.lang.IllegalStateException : client not in a usable state because java.lang.IllegalStateException : client not in a usable state because java.net.SocketException : Broken pipe	-	8
+DISCOVERY Problem communicating with service card , ido chip : <*> : <*> : <*> : FFF29F15 : <*> : <*> java.lang.IllegalStateException : while executing CONTROL Operation caught java.lang.RuntimeException : Communication error : (DirectIDo for com.ibm.ido.DirectIDo object [FF : F2 : 9F : <*> : 1F : <*> : <*> : 0D : <*> : EA : E0 : <*> <*> with image version <*> and card type 2] is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = <*> , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = <*> , Expected Sync Command = <*> , Actual Sync Reply = <*>	-	2
+KERNEL r08 = 0x00009cc4 r09 = 0x0012c914 r10 = 0x0028938c r11 = 0x0009c914	-	10
+KERNEL fpr26 = 0x6ef466d7 40229ff9 c25641f4 <*>	-	1
+KERNEL memory manager RMW buffer parity.................0	-	47
+KERNEL <*> torus receiver sram ecc error(s) (dcr 0x02f3) detected and corrected	-	5
+APP DCR 0x2E4 : 0x08000000	-	1
+KERNEL core configuration register : <*>	-	6431
+KERNEL fpr30 = 0xca091b98 bfff7911 7629b09f c004556a	-	1
+KERNEL fpr0 = 0xfffffe51 3fefffff fffffe7a 3fefffff	-	1
+HARDWARE EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>	-	338
+KERNEL r00 = 0xb1140000 r01 = 0x1fffffc0 r02 = 0x1eeeeeee r03 = 0x002ba3d4	-	1
+APP DCR 0x2E8 : 0x00000000	-	8
+KERNEL fpr6 = 0x0c1ecd0a 3fd03ed8 46d01014 bfc80ca1	-	1
+KERNEL x = <*>	-	2
+KERNEL r00 = 0x00000279 r01 = 0x0ffea1c0 r02 = 0x1eeeeeee r03 = 0x000013c8	-	1
+KERNEL fpr25 = 0xf75b5ed7 bff2dec1 6e8b6df5 c00b111b	-	1
+MMCS idoproxydb hit ASSERT condition : ASSERT expression = pTargetMgr Source file = idoclientmgr.cpp Source line = <*> Function = int IdoClientMgr : : TargetClose(const char*)	-	82
+KERNEL fpr7 = 0xb99dc94d bdd567fe c4b827fb 3df5dd71	-	1
+KERNEL r12 = 0x48242484 r13 = 0x1eeeeeee r14 = 0x00001ea2 r15 = 0x000004c7	-	1
+KERNEL 0x00000000 0x0000b64f	-	1
+KERNEL r16 = 0x00000000 r17 = 0x00000607 r18 = 0x00000000 r19 = 0x003ea960	-	1
+KERNEL fpr8 = 0x3bb78a50 3fb7c30c 0a92e01c 3fb0b354	-	1
+KERNEL fpr18 = 0x9d17d9b1 c017d546 a7aba2ea <*>	-	1
+KERNEL r24 = 0x80000001 r25 = 0x003c1920 r26 = 0x0b60e860 r27 = 0x0000000c	-	1
+KERNEL fpr13 = 0x027c9302 <*> f8b6c8fd bf8c32b8	-	1
+KERNEL r04 = 0x000003f0 r05 = 0x00000870 r06 = 0x00340000 r07 = 0x00000004	-	1
+KERNEL iar <*> dear <*>	-	442966
+KERNEL DDR failing data registers : <*> <*>	-	47
+APP DCR 0x2E8 : 0x08000000	-	1
+KERNEL fpr12 = 0x30017538 7ffff590 0ff00940 0ffc5cc8	-	1
+KERNEL Mailbox <*> itor : : serviceMailboxes() lib_ido_error : -1019 socket closed	KERNSOCK	168
+KERNEL r12 = 0x44000044 r13 = 0x1eeeeeee r14 = 0xffffffff r15 = 0xffffffff	-	9
+KERNEL fpr0 = 0xf675eecb 4035ac82 <*> 40cb8100	-	1
+KERNEL program interrupt : unimplemented operation..0	-	8102
+KERNEL debug wait enable.................0	-	6524
+KERNEL machine state register : <*>	-	8455
+DISCOVERY SerialNumber(000000000000000000000000fff29f16e686000d60e91979) IpAddress(10.0.1.12) Status(A)	-	2
+KERNEL r04 = 0x085a6ae0 r05 = 0x000003fe r06 = 0x000fff68 r07 = 0x3fefff68	-	1
+KERNEL rts : bad message header : packet index <*> greater than max <*> (softheader = <*> <*> <*> <*> PSR0 = <*> PSR1 = <*> PRXF = <*> PIXF = <*>	-	114
+DISCOVERY Problem communicating with node card , iDo machine with LP of FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> caught java.lang.IllegalStateException : while executing CONTROL Operation caught java.lang.RuntimeException : Communication error : (DirectIDo for com.ibm.ido.DirectIDo object [FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : E9 : <*> : <*> <*> with image version <*> and card type 4] is in state = COMMUNICATION_ERROR , sequenceNumberIsOk = false , ExpectedSequenceNumber = <*> , Reply Sequence Number = -1 , timedOut = true , retries = <*> , timeout = <*> , Expected Op Command = <*> , Actual Op Reply = -1 , Expected Sync Command = <*> , Actual Sync Reply = -1)	-	14
+KERNEL data write plb <*>	-	296
+KERNEL fpr12 = 0xa714a565 408e2ee4 94608dcf 3fa438c4	-	1
+DISCOVERY SerialNumber(000000000000000000000000fff29f16daf6000d60e92509) IpAddress(0.0.0.0) Status(A)	-	1
+KERNEL r20 = 0x085f19d0 r21 = 0x40000000 r22 = 0x0ffe9f00 r23 = 0x00000001	-	1
+KERNEL r28 = 0x00040004 r29 = 0xd0000400 r30 = 0x00040000 r31 = 0x00000000	-	1
+KERNEL rts : kernel terminated for reason <*>	KERNTERM	18587
+KERNEL r04 = 0x00085fc8 r05 = 0x00085fcc r06 = 0x88888889 r07 = 0x00000000	-	1
+KERNEL rts : kernel terminated for reason 1002rts : bad message header : too many packets , type = <*> , cpu = <*> , index = <*> , total = <*> , ma	KERNTERM	2

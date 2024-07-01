@@ -1,0 +1,15 @@
+[[Block:Intro]]
+
+First of all, thank you for participating in this survey!
+
+This survey is part of my master's thesis in Information Science at the University of Groningen, in which I investigate analysis techniques for system log data. As to not affect your judgement, I cannot disclose the exact details of the research at this time. After the survey has been completed, I will be happy to share more information about the research and its results.
+
+The survey consists of two tasks, Rating and Word Intrusion, and should take about 10 minutes to complete. I personally hate surveys, so I've done my best to make it as short and painless as possible. Science unfortunately demands a certain amount of pain, so I hope you'll bear with me.
+
+The only requirement for this survey is that you have some familiarity with the content and formatting of system logs, for example from web servers or operating systems. This can be as a developer, system administrator, security analyst, or any other role that involves working with system logs from time to time.
+
+Participation in this survey is completely anonymous, and no sensitive information is collected. I cannot think of any ethical objections to the use of human test subjects for this research.
+
+- Patrick Darwinkel (p.darwinkel@student.rug.nl)
+
+[[Block:My Block Name]]
